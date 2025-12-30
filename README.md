@@ -1,6 +1,6 @@
 # catreview - Categorical Codebase Review
 
-**Production-ready categorical analysis for Go codebases** • [Quick Start](QUICK-START.md) • [Production Guide](PRODUCTION-GUIDE.md)
+**Production-ready categorical analysis for multi-language codebases** • [Quick Start](QUICK-START.md) • [Production Guide](PRODUCTION-GUIDE.md)
 
 ![Status: Production Ready](https://img.shields.io/badge/status-production%20ready-green)
 ![Quality: 96%](https://img.shields.io/badge/quality-96%25-brightgreen)
@@ -257,17 +257,27 @@ catreview/
 ├── cmd/catreview/          # CLI application
 │   └── main.go             # Commands: extract, analyze, verify, abstract
 ├── pkg/
-│   ├── category/           # Core category theory types
+│   ├── category/           # Core category theory types (language-independent)
 │   │   ├── types.go        # Object, Morphism, Category
 │   │   └── types_test.go   # Category axiom tests
-│   ├── functor/            # Functor system
+│   ├── functor/            # Functor system (language-independent)
 │   │   └── functor.go      # Functor interface, PackageAbstractionFunctor
-│   ├── analysis/           # Complexity analysis
+│   ├── analysis/           # Complexity analysis (language-independent)
 │   │   └── complexity.go   # Basu-Isik, Kolmogorov, coupling metrics
-│   └── extractor/          # Code extraction
-│       └── go_extractor.go # Go AST parser
+│   └── extractor/          # Code extraction (language-specific)
+│       ├── extractor.go    # Extractor interface, ExtractorFactory
+│       ├── go_extractor.go # Go AST parser (production, v1.0)
+│       ├── java_extractor.go    # Java AST parser (skeleton, v1.1)
+│       └── python_extractor.go  # Python AST parser (skeleton, v1.1)
 └── README.md
 ```
+
+**Design Philosophy**: The architecture separates language-independent analysis (category theory, complexity metrics, functors) from language-specific extraction. This allows:
+
+1. **Uniform Analysis**: Same categorical analysis code works for all languages
+2. **Pluggable Extractors**: Add new languages without modifying core logic
+3. **Quality Consistency**: All extractors produce identical categorical structures
+4. **Easy Testing**: Core analysis tested once, extractor implementations tested independently
 
 ## Example: Self-Analysis
 
@@ -377,27 +387,155 @@ Contributions welcome! Please submit issues and pull requests.
 
 ### Adding Language Support
 
-To add support for a new language (e.g., Java, TypeScript):
+**catreview** uses a language-agnostic architecture that keeps all core analysis code in Go while supporting multiple source languages through pluggable extractors. This design ensures uniformity, consistency, and high-quality software across all supported languages.
 
-1. Create `pkg/extractor/{lang}_extractor.go`
-2. Implement the extraction logic using the language's AST parser
-3. Map language constructs to categorical objects and morphisms
-4. Add tests in `pkg/extractor/{lang}_extractor_test.go`
+#### Multi-Language Architecture
 
-### Example: Java Extractor Structure
+```
+┌─────────────────────────────────────────────────────────────┐
+│  Core Go Analysis (Language-Independent)                    │
+│  - category.Category (Objects, Morphisms, Identities)       │
+│  - Complexity Metrics (Basu-Isik, Kolmogorov, Coupling)     │
+│  - Functors (Package Abstraction)                           │
+│  - Axiom Verification (Associativity, Identity)             │
+└─────────────────────────────────────────────────────────────┘
+                              ▲
+                              │ Same categorical model
+                              │
+┌─────────────────────────────────────────────────────────────┐
+│  Extractor Interface (Language-Agnostic Contract)           │
+│  - ExtractFromPath(root) (*Category, error)                 │
+│  - Language() string                                         │
+│  - FileExtensions() []string                                │
+└─────────────────────────────────────────────────────────────┘
+          ▲                   ▲                   ▲
+          │                   │                   │
+┌─────────┴────┐    ┌────────┴────────┐   ┌──────┴──────────┐
+│ GoExtractor  │    │ JavaExtractor   │   │ PythonExtractor │
+│ (ast/parser) │    │ (javaparser)    │   │ (ast module)    │
+│ v1.0 ✅      │    │ v1.1 🔄         │   │ v1.1 🔄         │
+└──────────────┘    └─────────────────┘   └─────────────────┘
+```
+
+**Key Benefits**:
+- ✅ **Uniform Analysis**: Same complexity algorithms work for all languages
+- ✅ **No Code Duplication**: Core logic written once in Go, reused everywhere
+- ✅ **Quality Consistency**: All languages produce identical categorical structures
+- ✅ **Easy Extension**: Add new languages without modifying existing code
+
+#### Adding a New Language
+
+To add support for a new language (e.g., Rust, TypeScript):
+
+**Step 1: Implement the Extractor Interface**
+
+Create `pkg/extractor/{lang}_extractor.go`:
 
 ```go
-type JavaExtractor struct {
+package extractor
+
+import "github.com/manu/catreview/pkg/category"
+
+// RustExtractor implements the Extractor interface for Rust source code.
+type RustExtractor struct {
     category *category.Category
 }
 
-func (e *JavaExtractor) ExtractFromPath(root string) (*category.Category, error) {
-    // Parse .java files
-    // Extract classes → Objects
-    // Extract method calls → Morphisms
+// ExtractFromPath extracts categorical model from Rust codebase.
+func (e *RustExtractor) ExtractFromPath(root string) (*category.Category, error) {
+    // 1. Walk directory tree finding .rs files
+    // 2. Parse using rust-analyzer or syn crate (via FFI/subprocess)
+    // 3. Map Rust constructs:
+    //    - Modules → Module objects
+    //    - Structs/Enums/Traits → Type objects
+    //    - Functions → Function objects
+    //    - use statements → Import morphisms
+    //    - Function calls → Call morphisms
+    //    - impl blocks → Implementation morphisms
+    // 4. Return complete category with axioms verified
     return e.category, nil
 }
+
+// Language returns "rust".
+func (e *RustExtractor) Language() string {
+    return "rust"
+}
+
+// FileExtensions returns [".rs"].
+func (e *RustExtractor) FileExtensions() []string {
+    return []string{".rs"}
+}
 ```
+
+**Step 2: Register with ExtractorFactory**
+
+In `pkg/extractor/extractor.go`, add registration:
+
+```go
+func NewExtractorFactory() *ExtractorFactory {
+    factory := &ExtractorFactory{
+        extractors: make(map[string]Extractor),
+    }
+
+    factory.Register(&GoExtractor{})
+    factory.Register(&JavaExtractor{})
+    factory.Register(&PythonExtractor{})
+    factory.Register(&RustExtractor{})  // Add here
+
+    return factory
+}
+```
+
+**Step 3: Map Language Constructs to Category Theory**
+
+Each language's constructs map to the same categorical primitives:
+
+| Language Construct | Categorical Object | Object Type |
+|-------------------|-------------------|-------------|
+| Go package, Java package, Python module | Module object | "package"/"module" |
+| Go struct, Java class, Python class | Type object | "class"/"struct" |
+| Go interface, Java interface, Python ABC | Type object | "interface" |
+| Go func, Java method, Python def | Function object | "function" |
+
+| Language Dependency | Categorical Morphism | Morphism Type |
+|--------------------|---------------------|---------------|
+| Go import, Java import, Python import | Import morphism | "import" |
+| Go func call, Java method call, Python call | Call morphism | "function_call" |
+| Java extends, Python class(Base) | Inheritance morphism | "inheritance" |
+
+**Step 4: Add Tests**
+
+Create `pkg/extractor/{lang}_extractor_test.go`:
+
+```go
+func TestRustExtractorBasic(t *testing.T) {
+    extractor := NewRustExtractor()
+    cat, err := extractor.ExtractFromPath("testdata/rust-sample")
+
+    if err != nil {
+        t.Fatalf("extraction failed: %v", err)
+    }
+
+    // Verify objects extracted
+    assert.True(t, len(cat.Objects) > 0)
+
+    // Verify morphisms extracted
+    assert.True(t, len(cat.Morphisms) > 0)
+
+    // Verify category axioms
+    assert.NoError(t, cat.VerifyAxioms())
+}
+```
+
+#### Current Language Support
+
+| Language | Status | Branch | Extractor | AST Parser |
+|----------|--------|--------|-----------|------------|
+| **Go** | ✅ Production (v1.0) | `master` | `GoExtractor` | `go/parser`, `go/ast` |
+| **Java** | 🔄 In Development (v1.1) | `feature/java-extractor` | `JavaExtractor` | javaparser/Eclipse JDT |
+| **Python** | 🔄 In Development (v1.1) | `feature/python-extractor` | `PythonExtractor` | Python `ast` module |
+
+See feature branches for skeleton implementations and TODO lists.
 
 ## Status
 
@@ -412,8 +550,11 @@ func (e *JavaExtractor) ExtractFromPath(root string) (*category.Category, error)
 
 ## Roadmap
 
-### v1.1
-- [ ] Java extractor
+### v1.1 (In Progress)
+- [x] Language-agnostic Extractor interface
+- [x] ExtractorFactory for multi-language support
+- 🔄 Java extractor (skeleton complete, AST parsing pending)
+- 🔄 Python extractor (skeleton complete, AST parsing pending)
 - [ ] TypeScript extractor
 - [ ] Incremental analysis (git diff based)
 
