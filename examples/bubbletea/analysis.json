@@ -1,0 +1,3691 @@
+{
+  "category_stats": {
+    "identities": 505,
+    "morphisms": 769,
+    "objects": 505
+  },
+  "diagram_complexity": 3075.1205625759135,
+  "kolmogorov_complexity": 49163,
+  "coupling_metrics": {
+    "commands.go": {
+      "object_id": "commands.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 13,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/altscreen-toggle/main.go": {
+      "object_id": "examples/altscreen-toggle/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 9,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/autocomplete/main.go": {
+      "object_id": "examples/autocomplete/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 18,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/cellbuffer/main.go": {
+      "object_id": "examples/cellbuffer/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 17,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/chat/main.go": {
+      "object_id": "examples/chat/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/composable-views/main.go": {
+      "object_id": "examples/composable-views/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 16,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/credit-card-form/main.go": {
+      "object_id": "examples/credit-card-form/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 12,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/debounce/main.go": {
+      "object_id": "examples/debounce/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 5,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/exec/main.go": {
+      "object_id": "examples/exec/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 6,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/eyes/main.go": {
+      "object_id": "examples/eyes/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 10,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/file-picker/main.go": {
+      "object_id": "examples/file-picker/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 9,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/focus-blur/main.go": {
+      "object_id": "examples/focus-blur/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 2,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/fullscreen/main.go": {
+      "object_id": "examples/fullscreen/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 5,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/glamour/main.go": {
+      "object_id": "examples/glamour/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 12,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/help/main.go": {
+      "object_id": "examples/help/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 10,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/http/main.go": {
+      "object_id": "examples/http/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/list-default/main.go": {
+      "object_id": "examples/list-default/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 9,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/list-fancy/delegate.go": {
+      "object_id": "examples/list-fancy/delegate.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/list-fancy/main.go": {
+      "object_id": "examples/list-fancy/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 10,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/list-fancy/randomitems.go": {
+      "object_id": "examples/list-fancy/randomitems.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 5,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/list-simple/main.go": {
+      "object_id": "examples/list-simple/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 12,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/mouse/main.go": {
+      "object_id": "examples/mouse/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 2,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/package-manager/main.go": {
+      "object_id": "examples/package-manager/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 11,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/package-manager/packages.go": {
+      "object_id": "examples/package-manager/packages.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 3,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/pager/main.go": {
+      "object_id": "examples/pager/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/paginator/main.go": {
+      "object_id": "examples/paginator/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 6,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/pipe/main.go": {
+      "object_id": "examples/pipe/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/prevent-quit/main.go": {
+      "object_id": "examples/prevent-quit/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 10,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/progress-animated/main.go": {
+      "object_id": "examples/progress-animated/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 7,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/progress-download/main.go": {
+      "object_id": "examples/progress-download/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 13,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/progress-download/tui.go": {
+      "object_id": "examples/progress-download/tui.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/progress-static/main.go": {
+      "object_id": "examples/progress-static/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 7,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/realtime/main.go": {
+      "object_id": "examples/realtime/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 9,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/result/main.go": {
+      "object_id": "examples/result/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 4,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/send-msg/main.go": {
+      "object_id": "examples/send-msg/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 11,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/sequence/main.go": {
+      "object_id": "examples/sequence/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 5,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/set-window-title/main.go": {
+      "object_id": "examples/set-window-title/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 3,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/simple/main.go": {
+      "object_id": "examples/simple/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 5,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/spinner/main.go": {
+      "object_id": "examples/spinner/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 5,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/spinners/main.go": {
+      "object_id": "examples/spinners/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 6,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/split-editors/main.go": {
+      "object_id": "examples/split-editors/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 10,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/stopwatch/main.go": {
+      "object_id": "examples/stopwatch/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/suspend/main.go": {
+      "object_id": "examples/suspend/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 4,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/table-resize/main.go": {
+      "object_id": "examples/table-resize/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 5,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/table/main.go": {
+      "object_id": "examples/table/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 5,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/tabs/main.go": {
+      "object_id": "examples/tabs/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 6,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/textarea/main.go": {
+      "object_id": "examples/textarea/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 4,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/textinput/main.go": {
+      "object_id": "examples/textinput/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 4,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/textinputs/main.go": {
+      "object_id": "examples/textinputs/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/timer/main.go": {
+      "object_id": "examples/timer/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 7,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/tui-daemon-combo/main.go": {
+      "object_id": "examples/tui-daemon-combo/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 15,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/views/main.go": {
+      "object_id": "examples/views/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 19,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "examples/window-size/main.go": {
+      "object_id": "examples/window-size/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 2,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "exec.go": {
+      "object_id": "exec.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 14,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "focus.go": {
+      "object_id": "focus.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 2,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "import:bufio": {
+      "object_id": "import:bufio",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:bytes": {
+      "object_id": "import:bytes",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:context": {
+      "object_id": "import:context",
+      "afferent_coupling": 5,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:encoding/json": {
+      "object_id": "import:encoding/json",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:errors": {
+      "object_id": "import:errors",
+      "afferent_coupling": 4,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:flag": {
+      "object_id": "import:flag",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:fmt": {
+      "object_id": "import:fmt",
+      "afferent_coupling": 58,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/cursor": {
+      "object_id": "import:github.com/charmbracelet/bubbles/cursor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/filepicker": {
+      "object_id": "import:github.com/charmbracelet/bubbles/filepicker",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/help": {
+      "object_id": "import:github.com/charmbracelet/bubbles/help",
+      "afferent_coupling": 6,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/key": {
+      "object_id": "import:github.com/charmbracelet/bubbles/key",
+      "afferent_coupling": 8,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/list": {
+      "object_id": "import:github.com/charmbracelet/bubbles/list",
+      "afferent_coupling": 4,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/paginator": {
+      "object_id": "import:github.com/charmbracelet/bubbles/paginator",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/progress": {
+      "object_id": "import:github.com/charmbracelet/bubbles/progress",
+      "afferent_coupling": 5,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/spinner": {
+      "object_id": "import:github.com/charmbracelet/bubbles/spinner",
+      "afferent_coupling": 7,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/stopwatch": {
+      "object_id": "import:github.com/charmbracelet/bubbles/stopwatch",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/table": {
+      "object_id": "import:github.com/charmbracelet/bubbles/table",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/textarea": {
+      "object_id": "import:github.com/charmbracelet/bubbles/textarea",
+      "afferent_coupling": 4,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/textinput": {
+      "object_id": "import:github.com/charmbracelet/bubbles/textinput",
+      "afferent_coupling": 5,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/timer": {
+      "object_id": "import:github.com/charmbracelet/bubbles/timer",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/viewport": {
+      "object_id": "import:github.com/charmbracelet/bubbles/viewport",
+      "afferent_coupling": 3,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbletea": {
+      "object_id": "import:github.com/charmbracelet/bubbletea",
+      "afferent_coupling": 52,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/glamour": {
+      "object_id": "import:github.com/charmbracelet/glamour",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/harmonica": {
+      "object_id": "import:github.com/charmbracelet/harmonica",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/lipgloss": {
+      "object_id": "import:github.com/charmbracelet/lipgloss",
+      "afferent_coupling": 30,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/lipgloss/table": {
+      "object_id": "import:github.com/charmbracelet/lipgloss/table",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/x/ansi": {
+      "object_id": "import:github.com/charmbracelet/x/ansi",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/x/term": {
+      "object_id": "import:github.com/charmbracelet/x/term",
+      "afferent_coupling": 5,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/erikgeiser/coninput": {
+      "object_id": "import:github.com/erikgeiser/coninput",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/fogleman/ease": {
+      "object_id": "import:github.com/fogleman/ease",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/lucasb-eyer/go-colorful": {
+      "object_id": "import:github.com/lucasb-eyer/go-colorful",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/mattn/go-isatty": {
+      "object_id": "import:github.com/mattn/go-isatty",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/mattn/go-localereader": {
+      "object_id": "import:github.com/mattn/go-localereader",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/muesli/ansi/compressor": {
+      "object_id": "import:github.com/muesli/ansi/compressor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/muesli/cancelreader": {
+      "object_id": "import:github.com/muesli/cancelreader",
+      "afferent_coupling": 5,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:golang.org/x/sys/windows": {
+      "object_id": "import:golang.org/x/sys/windows",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:io": {
+      "object_id": "import:io",
+      "afferent_coupling": 16,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:log": {
+      "object_id": "import:log",
+      "afferent_coupling": 17,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:math": {
+      "object_id": "import:math",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:math/rand": {
+      "object_id": "import:math/rand",
+      "afferent_coupling": 8,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:net/http": {
+      "object_id": "import:net/http",
+      "afferent_coupling": 4,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:os": {
+      "object_id": "import:os",
+      "afferent_coupling": 42,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:os/exec": {
+      "object_id": "import:os/exec",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:os/signal": {
+      "object_id": "import:os/signal",
+      "afferent_coupling": 3,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:path/filepath": {
+      "object_id": "import:path/filepath",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:regexp": {
+      "object_id": "import:regexp",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:runtime": {
+      "object_id": "import:runtime",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:runtime/debug": {
+      "object_id": "import:runtime/debug",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:sort": {
+      "object_id": "import:sort",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:strconv": {
+      "object_id": "import:strconv",
+      "afferent_coupling": 3,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:strings": {
+      "object_id": "import:strings",
+      "afferent_coupling": 21,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:sync": {
+      "object_id": "import:sync",
+      "afferent_coupling": 4,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:sync/atomic": {
+      "object_id": "import:sync/atomic",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:syscall": {
+      "object_id": "import:syscall",
+      "afferent_coupling": 3,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:time": {
+      "object_id": "import:time",
+      "afferent_coupling": 25,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:unicode": {
+      "object_id": "import:unicode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:unicode/utf8": {
+      "object_id": "import:unicode/utf8",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "inputreader_other.go": {
+      "object_id": "inputreader_other.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 4,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "inputreader_windows.go": {
+      "object_id": "inputreader_windows.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 16,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "key.go": {
+      "object_id": "key.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 18,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "key_other.go": {
+      "object_id": "key_other.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 3,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "key_sequences.go": {
+      "object_id": "key_sequences.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 6,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "key_windows.go": {
+      "object_id": "key_windows.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 14,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "logging.go": {
+      "object_id": "logging.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "main.*cellbuffer.init": {
+      "object_id": "main.*cellbuffer.init",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*cellbuffer.wipe": {
+      "object_id": "main.*cellbuffer.wipe",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*mainModel.Next": {
+      "object_id": "main.*mainModel.Next",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*mainModel.resetSpinner": {
+      "object_id": "main.*mainModel.resetSpinner",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*model.nextInput": {
+      "object_id": "main.*model.nextInput",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*model.prevInput": {
+      "object_id": "main.*model.prevInput",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*model.resetSpinner": {
+      "object_id": "main.*model.resetSpinner",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*model.sizeInputs": {
+      "object_id": "main.*model.sizeInputs",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*model.updateEyePositions": {
+      "object_id": "main.*model.updateEyePositions",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*model.updateInputs": {
+      "object_id": "main.*model.updateInputs",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.2
+    },
+    "main.*model.updateKeybindings": {
+      "object_id": "main.*model.updateKeybindings",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*progressWriter.Start": {
+      "object_id": "main.*progressWriter.Start",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*progressWriter.Write": {
+      "object_id": "main.*progressWriter.Write",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*randomItemGenerator.next": {
+      "object_id": "main.*randomItemGenerator.next",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*randomItemGenerator.reset": {
+      "object_id": "main.*randomItemGenerator.reset",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.SleepPrintln": {
+      "object_id": "main.SleepPrintln",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.animate": {
+      "object_id": "main.animate",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.2
+    },
+    "main.ccnValidator": {
+      "object_id": "main.ccnValidator",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.cellbuffer": {
+      "object_id": "main.cellbuffer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.cellbuffer.String": {
+      "object_id": "main.cellbuffer.String",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.cellbuffer.height": {
+      "object_id": "main.cellbuffer.height",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.cellbuffer.ready": {
+      "object_id": "main.cellbuffer.ready",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.cellbuffer.set": {
+      "object_id": "main.cellbuffer.set",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.cellbuffer.width": {
+      "object_id": "main.cellbuffer.width",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.checkServer": {
+      "object_id": "main.checkServer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.checkbox": {
+      "object_id": "main.checkbox",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.choicesView": {
+      "object_id": "main.choicesView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.chosenView": {
+      "object_id": "main.chosenView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.clearErrorAfter": {
+      "object_id": "main.clearErrorAfter",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.2
+    },
+    "main.clearErrorMsg": {
+      "object_id": "main.clearErrorMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.colorFloatToHex": {
+      "object_id": "main.colorFloatToHex",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.colorToHex": {
+      "object_id": "main.colorToHex",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.cvvValidator": {
+      "object_id": "main.cvvValidator",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.delegateKeyMap": {
+      "object_id": "main.delegateKeyMap",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.delegateKeyMap.FullHelp": {
+      "object_id": "main.delegateKeyMap.FullHelp",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.delegateKeyMap.ShortHelp": {
+      "object_id": "main.delegateKeyMap.ShortHelp",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.downloadAndInstall": {
+      "object_id": "main.downloadAndInstall",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.2
+    },
+    "main.drawEllipse": {
+      "object_id": "main.drawEllipse",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.editorFinishedMsg": {
+      "object_id": "main.editorFinishedMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.errMsg": {
+      "object_id": "main.errMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.errMsg.Error": {
+      "object_id": "main.errMsg.Error",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.example": {
+      "object_id": "main.example",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.example.Init": {
+      "object_id": "main.example.Init",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.example.Update": {
+      "object_id": "main.example.Update",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.example.View": {
+      "object_id": "main.example.View",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.example.helpView": {
+      "object_id": "main.example.helpView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.exitMsg": {
+      "object_id": "main.exitMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.expValidator": {
+      "object_id": "main.expValidator",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.filter": {
+      "object_id": "main.filter",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.finalPause": {
+      "object_id": "main.finalPause",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.2
+    },
+    "main.frame": {
+      "object_id": "main.frame",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.2
+    },
+    "main.frameMsg": {
+      "object_id": "main.frameMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.getPackages": {
+      "object_id": "main.getPackages",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.getRepos": {
+      "object_id": "main.getRepos",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.getResponse": {
+      "object_id": "main.getResponse",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.gotReposErrMsg": {
+      "object_id": "main.gotReposErrMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.gotReposSuccessMsg": {
+      "object_id": "main.gotReposSuccessMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.initialModel": {
+      "object_id": "main.initialModel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.installedPkgMsg": {
+      "object_id": "main.installedPkgMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.item": {
+      "object_id": "main.item",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.item.Description": {
+      "object_id": "main.item.Description",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.item.FilterValue": {
+      "object_id": "main.item.FilterValue",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.item.Title": {
+      "object_id": "main.item.Title",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.itemDelegate": {
+      "object_id": "main.itemDelegate",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.itemDelegate.Height": {
+      "object_id": "main.itemDelegate.Height",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.itemDelegate.Render": {
+      "object_id": "main.itemDelegate.Render",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.itemDelegate.Spacing": {
+      "object_id": "main.itemDelegate.Spacing",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.itemDelegate.Update": {
+      "object_id": "main.itemDelegate.Update",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.keyMap": {
+      "object_id": "main.keyMap",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.keyMap.FullHelp": {
+      "object_id": "main.keyMap.FullHelp",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.keyMap.ShortHelp": {
+      "object_id": "main.keyMap.ShortHelp",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.keymap": {
+      "object_id": "main.keymap",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.keymap.FullHelp": {
+      "object_id": "main.keymap.FullHelp",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.keymap.ShortHelp": {
+      "object_id": "main.keymap.ShortHelp",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.listKeyMap": {
+      "object_id": "main.listKeyMap",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.listenForActivity": {
+      "object_id": "main.listenForActivity",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.main": {
+      "object_id": "main.main",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.mainModel": {
+      "object_id": "main.mainModel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.mainModel.Init": {
+      "object_id": "main.mainModel.Init",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.5
+    },
+    "main.mainModel.Update": {
+      "object_id": "main.mainModel.Update",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.5
+    },
+    "main.mainModel.View": {
+      "object_id": "main.mainModel.View",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.mainModel.currentFocusedModel": {
+      "object_id": "main.mainModel.currentFocusedModel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.makeRampStyles": {
+      "object_id": "main.makeRampStyles",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.model": {
+      "object_id": "main.model",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.model.Init": {
+      "object_id": "main.model.Init",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.model.Update": {
+      "object_id": "main.model.Update",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.model.View": {
+      "object_id": "main.model.View",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.model.footerView": {
+      "object_id": "main.model.footerView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.model.headerView": {
+      "object_id": "main.model.headerView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.model.helpView": {
+      "object_id": "main.model.helpView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.model.updatePromptView": {
+      "object_id": "main.model.updatePromptView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.model.updateTextView": {
+      "object_id": "main.model.updateTextView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.2
+    },
+    "main.newDelegateKeyMap": {
+      "object_id": "main.newDelegateKeyMap",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.newExample": {
+      "object_id": "main.newExample",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.newItemDelegate": {
+      "object_id": "main.newItemDelegate",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.newListKeyMap": {
+      "object_id": "main.newListKeyMap",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.newModel": {
+      "object_id": "main.newModel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.newTextarea": {
+      "object_id": "main.newTextarea",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.openEditor": {
+      "object_id": "main.openEditor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.processFinishedMsg": {
+      "object_id": "main.processFinishedMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.progressErrMsg": {
+      "object_id": "main.progressErrMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.progressMsg": {
+      "object_id": "main.progressMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.progressWriter": {
+      "object_id": "main.progressWriter",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.progressbar": {
+      "object_id": "main.progressbar",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.randomEmoji": {
+      "object_id": "main.randomEmoji",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.randomFood": {
+      "object_id": "main.randomFood",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.randomItemGenerator": {
+      "object_id": "main.randomItemGenerator",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.repo": {
+      "object_id": "main.repo",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.responseMsg": {
+      "object_id": "main.responseMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.result": {
+      "object_id": "main.result",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.resultMsg": {
+      "object_id": "main.resultMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.resultMsg.String": {
+      "object_id": "main.resultMsg.String",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.runPretendProcess": {
+      "object_id": "main.runPretendProcess",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.sessionState": {
+      "object_id": "main.sessionState",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.statusMsg": {
+      "object_id": "main.statusMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.tabBorderWithBottom": {
+      "object_id": "main.tabBorderWithBottom",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.tick": {
+      "object_id": "main.tick",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.2
+    },
+    "main.tickCmd": {
+      "object_id": "main.tickCmd",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.2
+    },
+    "main.tickMsg": {
+      "object_id": "main.tickMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.updateChoices": {
+      "object_id": "main.updateChoices",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.updateChosen": {
+      "object_id": "main.updateChosen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.waitForActivity": {
+      "object_id": "main.waitForActivity",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "mouse.go": {
+      "object_id": "mouse.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 12,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "nil_renderer.go": {
+      "object_id": "nil_renderer.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 26,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "options.go": {
+      "object_id": "options.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 21,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "renderer.go": {
+      "object_id": "renderer.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 2,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "screen.go": {
+      "object_id": "screen.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 32,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "signals_unix.go": {
+      "object_id": "signals_unix.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 4,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "signals_windows.go": {
+      "object_id": "signals_windows.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "standard_renderer.go": {
+      "object_id": "standard_renderer.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 55,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "tea.*Program.DisableMouseAllMotion": {
+      "object_id": "tea.*Program.DisableMouseAllMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.DisableMouseCellMotion": {
+      "object_id": "tea.*Program.DisableMouseCellMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.EnableMouseAllMotion": {
+      "object_id": "tea.*Program.EnableMouseAllMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.EnableMouseCellMotion": {
+      "object_id": "tea.*Program.EnableMouseCellMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.EnterAltScreen": {
+      "object_id": "tea.*Program.EnterAltScreen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.ExitAltScreen": {
+      "object_id": "tea.*Program.ExitAltScreen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.Kill": {
+      "object_id": "tea.*Program.Kill",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.Printf": {
+      "object_id": "tea.*Program.Printf",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.Println": {
+      "object_id": "tea.*Program.Println",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.Quit": {
+      "object_id": "tea.*Program.Quit",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.ReleaseTerminal": {
+      "object_id": "tea.*Program.ReleaseTerminal",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.RestoreTerminal": {
+      "object_id": "tea.*Program.RestoreTerminal",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.Run": {
+      "object_id": "tea.*Program.Run",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.Send": {
+      "object_id": "tea.*Program.Send",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.SetWindowTitle": {
+      "object_id": "tea.*Program.SetWindowTitle",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.Start": {
+      "object_id": "tea.*Program.Start",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.StartReturningModel": {
+      "object_id": "tea.*Program.StartReturningModel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.Wait": {
+      "object_id": "tea.*Program.Wait",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*Program.checkResize": {
+      "object_id": "tea.*Program.checkResize",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.disableMouse": {
+      "object_id": "tea.*Program.disableMouse",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.eventLoop": {
+      "object_id": "tea.*Program.eventLoop",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.exec": {
+      "object_id": "tea.*Program.exec",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.execBatchMsg": {
+      "object_id": "tea.*Program.execBatchMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.execSequenceMsg": {
+      "object_id": "tea.*Program.execSequenceMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.handleCommands": {
+      "object_id": "tea.*Program.handleCommands",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.handleResize": {
+      "object_id": "tea.*Program.handleResize",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.handleSignals": {
+      "object_id": "tea.*Program.handleSignals",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.initCancelReader": {
+      "object_id": "tea.*Program.initCancelReader",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.initInput": {
+      "object_id": "tea.*Program.initInput",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.initTerminal": {
+      "object_id": "tea.*Program.initTerminal",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.listenForResize": {
+      "object_id": "tea.*Program.listenForResize",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.readLoop": {
+      "object_id": "tea.*Program.readLoop",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.recoverFromGoPanic": {
+      "object_id": "tea.*Program.recoverFromGoPanic",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.recoverFromPanic": {
+      "object_id": "tea.*Program.recoverFromPanic",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.restoreInput": {
+      "object_id": "tea.*Program.restoreInput",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.restoreTerminalState": {
+      "object_id": "tea.*Program.restoreTerminalState",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.shutdown": {
+      "object_id": "tea.*Program.shutdown",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.suspend": {
+      "object_id": "tea.*Program.suspend",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*Program.waitForReadLoop": {
+      "object_id": "tea.*Program.waitForReadLoop",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*cancelMixin.isCanceled": {
+      "object_id": "tea.*cancelMixin.isCanceled",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*cancelMixin.setCanceled": {
+      "object_id": "tea.*cancelMixin.setCanceled",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*channelHandlers.add": {
+      "object_id": "tea.*channelHandlers.add",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*conInputReader.Cancel": {
+      "object_id": "tea.*conInputReader.Cancel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*conInputReader.Close": {
+      "object_id": "tea.*conInputReader.Close",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*conInputReader.Read": {
+      "object_id": "tea.*conInputReader.Read",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*osExecCommand.SetStderr": {
+      "object_id": "tea.*osExecCommand.SetStderr",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*osExecCommand.SetStdin": {
+      "object_id": "tea.*osExecCommand.SetStdin",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*osExecCommand.SetStdout": {
+      "object_id": "tea.*osExecCommand.SetStdout",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.*standardRenderer.altScreen": {
+      "object_id": "tea.*standardRenderer.altScreen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.bracketedPasteActive": {
+      "object_id": "tea.*standardRenderer.bracketedPasteActive",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.clearIgnoredLines": {
+      "object_id": "tea.*standardRenderer.clearIgnoredLines",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.clearScreen": {
+      "object_id": "tea.*standardRenderer.clearScreen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.disableBracketedPaste": {
+      "object_id": "tea.*standardRenderer.disableBracketedPaste",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.disableMouseAllMotion": {
+      "object_id": "tea.*standardRenderer.disableMouseAllMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.disableMouseCellMotion": {
+      "object_id": "tea.*standardRenderer.disableMouseCellMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.disableMouseSGRMode": {
+      "object_id": "tea.*standardRenderer.disableMouseSGRMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.disableReportFocus": {
+      "object_id": "tea.*standardRenderer.disableReportFocus",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.enableBracketedPaste": {
+      "object_id": "tea.*standardRenderer.enableBracketedPaste",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.enableMouseAllMotion": {
+      "object_id": "tea.*standardRenderer.enableMouseAllMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.enableMouseCellMotion": {
+      "object_id": "tea.*standardRenderer.enableMouseCellMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.enableMouseSGRMode": {
+      "object_id": "tea.*standardRenderer.enableMouseSGRMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.enableReportFocus": {
+      "object_id": "tea.*standardRenderer.enableReportFocus",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.enterAltScreen": {
+      "object_id": "tea.*standardRenderer.enterAltScreen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.execute": {
+      "object_id": "tea.*standardRenderer.execute",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.exitAltScreen": {
+      "object_id": "tea.*standardRenderer.exitAltScreen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.flush": {
+      "object_id": "tea.*standardRenderer.flush",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.handleMessages": {
+      "object_id": "tea.*standardRenderer.handleMessages",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.hideCursor": {
+      "object_id": "tea.*standardRenderer.hideCursor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.insertBottom": {
+      "object_id": "tea.*standardRenderer.insertBottom",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.insertTop": {
+      "object_id": "tea.*standardRenderer.insertTop",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.kill": {
+      "object_id": "tea.*standardRenderer.kill",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.lastLinesRendered": {
+      "object_id": "tea.*standardRenderer.lastLinesRendered",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.listen": {
+      "object_id": "tea.*standardRenderer.listen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.repaint": {
+      "object_id": "tea.*standardRenderer.repaint",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.reportFocus": {
+      "object_id": "tea.*standardRenderer.reportFocus",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.resetLinesRendered": {
+      "object_id": "tea.*standardRenderer.resetLinesRendered",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.setIgnoredLines": {
+      "object_id": "tea.*standardRenderer.setIgnoredLines",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.setWindowTitle": {
+      "object_id": "tea.*standardRenderer.setWindowTitle",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.showCursor": {
+      "object_id": "tea.*standardRenderer.showCursor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.start": {
+      "object_id": "tea.*standardRenderer.start",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.stop": {
+      "object_id": "tea.*standardRenderer.stop",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.*standardRenderer.write": {
+      "object_id": "tea.*standardRenderer.write",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.Batch": {
+      "object_id": "tea.Batch",
+      "afferent_coupling": 5,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.BatchMsg": {
+      "object_id": "tea.BatchMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.BlurMsg": {
+      "object_id": "tea.BlurMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.ClearScreen": {
+      "object_id": "tea.ClearScreen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.ClearScrollArea": {
+      "object_id": "tea.ClearScrollArea",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.Cmd": {
+      "object_id": "tea.Cmd",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.DisableBracketedPaste": {
+      "object_id": "tea.DisableBracketedPaste",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.DisableMouse": {
+      "object_id": "tea.DisableMouse",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.DisableReportFocus": {
+      "object_id": "tea.DisableReportFocus",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.EnableBracketedPaste": {
+      "object_id": "tea.EnableBracketedPaste",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.EnableMouseAllMotion": {
+      "object_id": "tea.EnableMouseAllMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.EnableMouseCellMotion": {
+      "object_id": "tea.EnableMouseCellMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.EnableReportFocus": {
+      "object_id": "tea.EnableReportFocus",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.EnterAltScreen": {
+      "object_id": "tea.EnterAltScreen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.Every": {
+      "object_id": "tea.Every",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.Exec": {
+      "object_id": "tea.Exec",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.ExecCallback": {
+      "object_id": "tea.ExecCallback",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.ExecCommand": {
+      "object_id": "tea.ExecCommand",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 1
+    },
+    "tea.ExecProcess": {
+      "object_id": "tea.ExecProcess",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.ExitAltScreen": {
+      "object_id": "tea.ExitAltScreen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.FocusMsg": {
+      "object_id": "tea.FocusMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.HideCursor": {
+      "object_id": "tea.HideCursor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.Interrupt": {
+      "object_id": "tea.Interrupt",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.InterruptMsg": {
+      "object_id": "tea.InterruptMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.Key": {
+      "object_id": "tea.Key",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.Key.String": {
+      "object_id": "tea.Key.String",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.KeyMsg": {
+      "object_id": "tea.KeyMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.KeyMsg.String": {
+      "object_id": "tea.KeyMsg.String",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.KeyType": {
+      "object_id": "tea.KeyType",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.KeyType.String": {
+      "object_id": "tea.KeyType.String",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.LogOptionsSetter": {
+      "object_id": "tea.LogOptionsSetter",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 1
+    },
+    "tea.LogToFile": {
+      "object_id": "tea.LogToFile",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.LogToFileWith": {
+      "object_id": "tea.LogToFileWith",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.Model": {
+      "object_id": "tea.Model",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 1
+    },
+    "tea.MouseAction": {
+      "object_id": "tea.MouseAction",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.MouseButton": {
+      "object_id": "tea.MouseButton",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.MouseEvent": {
+      "object_id": "tea.MouseEvent",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.MouseEvent.IsWheel": {
+      "object_id": "tea.MouseEvent.IsWheel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.MouseEvent.String": {
+      "object_id": "tea.MouseEvent.String",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.MouseEventType": {
+      "object_id": "tea.MouseEventType",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.MouseMsg": {
+      "object_id": "tea.MouseMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.MouseMsg.String": {
+      "object_id": "tea.MouseMsg.String",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.Msg": {
+      "object_id": "tea.Msg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 1
+    },
+    "tea.NewProgram": {
+      "object_id": "tea.NewProgram",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.Printf": {
+      "object_id": "tea.Printf",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.Println": {
+      "object_id": "tea.Println",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.Program": {
+      "object_id": "tea.Program",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.ProgramOption": {
+      "object_id": "tea.ProgramOption",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.Quit": {
+      "object_id": "tea.Quit",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.QuitMsg": {
+      "object_id": "tea.QuitMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.ResumeMsg": {
+      "object_id": "tea.ResumeMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.ScrollDown": {
+      "object_id": "tea.ScrollDown",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.ScrollUp": {
+      "object_id": "tea.ScrollUp",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.Sequence": {
+      "object_id": "tea.Sequence",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.Sequentially": {
+      "object_id": "tea.Sequentially",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.SetWindowTitle": {
+      "object_id": "tea.SetWindowTitle",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.ShowCursor": {
+      "object_id": "tea.ShowCursor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.Suspend": {
+      "object_id": "tea.Suspend",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.SuspendMsg": {
+      "object_id": "tea.SuspendMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.SyncScrollArea": {
+      "object_id": "tea.SyncScrollArea",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.Tick": {
+      "object_id": "tea.Tick",
+      "afferent_coupling": 8,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WindowSize": {
+      "object_id": "tea.WindowSize",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WindowSizeMsg": {
+      "object_id": "tea.WindowSizeMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.WithANSICompressor": {
+      "object_id": "tea.WithANSICompressor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithAltScreen": {
+      "object_id": "tea.WithAltScreen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithContext": {
+      "object_id": "tea.WithContext",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithEnvironment": {
+      "object_id": "tea.WithEnvironment",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithFPS": {
+      "object_id": "tea.WithFPS",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithFilter": {
+      "object_id": "tea.WithFilter",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithInput": {
+      "object_id": "tea.WithInput",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithInputTTY": {
+      "object_id": "tea.WithInputTTY",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithMouseAllMotion": {
+      "object_id": "tea.WithMouseAllMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithMouseCellMotion": {
+      "object_id": "tea.WithMouseCellMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithOutput": {
+      "object_id": "tea.WithOutput",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithReportFocus": {
+      "object_id": "tea.WithReportFocus",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithoutBracketedPaste": {
+      "object_id": "tea.WithoutBracketedPaste",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithoutCatchPanics": {
+      "object_id": "tea.WithoutCatchPanics",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithoutRenderer": {
+      "object_id": "tea.WithoutRenderer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithoutSignalHandler": {
+      "object_id": "tea.WithoutSignalHandler",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.WithoutSignals": {
+      "object_id": "tea.WithoutSignals",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.cancelMixin": {
+      "object_id": "tea.cancelMixin",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.channelHandlers": {
+      "object_id": "tea.channelHandlers",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.channelHandlers.shutdown": {
+      "object_id": "tea.channelHandlers.shutdown",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.clearScreenMsg": {
+      "object_id": "tea.clearScreenMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.clearScrollAreaMsg": {
+      "object_id": "tea.clearScrollAreaMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.compactCmds": {
+      "object_id": "tea.compactCmds",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.conInputReader": {
+      "object_id": "tea.conInputReader",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.detectBracketedPaste": {
+      "object_id": "tea.detectBracketedPaste",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.detectOneMsg": {
+      "object_id": "tea.detectOneMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.detectReportFocus": {
+      "object_id": "tea.detectReportFocus",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.detectSequence": {
+      "object_id": "tea.detectSequence",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.disableBracketedPasteMsg": {
+      "object_id": "tea.disableBracketedPasteMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.disableMouseMsg": {
+      "object_id": "tea.disableMouseMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.disableReportFocusMsg": {
+      "object_id": "tea.disableReportFocusMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.enableBracketedPasteMsg": {
+      "object_id": "tea.enableBracketedPasteMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.enableMouseAllMotionMsg": {
+      "object_id": "tea.enableMouseAllMotionMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.enableMouseCellMotionMsg": {
+      "object_id": "tea.enableMouseCellMotionMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.enableReportFocusMsg": {
+      "object_id": "tea.enableReportFocusMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.enterAltScreenMsg": {
+      "object_id": "tea.enterAltScreenMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.execMsg": {
+      "object_id": "tea.execMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.exitAltScreenMsg": {
+      "object_id": "tea.exitAltScreenMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.go": {
+      "object_id": "tea.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 53,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "tea.hideCursorMsg": {
+      "object_id": "tea.hideCursorMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.init": {
+      "object_id": "tea.init",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.inputType": {
+      "object_id": "tea.inputType",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.inputType.String": {
+      "object_id": "tea.inputType.String",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.intToUint32OrDie": {
+      "object_id": "tea.intToUint32OrDie",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.keyType": {
+      "object_id": "tea.keyType",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.mouseEvent": {
+      "object_id": "tea.mouseEvent",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.mouseEventButton": {
+      "object_id": "tea.mouseEventButton",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.newInputReader": {
+      "object_id": "tea.newInputReader",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.newRenderer": {
+      "object_id": "tea.newRenderer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer": {
+      "object_id": "tea.nilRenderer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.nilRenderer.altScreen": {
+      "object_id": "tea.nilRenderer.altScreen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.bracketedPasteActive": {
+      "object_id": "tea.nilRenderer.bracketedPasteActive",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.clearScreen": {
+      "object_id": "tea.nilRenderer.clearScreen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.disableBracketedPaste": {
+      "object_id": "tea.nilRenderer.disableBracketedPaste",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.disableMouseAllMotion": {
+      "object_id": "tea.nilRenderer.disableMouseAllMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.disableMouseCellMotion": {
+      "object_id": "tea.nilRenderer.disableMouseCellMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.disableMouseSGRMode": {
+      "object_id": "tea.nilRenderer.disableMouseSGRMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.disableReportFocus": {
+      "object_id": "tea.nilRenderer.disableReportFocus",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.enableBracketedPaste": {
+      "object_id": "tea.nilRenderer.enableBracketedPaste",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.enableMouseAllMotion": {
+      "object_id": "tea.nilRenderer.enableMouseAllMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.enableMouseCellMotion": {
+      "object_id": "tea.nilRenderer.enableMouseCellMotion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.enableMouseSGRMode": {
+      "object_id": "tea.nilRenderer.enableMouseSGRMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.enableReportFocus": {
+      "object_id": "tea.nilRenderer.enableReportFocus",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.enterAltScreen": {
+      "object_id": "tea.nilRenderer.enterAltScreen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.exitAltScreen": {
+      "object_id": "tea.nilRenderer.exitAltScreen",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.hideCursor": {
+      "object_id": "tea.nilRenderer.hideCursor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.kill": {
+      "object_id": "tea.nilRenderer.kill",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.repaint": {
+      "object_id": "tea.nilRenderer.repaint",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.reportFocus": {
+      "object_id": "tea.nilRenderer.reportFocus",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.resetLinesRendered": {
+      "object_id": "tea.nilRenderer.resetLinesRendered",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.setWindowTitle": {
+      "object_id": "tea.nilRenderer.setWindowTitle",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.showCursor": {
+      "object_id": "tea.nilRenderer.showCursor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.start": {
+      "object_id": "tea.nilRenderer.start",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.stop": {
+      "object_id": "tea.nilRenderer.stop",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.nilRenderer.write": {
+      "object_id": "tea.nilRenderer.write",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.openInputTTY": {
+      "object_id": "tea.openInputTTY",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.osExecCommand": {
+      "object_id": "tea.osExecCommand",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.parseMouseButton": {
+      "object_id": "tea.parseMouseButton",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.parseSGRMouseEvent": {
+      "object_id": "tea.parseSGRMouseEvent",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.parseX10MouseEvent": {
+      "object_id": "tea.parseX10MouseEvent",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.peekAndReadConsInput": {
+      "object_id": "tea.peekAndReadConsInput",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.peekConsInput": {
+      "object_id": "tea.peekConsInput",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.prepareConsole": {
+      "object_id": "tea.prepareConsole",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.printLineMessage": {
+      "object_id": "tea.printLineMessage",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.readAnsiInputs": {
+      "object_id": "tea.readAnsiInputs",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.readConInputs": {
+      "object_id": "tea.readConInputs",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.readInputs": {
+      "object_id": "tea.readInputs",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.renderer": {
+      "object_id": "tea.renderer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 1
+    },
+    "tea.repaintMsg": {
+      "object_id": "tea.repaintMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.scrollDownMsg": {
+      "object_id": "tea.scrollDownMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.scrollUpMsg": {
+      "object_id": "tea.scrollUpMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.sequenceMsg": {
+      "object_id": "tea.sequenceMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.setWindowTitleMsg": {
+      "object_id": "tea.setWindowTitleMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.showCursorMsg": {
+      "object_id": "tea.showCursorMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.standardRenderer": {
+      "object_id": "tea.standardRenderer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.startupOptions": {
+      "object_id": "tea.startupOptions",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.startupOptions.has": {
+      "object_id": "tea.startupOptions.has",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.suspendProcess": {
+      "object_id": "tea.suspendProcess",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea.syncScrollAreaMsg": {
+      "object_id": "tea.syncScrollAreaMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.unknownCSISequenceMsg": {
+      "object_id": "tea.unknownCSISequenceMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.unknownCSISequenceMsg.String": {
+      "object_id": "tea.unknownCSISequenceMsg.String",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.unknownInputByteMsg": {
+      "object_id": "tea.unknownInputByteMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "tea.unknownInputByteMsg.String": {
+      "object_id": "tea.unknownInputByteMsg.String",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "tea.windowSizeMsg": {
+      "object_id": "tea.windowSizeMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "tea.wrapExecCommand": {
+      "object_id": "tea.wrapExecCommand",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "tea_init.go": {
+      "object_id": "tea_init.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 2,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "tty.go": {
+      "object_id": "tty.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 14,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "tty_unix.go": {
+      "object_id": "tty_unix.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "tty_windows.go": {
+      "object_id": "tty_windows.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 4,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "tutorials/basics/main.go": {
+      "object_id": "tutorials/basics/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 3,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "tutorials/commands/main.go": {
+      "object_id": "tutorials/commands/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 5,
+      "instability": 1,
+      "abstractness": 0
+    }
+  },
+  "cycles": null,
+  "top_unstable": [
+    {
+      "object_id": "examples/split-editors/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 10,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "examples/chat/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "examples/http/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "examples/cellbuffer/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 17,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "examples/result/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 4,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "examples/realtime/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 9,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "examples/list-simple/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 12,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "examples/autocomplete/main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 18,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "tty_windows.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 4,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "screen.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 32,
+      "instability": 1,
+      "abstractness": 0
+    }
+  ],
+  "top_coupled": [
+    {
+      "object_id": "import:fmt",
+      "afferent_coupling": 58,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    {
+      "object_id": "standard_renderer.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 55,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "tea.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 53,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "import:github.com/charmbracelet/bubbletea",
+      "afferent_coupling": 52,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    {
+      "object_id": "import:os",
+      "afferent_coupling": 42,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    {
+      "object_id": "screen.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 32,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "import:github.com/charmbracelet/lipgloss",
+      "afferent_coupling": 30,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    {
+      "object_id": "nil_renderer.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 26,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "import:time",
+      "afferent_coupling": 25,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    {
+      "object_id": "options.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 21,
+      "instability": 1,
+      "abstractness": 0
+    }
+  ]
+}

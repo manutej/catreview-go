@@ -1,0 +1,2151 @@
+{
+  "category_stats": {
+    "identities": 285,
+    "morphisms": 315,
+    "objects": 285
+  },
+  "diagram_complexity": 1686.5372194224499,
+  "kolmogorov_complexity": 24896,
+  "coupling_metrics": {
+    "clipboard.go": {
+      "object_id": "clipboard.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 19,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "colors.go": {
+      "object_id": "colors.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 21,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "context_panel.go": {
+      "object_id": "context_panel.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 26,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "file_watcher.go": {
+      "object_id": "file_watcher.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 21,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "fuzzy_finder_impl.go": {
+      "object_id": "fuzzy_finder_impl.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 15,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "glamour_impl.go": {
+      "object_id": "glamour_impl.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 30,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "help.go": {
+      "object_id": "help.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 7,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "import:bufio": {
+      "object_id": "import:bufio",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:context": {
+      "object_id": "import:context",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:encoding/json": {
+      "object_id": "import:encoding/json",
+      "afferent_coupling": 4,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:flag": {
+      "object_id": "import:flag",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:fmt": {
+      "object_id": "import:fmt",
+      "afferent_coupling": 7,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/atotto/clipboard": {
+      "object_id": "import:github.com/atotto/clipboard",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/list": {
+      "object_id": "import:github.com/charmbracelet/bubbles/list",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/viewport": {
+      "object_id": "import:github.com/charmbracelet/bubbles/viewport",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbletea": {
+      "object_id": "import:github.com/charmbracelet/bubbletea",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/glamour": {
+      "object_id": "import:github.com/charmbracelet/glamour",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/lipgloss": {
+      "object_id": "import:github.com/charmbracelet/lipgloss",
+      "afferent_coupling": 5,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/fsnotify/fsnotify": {
+      "object_id": "import:github.com/fsnotify/fsnotify",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/lumina/ccn/utils": {
+      "object_id": "import:github.com/lumina/ccn/utils",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:io/fs": {
+      "object_id": "import:io/fs",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:os": {
+      "object_id": "import:os",
+      "afferent_coupling": 10,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:os/exec": {
+      "object_id": "import:os/exec",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:path/filepath": {
+      "object_id": "import:path/filepath",
+      "afferent_coupling": 7,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:regexp": {
+      "object_id": "import:regexp",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:strings": {
+      "object_id": "import:strings",
+      "afferent_coupling": 10,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:sync": {
+      "object_id": "import:sync",
+      "afferent_coupling": 4,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:syscall": {
+      "object_id": "import:syscall",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:time": {
+      "object_id": "import:time",
+      "afferent_coupling": 4,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "keybinding_impl.go": {
+      "object_id": "keybinding_impl.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 5,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "keybindings.go": {
+      "object_id": "keybindings.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 11,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "main.*AppModel.jumpToNextFileStartingWith": {
+      "object_id": "main.*AppModel.jumpToNextFileStartingWith",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*AppModel.loadFileContent": {
+      "object_id": "main.*AppModel.loadFileContent",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*AppModel.navigateToSelectedFile": {
+      "object_id": "main.*AppModel.navigateToSelectedFile",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*AppModel.navigateUp": {
+      "object_id": "main.*AppModel.navigateUp",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*AppModel.screenToDocCoords": {
+      "object_id": "main.*AppModel.screenToDocCoords",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*AppModel.startMouseSelection": {
+      "object_id": "main.*AppModel.startMouseSelection",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*AppModel.transitionTo": {
+      "object_id": "main.*AppModel.transitionTo",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*AppModel.updateDimensions": {
+      "object_id": "main.*AppModel.updateDimensions",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*ClipboardManager.ClearSelection": {
+      "object_id": "main.*ClipboardManager.ClearSelection",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ClipboardManager.CopySelection": {
+      "object_id": "main.*ClipboardManager.CopySelection",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ClipboardManager.ExtendSelection": {
+      "object_id": "main.*ClipboardManager.ExtendSelection",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ClipboardManager.GetSelection": {
+      "object_id": "main.*ClipboardManager.GetSelection",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ClipboardManager.GetSelectionBounds": {
+      "object_id": "main.*ClipboardManager.GetSelectionBounds",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ClipboardManager.HasSelection": {
+      "object_id": "main.*ClipboardManager.HasSelection",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ClipboardManager.StartSelection": {
+      "object_id": "main.*ClipboardManager.StartSelection",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ColorManager.GetColor": {
+      "object_id": "main.*ColorManager.GetColor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ColorManager.GetStyle": {
+      "object_id": "main.*ColorManager.GetStyle",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ColorManager.PrintThemeInfo": {
+      "object_id": "main.*ColorManager.PrintThemeInfo",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ColorManager.SetTheme": {
+      "object_id": "main.*ColorManager.SetTheme",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ColorManager.applyTheme": {
+      "object_id": "main.*ColorManager.applyTheme",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*ColorManager.detectBackgroundColor": {
+      "object_id": "main.*ColorManager.detectBackgroundColor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*ColorManager.detectTheme": {
+      "object_id": "main.*ColorManager.detectTheme",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*ColorManager.getDetectedTheme": {
+      "object_id": "main.*ColorManager.getDetectedTheme",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*ColorManager.loadConfig": {
+      "object_id": "main.*ColorManager.loadConfig",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*ColorManager.saveConfig": {
+      "object_id": "main.*ColorManager.saveConfig",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*ContextPanel.Clear": {
+      "object_id": "main.*ContextPanel.Clear",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ContextPanel.CycleMode": {
+      "object_id": "main.*ContextPanel.CycleMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ContextPanel.GetModeName": {
+      "object_id": "main.*ContextPanel.GetModeName",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ContextPanel.GetTOC": {
+      "object_id": "main.*ContextPanel.GetTOC",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ContextPanel.Render": {
+      "object_id": "main.*ContextPanel.Render",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ContextPanel.SetMode": {
+      "object_id": "main.*ContextPanel.SetMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ContextPanel.UpdateContent": {
+      "object_id": "main.*ContextPanel.UpdateContent",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ContextPanel.renderDocumentStats": {
+      "object_id": "main.*ContextPanel.renderDocumentStats",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*ContextPanel.renderFileInfo": {
+      "object_id": "main.*ContextPanel.renderFileInfo",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*ContextPanel.renderQuickActions": {
+      "object_id": "main.*ContextPanel.renderQuickActions",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*ContextPanel.renderTOC": {
+      "object_id": "main.*ContextPanel.renderTOC",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*ContextPanel.updateDocumentStats": {
+      "object_id": "main.*ContextPanel.updateDocumentStats",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*ContextPanel.updateFileInfo": {
+      "object_id": "main.*ContextPanel.updateFileInfo",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*ElementStyle.GetBackground": {
+      "object_id": "main.*ElementStyle.GetBackground",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ElementStyle.GetForeground": {
+      "object_id": "main.*ElementStyle.GetForeground",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileSearcher.BuildFileIndex": {
+      "object_id": "main.*FileSearcher.BuildFileIndex",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileSearcher.GetResultCount": {
+      "object_id": "main.*FileSearcher.GetResultCount",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileSearcher.GetResults": {
+      "object_id": "main.*FileSearcher.GetResults",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileSearcher.GetSelectedIndex": {
+      "object_id": "main.*FileSearcher.GetSelectedIndex",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileSearcher.GetSelectedResult": {
+      "object_id": "main.*FileSearcher.GetSelectedResult",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileSearcher.Search": {
+      "object_id": "main.*FileSearcher.Search",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileSearcher.SelectNext": {
+      "object_id": "main.*FileSearcher.SelectNext",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileSearcher.SelectPrevious": {
+      "object_id": "main.*FileSearcher.SelectPrevious",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileSearcher.View": {
+      "object_id": "main.*FileSearcher.View",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileWatcherImpl.Changes": {
+      "object_id": "main.*FileWatcherImpl.Changes",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileWatcherImpl.Close": {
+      "object_id": "main.*FileWatcherImpl.Close",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileWatcherImpl.SetDebounce": {
+      "object_id": "main.*FileWatcherImpl.SetDebounce",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileWatcherImpl.SetEventFilter": {
+      "object_id": "main.*FileWatcherImpl.SetEventFilter",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileWatcherImpl.SetRecursive": {
+      "object_id": "main.*FileWatcherImpl.SetRecursive",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileWatcherImpl.Unwatch": {
+      "object_id": "main.*FileWatcherImpl.Unwatch",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileWatcherImpl.Watch": {
+      "object_id": "main.*FileWatcherImpl.Watch",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FileWatcherImpl.eventLoop": {
+      "object_id": "main.*FileWatcherImpl.eventLoop",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*FileWatcherImpl.followSymlinksWithLoopDetection": {
+      "object_id": "main.*FileWatcherImpl.followSymlinksWithLoopDetection",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*FileWatcherImpl.handleEvent": {
+      "object_id": "main.*FileWatcherImpl.handleEvent",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*FileWatcherImpl.shouldFilterEvent": {
+      "object_id": "main.*FileWatcherImpl.shouldFilterEvent",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*FuzzyFinderImpl.Cursor": {
+      "object_id": "main.*FuzzyFinderImpl.Cursor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FuzzyFinderImpl.Filter": {
+      "object_id": "main.*FuzzyFinderImpl.Filter",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FuzzyFinderImpl.FilteredResults": {
+      "object_id": "main.*FuzzyFinderImpl.FilteredResults",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FuzzyFinderImpl.HandleKey": {
+      "object_id": "main.*FuzzyFinderImpl.HandleKey",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FuzzyFinderImpl.JumpToLetter": {
+      "object_id": "main.*FuzzyFinderImpl.JumpToLetter",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FuzzyFinderImpl.Mode": {
+      "object_id": "main.*FuzzyFinderImpl.Mode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FuzzyFinderImpl.SelectedItem": {
+      "object_id": "main.*FuzzyFinderImpl.SelectedItem",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FuzzyFinderImpl.SetCursor": {
+      "object_id": "main.*FuzzyFinderImpl.SetCursor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FuzzyFinderImpl.SetFilter": {
+      "object_id": "main.*FuzzyFinderImpl.SetFilter",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*FuzzyFinderImpl.SetMode": {
+      "object_id": "main.*FuzzyFinderImpl.SetMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*GlamourRendererImpl.AutoDetectSize": {
+      "object_id": "main.*GlamourRendererImpl.AutoDetectSize",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*GlamourRendererImpl.DetectedTheme": {
+      "object_id": "main.*GlamourRendererImpl.DetectedTheme",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*GlamourRendererImpl.GetElementStyle": {
+      "object_id": "main.*GlamourRendererImpl.GetElementStyle",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*GlamourRendererImpl.NewViewport": {
+      "object_id": "main.*GlamourRendererImpl.NewViewport",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*GlamourRendererImpl.Render": {
+      "object_id": "main.*GlamourRendererImpl.Render",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*GlamourRendererImpl.RenderSearchResult": {
+      "object_id": "main.*GlamourRendererImpl.RenderSearchResult",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*GlamourRendererImpl.SetTheme": {
+      "object_id": "main.*GlamourRendererImpl.SetTheme",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*GlamourRendererImpl.SetWidth": {
+      "object_id": "main.*GlamourRendererImpl.SetWidth",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*GlamourRendererImpl.Width": {
+      "object_id": "main.*GlamourRendererImpl.Width",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*GlamourRendererImpl.WrapEnabled": {
+      "object_id": "main.*GlamourRendererImpl.WrapEnabled",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*GlamourRendererImpl.initializeRenderer": {
+      "object_id": "main.*GlamourRendererImpl.initializeRenderer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*KeybindingHandler.GetMode": {
+      "object_id": "main.*KeybindingHandler.GetMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*KeybindingHandler.HandleKey": {
+      "object_id": "main.*KeybindingHandler.HandleKey",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*KeybindingHandler.SetMode": {
+      "object_id": "main.*KeybindingHandler.SetMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*KeyboardSelection.SelectLine": {
+      "object_id": "main.*KeyboardSelection.SelectLine",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*KeyboardSelection.SelectWord": {
+      "object_id": "main.*KeyboardSelection.SelectWord",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*QuickSearch.QuickSearchFiles": {
+      "object_id": "main.*QuickSearch.QuickSearchFiles",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*RipgrepExecutorImpl.Execute": {
+      "object_id": "main.*RipgrepExecutorImpl.Execute",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*RipgrepExecutorImpl.ExecuteWithLimit": {
+      "object_id": "main.*RipgrepExecutorImpl.ExecuteWithLimit",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*RipgrepExecutorImpl.SetBufferSize": {
+      "object_id": "main.*RipgrepExecutorImpl.SetBufferSize",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*RipgrepExecutorImpl.SetCaseSensitive": {
+      "object_id": "main.*RipgrepExecutorImpl.SetCaseSensitive",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*RipgrepExecutorImpl.SetContextLines": {
+      "object_id": "main.*RipgrepExecutorImpl.SetContextLines",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*RipgrepExecutorImpl.SetFileTypes": {
+      "object_id": "main.*RipgrepExecutorImpl.SetFileTypes",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*RipgrepExecutorImpl.checkRipgrepAvailable": {
+      "object_id": "main.*RipgrepExecutorImpl.checkRipgrepAvailable",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*RipgrepExecutorImpl.validateQuery": {
+      "object_id": "main.*RipgrepExecutorImpl.validateQuery",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.*RipgrepManagerImpl.Search": {
+      "object_id": "main.*RipgrepManagerImpl.Search",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*RipgrepManagerImpl.SetMaxConcurrent": {
+      "object_id": "main.*RipgrepManagerImpl.SetMaxConcurrent",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.FilterByLevel": {
+      "object_id": "main.*TableOfContents.FilterByLevel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.GetEntryCount": {
+      "object_id": "main.*TableOfContents.GetEntryCount",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.GetHierarchy": {
+      "object_id": "main.*TableOfContents.GetHierarchy",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.GetSelectedEntry": {
+      "object_id": "main.*TableOfContents.GetSelectedEntry",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.GetSelectedIndex": {
+      "object_id": "main.*TableOfContents.GetSelectedIndex",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.GetSelectedLineNum": {
+      "object_id": "main.*TableOfContents.GetSelectedLineNum",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.HasEntries": {
+      "object_id": "main.*TableOfContents.HasEntries",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.ParseMarkdown": {
+      "object_id": "main.*TableOfContents.ParseMarkdown",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.SearchTOC": {
+      "object_id": "main.*TableOfContents.SearchTOC",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.SelectByIndex": {
+      "object_id": "main.*TableOfContents.SelectByIndex",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.SelectByLineNum": {
+      "object_id": "main.*TableOfContents.SelectByLineNum",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.SelectFirst": {
+      "object_id": "main.*TableOfContents.SelectFirst",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.SelectLast": {
+      "object_id": "main.*TableOfContents.SelectLast",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.SelectNext": {
+      "object_id": "main.*TableOfContents.SelectNext",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.SelectPrevious": {
+      "object_id": "main.*TableOfContents.SelectPrevious",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*TableOfContents.View": {
+      "object_id": "main.*TableOfContents.View",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ViewportImpl.Height": {
+      "object_id": "main.*ViewportImpl.Height",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ViewportImpl.NeedsReflow": {
+      "object_id": "main.*ViewportImpl.NeedsReflow",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ViewportImpl.SetContent": {
+      "object_id": "main.*ViewportImpl.SetContent",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ViewportImpl.SetYOffset": {
+      "object_id": "main.*ViewportImpl.SetYOffset",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ViewportImpl.Width": {
+      "object_id": "main.*ViewportImpl.Width",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.*ViewportImpl.YOffset": {
+      "object_id": "main.*ViewportImpl.YOffset",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.AppModel": {
+      "object_id": "main.AppModel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.AppModel.Init": {
+      "object_id": "main.AppModel.Init",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.AppModel.Update": {
+      "object_id": "main.AppModel.Update",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.AppModel.View": {
+      "object_id": "main.AppModel.View",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.AppModel.handleFinderMode": {
+      "object_id": "main.AppModel.handleFinderMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.AppModel.handleHelpMode": {
+      "object_id": "main.AppModel.handleHelpMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.AppModel.handleLoadingMode": {
+      "object_id": "main.AppModel.handleLoadingMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.AppModel.handleMouseEvent": {
+      "object_id": "main.AppModel.handleMouseEvent",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.AppModel.handleNormalMode": {
+      "object_id": "main.AppModel.handleNormalMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.AppModel.handleSearchMode": {
+      "object_id": "main.AppModel.handleSearchMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.AppModel.highlightSelection": {
+      "object_id": "main.AppModel.highlightSelection",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.AppModel.renderFinderModal": {
+      "object_id": "main.AppModel.renderFinderModal",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.AppModel.renderLoadingModal": {
+      "object_id": "main.AppModel.renderLoadingModal",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.AppModel.renderSearchModal": {
+      "object_id": "main.AppModel.renderSearchModal",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.ClipboardManager": {
+      "object_id": "main.ClipboardManager",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.ColorManager": {
+      "object_id": "main.ColorManager",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.ColorPalette": {
+      "object_id": "main.ColorPalette",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.ContextPanel": {
+      "object_id": "main.ContextPanel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.ContextPanelMode": {
+      "object_id": "main.ContextPanelMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.CopyMode": {
+      "object_id": "main.CopyMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.DefaultKeyBindings": {
+      "object_id": "main.DefaultKeyBindings",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.DocumentStats": {
+      "object_id": "main.DocumentStats",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.ElementStyle": {
+      "object_id": "main.ElementStyle",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.ExampleCustomConfig": {
+      "object_id": "main.ExampleCustomConfig",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.FileChangedMsg": {
+      "object_id": "main.FileChangedMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.FileInfo": {
+      "object_id": "main.FileInfo",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.FileItem": {
+      "object_id": "main.FileItem",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.FileItem.Description": {
+      "object_id": "main.FileItem.Description",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.FileItem.FilterValue": {
+      "object_id": "main.FileItem.FilterValue",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.FileItem.Title": {
+      "object_id": "main.FileItem.Title",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.FileReloadMsg": {
+      "object_id": "main.FileReloadMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.FileSearcher": {
+      "object_id": "main.FileSearcher",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.FileWatcher": {
+      "object_id": "main.FileWatcher",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 1
+    },
+    "main.FileWatcherImpl": {
+      "object_id": "main.FileWatcherImpl",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.FinderActivatedMsg": {
+      "object_id": "main.FinderActivatedMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.FinderCanceledMsg": {
+      "object_id": "main.FinderCanceledMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.FinderInputMsg": {
+      "object_id": "main.FinderInputMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.FinderSelectionMsg": {
+      "object_id": "main.FinderSelectionMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.FuzzyFinder": {
+      "object_id": "main.FuzzyFinder",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 1
+    },
+    "main.FuzzyFinderImpl": {
+      "object_id": "main.FuzzyFinderImpl",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.GlamourRenderer": {
+      "object_id": "main.GlamourRenderer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 1
+    },
+    "main.GlamourRendererImpl": {
+      "object_id": "main.GlamourRendererImpl",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.KeyBinding": {
+      "object_id": "main.KeyBinding",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.KeyBindings": {
+      "object_id": "main.KeyBindings",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.KeyBindings.FindAction": {
+      "object_id": "main.KeyBindings.FindAction",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.KeybindingHandler": {
+      "object_id": "main.KeybindingHandler",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.KeyboardSelection": {
+      "object_id": "main.KeyboardSelection",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.LoadKeyBindings": {
+      "object_id": "main.LoadKeyBindings",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.MarkdownFilesLoadedMsg": {
+      "object_id": "main.MarkdownFilesLoadedMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.MarkdownFilesLoadingMsg": {
+      "object_id": "main.MarkdownFilesLoadingMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.MockFileSystemProvider": {
+      "object_id": "main.MockFileSystemProvider",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 1
+    },
+    "main.MockFilesystemWatcher": {
+      "object_id": "main.MockFilesystemWatcher",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 1
+    },
+    "main.MockRipgrepExecutor": {
+      "object_id": "main.MockRipgrepExecutor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 1
+    },
+    "main.MouseDragTimeoutMsg": {
+      "object_id": "main.MouseDragTimeoutMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.NewAppModel": {
+      "object_id": "main.NewAppModel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewClipboardManager": {
+      "object_id": "main.NewClipboardManager",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewColorManager": {
+      "object_id": "main.NewColorManager",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewContextPanel": {
+      "object_id": "main.NewContextPanel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewElementStyle": {
+      "object_id": "main.NewElementStyle",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewFileSearcher": {
+      "object_id": "main.NewFileSearcher",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewFileWatcher": {
+      "object_id": "main.NewFileWatcher",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewFuzzyFinder": {
+      "object_id": "main.NewFuzzyFinder",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewFuzzyFinderImpl": {
+      "object_id": "main.NewFuzzyFinderImpl",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewGlamourRenderer": {
+      "object_id": "main.NewGlamourRenderer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewGlamourRendererImpl": {
+      "object_id": "main.NewGlamourRendererImpl",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewKeybindingHandler": {
+      "object_id": "main.NewKeybindingHandler",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewKeyboardSelection": {
+      "object_id": "main.NewKeyboardSelection",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewQuickSearch": {
+      "object_id": "main.NewQuickSearch",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewRipgrepExecutor": {
+      "object_id": "main.NewRipgrepExecutor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewRipgrepManager": {
+      "object_id": "main.NewRipgrepManager",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.NewTableOfContents": {
+      "object_id": "main.NewTableOfContents",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.ParseRipgrepMatch": {
+      "object_id": "main.ParseRipgrepMatch",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "main.QuickSearch": {
+      "object_id": "main.QuickSearch",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.RipgrepExecutorImpl": {
+      "object_id": "main.RipgrepExecutorImpl",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.RipgrepManager": {
+      "object_id": "main.RipgrepManager",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 1
+    },
+    "main.RipgrepManagerImpl": {
+      "object_id": "main.RipgrepManagerImpl",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.RipgrepMatch": {
+      "object_id": "main.RipgrepMatch",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.RipgrepMessage": {
+      "object_id": "main.RipgrepMessage",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.RipgrepResult": {
+      "object_id": "main.RipgrepResult",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.SearchCompletedMsg": {
+      "object_id": "main.SearchCompletedMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.SearchErrorMsg": {
+      "object_id": "main.SearchErrorMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.SearchResult": {
+      "object_id": "main.SearchResult",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.SearchResultMsg": {
+      "object_id": "main.SearchResultMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.SearchStartedMsg": {
+      "object_id": "main.SearchStartedMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.SelectionMode": {
+      "object_id": "main.SelectionMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.SelectionState": {
+      "object_id": "main.SelectionState",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.Style": {
+      "object_id": "main.Style",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 1
+    },
+    "main.TOCEntry": {
+      "object_id": "main.TOCEntry",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.TableOfContents": {
+      "object_id": "main.TableOfContents",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.ThemeConfig": {
+      "object_id": "main.ThemeConfig",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.ThemeMode": {
+      "object_id": "main.ThemeMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.UIMode": {
+      "object_id": "main.UIMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.ViewMode": {
+      "object_id": "main.ViewMode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "main.Viewport": {
+      "object_id": "main.Viewport",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 1
+    },
+    "main.ViewportImpl": {
+      "object_id": "main.ViewportImpl",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.abs": {
+      "object_id": "main.abs",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.createDefaultConfig": {
+      "object_id": "main.createDefaultConfig",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.detectTheme": {
+      "object_id": "main.detectTheme",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.dragTimeoutCmd": {
+      "object_id": "main.dragTimeoutCmd",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.extractSelection": {
+      "object_id": "main.extractSelection",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.filterItems": {
+      "object_id": "main.filterItems",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.findMarkdownFiles": {
+      "object_id": "main.findMarkdownFiles",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.formatBytes": {
+      "object_id": "main.formatBytes",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.fuzzyMatch": {
+      "object_id": "main.fuzzyMatch",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.getConfigDir": {
+      "object_id": "main.getConfigDir",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.getHelpOverlay": {
+      "object_id": "main.getHelpOverlay",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.go": {
+      "object_id": "main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 40,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "main.highlightMatch": {
+      "object_id": "main.highlightMatch",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.loadDirectory": {
+      "object_id": "main.loadDirectory",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.loadMarkdownFilesCmd": {
+      "object_id": "main.loadMarkdownFilesCmd",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.main": {
+      "object_id": "main.main",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.max": {
+      "object_id": "main.max",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.min": {
+      "object_id": "main.min",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.navigateCursor": {
+      "object_id": "main.navigateCursor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.printHelp": {
+      "object_id": "main.printHelp",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.printKeyboardShortcuts": {
+      "object_id": "main.printKeyboardShortcuts",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.printVersion": {
+      "object_id": "main.printVersion",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.shouldIgnoreDir": {
+      "object_id": "main.shouldIgnoreDir",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.sortByScore": {
+      "object_id": "main.sortByScore",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.splitLines": {
+      "object_id": "main.splitLines",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "model.go": {
+      "object_id": "model.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 27,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "ripgrep_executor.go": {
+      "object_id": "ripgrep_executor.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 22,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "search.go": {
+      "object_id": "search.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 23,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "test_mocks.go": {
+      "object_id": "test_mocks.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 16,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "toc.go": {
+      "object_id": "toc.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 22,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "utils.*MarkdownRenderer.GetStyle": {
+      "object_id": "utils.*MarkdownRenderer.GetStyle",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "utils.*MarkdownRenderer.Render": {
+      "object_id": "utils.*MarkdownRenderer.Render",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "utils.*MarkdownRenderer.SetStyle": {
+      "object_id": "utils.*MarkdownRenderer.SetStyle",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "utils.*MarkdownRenderer.UpdateWidth": {
+      "object_id": "utils.*MarkdownRenderer.UpdateWidth",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "utils.MarkdownRenderer": {
+      "object_id": "utils.MarkdownRenderer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "utils.MarkdownStyle": {
+      "object_id": "utils.MarkdownStyle",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "utils.NewMarkdownRenderer": {
+      "object_id": "utils.NewMarkdownRenderer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "utils.NewMarkdownRendererWithStyle": {
+      "object_id": "utils.NewMarkdownRendererWithStyle",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "utils/markdown.go": {
+      "object_id": "utils/markdown.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 10,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "version.go": {
+      "object_id": "version.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    }
+  },
+  "cycles": null,
+  "top_unstable": [
+    {
+      "object_id": "colors.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 21,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "file_watcher.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 21,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "keybindings.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 11,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 40,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "fuzzy_finder_impl.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 15,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "test_mocks.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 16,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "model.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 27,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "context_panel.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 26,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "clipboard.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 19,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "glamour_impl.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 30,
+      "instability": 1,
+      "abstractness": 0
+    }
+  ],
+  "top_coupled": [
+    {
+      "object_id": "main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 40,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "glamour_impl.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 30,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "model.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 27,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "context_panel.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 26,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "search.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 23,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "toc.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 22,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "ripgrep_executor.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 22,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "colors.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 21,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "file_watcher.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 21,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "clipboard.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 19,
+      "instability": 1,
+      "abstractness": 0
+    }
+  ]
+}

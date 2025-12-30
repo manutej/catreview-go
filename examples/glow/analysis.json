@@ -1,0 +1,1661 @@
+{
+  "category_stats": {
+    "identities": 215,
+    "morphisms": 276,
+    "objects": 215
+  },
+  "diagram_complexity": 1169.3374166052872,
+  "kolmogorov_complexity": 17920,
+  "coupling_metrics": {
+    "config_cmd.go": {
+      "object_id": "config_cmd.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 10,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "console_windows.go": {
+      "object_id": "console_windows.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 4,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "github.go": {
+      "object_id": "github.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "gitlab.go": {
+      "object_id": "gitlab.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "import:cmp": {
+      "object_id": "import:cmp",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:encoding/json": {
+      "object_id": "import:encoding/json",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:errors": {
+      "object_id": "import:errors",
+      "afferent_coupling": 5,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:fmt": {
+      "object_id": "import:fmt",
+      "afferent_coupling": 13,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/atotto/clipboard": {
+      "object_id": "import:github.com/atotto/clipboard",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/caarlos0/env/v11": {
+      "object_id": "import:github.com/caarlos0/env/v11",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/paginator": {
+      "object_id": "import:github.com/charmbracelet/bubbles/paginator",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/spinner": {
+      "object_id": "import:github.com/charmbracelet/bubbles/spinner",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/textinput": {
+      "object_id": "import:github.com/charmbracelet/bubbles/textinput",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbles/viewport": {
+      "object_id": "import:github.com/charmbracelet/bubbles/viewport",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/bubbletea": {
+      "object_id": "import:github.com/charmbracelet/bubbletea",
+      "afferent_coupling": 4,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/glamour": {
+      "object_id": "import:github.com/charmbracelet/glamour",
+      "afferent_coupling": 3,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/glamour/ansi": {
+      "object_id": "import:github.com/charmbracelet/glamour/ansi",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/glamour/styles": {
+      "object_id": "import:github.com/charmbracelet/glamour/styles",
+      "afferent_coupling": 3,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/glow/v2/ui": {
+      "object_id": "import:github.com/charmbracelet/glow/v2/ui",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/glow/v2/utils": {
+      "object_id": "import:github.com/charmbracelet/glow/v2/utils",
+      "afferent_coupling": 3,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/lipgloss": {
+      "object_id": "import:github.com/charmbracelet/lipgloss",
+      "afferent_coupling": 7,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/log": {
+      "object_id": "import:github.com/charmbracelet/log",
+      "afferent_coupling": 7,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/charmbracelet/x/editor": {
+      "object_id": "import:github.com/charmbracelet/x/editor",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/dustin/go-humanize": {
+      "object_id": "import:github.com/dustin/go-humanize",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/fsnotify/fsnotify": {
+      "object_id": "import:github.com/fsnotify/fsnotify",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/mattn/go-runewidth": {
+      "object_id": "import:github.com/mattn/go-runewidth",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/mitchellh/go-homedir": {
+      "object_id": "import:github.com/mitchellh/go-homedir",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/muesli/gitcha": {
+      "object_id": "import:github.com/muesli/gitcha",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/muesli/go-app-paths": {
+      "object_id": "import:github.com/muesli/go-app-paths",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/muesli/mango-cobra": {
+      "object_id": "import:github.com/muesli/mango-cobra",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/muesli/reflow/ansi": {
+      "object_id": "import:github.com/muesli/reflow/ansi",
+      "afferent_coupling": 3,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/muesli/reflow/truncate": {
+      "object_id": "import:github.com/muesli/reflow/truncate",
+      "afferent_coupling": 3,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/muesli/roff": {
+      "object_id": "import:github.com/muesli/roff",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/muesli/termenv": {
+      "object_id": "import:github.com/muesli/termenv",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/sahilm/fuzzy": {
+      "object_id": "import:github.com/sahilm/fuzzy",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/spf13/cobra": {
+      "object_id": "import:github.com/spf13/cobra",
+      "afferent_coupling": 3,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/spf13/viper": {
+      "object_id": "import:github.com/spf13/viper",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:golang.org/x/sys/windows": {
+      "object_id": "import:golang.org/x/sys/windows",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:golang.org/x/term": {
+      "object_id": "import:golang.org/x/term",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:golang.org/x/text/runes": {
+      "object_id": "import:golang.org/x/text/runes",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:golang.org/x/text/transform": {
+      "object_id": "import:golang.org/x/text/transform",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:golang.org/x/text/unicode/norm": {
+      "object_id": "import:golang.org/x/text/unicode/norm",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:io": {
+      "object_id": "import:io",
+      "afferent_coupling": 4,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:io/fs": {
+      "object_id": "import:io/fs",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:math": {
+      "object_id": "import:math",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:net/http": {
+      "object_id": "import:net/http",
+      "afferent_coupling": 3,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:net/url": {
+      "object_id": "import:net/url",
+      "afferent_coupling": 4,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:os": {
+      "object_id": "import:os",
+      "afferent_coupling": 8,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:os/exec": {
+      "object_id": "import:os/exec",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:path": {
+      "object_id": "import:path",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:path/filepath": {
+      "object_id": "import:path/filepath",
+      "afferent_coupling": 7,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:regexp": {
+      "object_id": "import:regexp",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:slices": {
+      "object_id": "import:slices",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:sort": {
+      "object_id": "import:sort",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:strings": {
+      "object_id": "import:strings",
+      "afferent_coupling": 10,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:sync": {
+      "object_id": "import:sync",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:time": {
+      "object_id": "import:time",
+      "afferent_coupling": 4,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:unicode": {
+      "object_id": "import:unicode",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "log.go": {
+      "object_id": "log.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "main.enableAnsiColors": {
+      "object_id": "main.enableAnsiColors",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.ensureConfigFile": {
+      "object_id": "main.ensureConfigFile",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.execute": {
+      "object_id": "main.execute",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.executeArg": {
+      "object_id": "main.executeArg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.executeCLI": {
+      "object_id": "main.executeCLI",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.findGitHubREADME": {
+      "object_id": "main.findGitHubREADME",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.findGitLabREADME": {
+      "object_id": "main.findGitLabREADME",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.getLogFilePath": {
+      "object_id": "main.getLogFilePath",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.githubReadmeURL": {
+      "object_id": "main.githubReadmeURL",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.gitlabReadmeURL": {
+      "object_id": "main.gitlabReadmeURL",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.go": {
+      "object_id": "main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 32,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "main.init": {
+      "object_id": "main.init",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.isURL": {
+      "object_id": "main.isURL",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.main": {
+      "object_id": "main.main",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.readmeURL": {
+      "object_id": "main.readmeURL",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.runTUI": {
+      "object_id": "main.runTUI",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.setupLog": {
+      "object_id": "main.setupLog",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.source": {
+      "object_id": "main.source",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "main.sourceFromArg": {
+      "object_id": "main.sourceFromArg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.stdinIsPipe": {
+      "object_id": "main.stdinIsPipe",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.tryLoadConfigFromDefaultPlaces": {
+      "object_id": "main.tryLoadConfigFromDefaultPlaces",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.validateOptions": {
+      "object_id": "main.validateOptions",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "main.validateStyle": {
+      "object_id": "main.validateStyle",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "man_cmd.go": {
+      "object_id": "man_cmd.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 5,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "style.go": {
+      "object_id": "style.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 1,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "ui.*markdown.buildFilterValue": {
+      "object_id": "ui.*markdown.buildFilterValue",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*model.unloadDocument": {
+      "object_id": "ui.*model.unloadDocument",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*pagerModel.initWatcher": {
+      "object_id": "ui.*pagerModel.initWatcher",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*pagerModel.localDir": {
+      "object_id": "ui.*pagerModel.localDir",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*pagerModel.setContent": {
+      "object_id": "ui.*pagerModel.setContent",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*pagerModel.setSize": {
+      "object_id": "ui.*pagerModel.setSize",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*pagerModel.showStatusMessage": {
+      "object_id": "ui.*pagerModel.showStatusMessage",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*pagerModel.toggleHelp": {
+      "object_id": "ui.*pagerModel.toggleHelp",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*pagerModel.unload": {
+      "object_id": "ui.*pagerModel.unload",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*pagerModel.unwatchFile": {
+      "object_id": "ui.*pagerModel.unwatchFile",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*pagerModel.watchFile": {
+      "object_id": "ui.*pagerModel.watchFile",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*stashModel.addMarkdowns": {
+      "object_id": "ui.*stashModel.addMarkdowns",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*stashModel.handleDocumentBrowsing": {
+      "object_id": "ui.*stashModel.handleDocumentBrowsing",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*stashModel.handleFiltering": {
+      "object_id": "ui.*stashModel.handleFiltering",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*stashModel.hideStatusMessage": {
+      "object_id": "ui.*stashModel.hideStatusMessage",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*stashModel.moveCursorDown": {
+      "object_id": "ui.*stashModel.moveCursorDown",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*stashModel.moveCursorUp": {
+      "object_id": "ui.*stashModel.moveCursorUp",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*stashModel.openMarkdown": {
+      "object_id": "ui.*stashModel.openMarkdown",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*stashModel.resetFiltering": {
+      "object_id": "ui.*stashModel.resetFiltering",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*stashModel.setCursor": {
+      "object_id": "ui.*stashModel.setCursor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*stashModel.setPaginator": {
+      "object_id": "ui.*stashModel.setPaginator",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*stashModel.setSize": {
+      "object_id": "ui.*stashModel.setSize",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.*stashModel.updatePagination": {
+      "object_id": "ui.*stashModel.updatePagination",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.Config": {
+      "object_id": "ui.Config",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "ui.NewProgram": {
+      "object_id": "ui.NewProgram",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "ui.applicationContext": {
+      "object_id": "ui.applicationContext",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "ui.commonModel": {
+      "object_id": "ui.commonModel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "ui.concatStringSlices": {
+      "object_id": "ui.concatStringSlices",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.contentRenderedMsg": {
+      "object_id": "ui.contentRenderedMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "ui.editorFinishedMsg": {
+      "object_id": "ui.editorFinishedMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "ui.errMsg": {
+      "object_id": "ui.errMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "ui.errMsg.Error": {
+      "object_id": "ui.errMsg.Error",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "ui.errorView": {
+      "object_id": "ui.errorView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.fetchedMarkdownMsg": {
+      "object_id": "ui.fetchedMarkdownMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "ui.filterMarkdowns": {
+      "object_id": "ui.filterMarkdowns",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.filterState": {
+      "object_id": "ui.filterState",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "ui.filteredMarkdownMsg": {
+      "object_id": "ui.filteredMarkdownMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "ui.findLocalFiles": {
+      "object_id": "ui.findLocalFiles",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.findNextLocalFile": {
+      "object_id": "ui.findNextLocalFile",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.foundLocalFileMsg": {
+      "object_id": "ui.foundLocalFileMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "ui.glamourRender": {
+      "object_id": "ui.glamourRender",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.glowLogoView": {
+      "object_id": "ui.glowLogoView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.helpColumn": {
+      "object_id": "ui.helpColumn",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "ui.helpColumn.maxWidths": {
+      "object_id": "ui.helpColumn.maxWidths",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.helpColumn.render": {
+      "object_id": "ui.helpColumn.render",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.helpEntry": {
+      "object_id": "ui.helpEntry",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "ui.ignorePatterns": {
+      "object_id": "ui.ignorePatterns",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.indent": {
+      "object_id": "ui.indent",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.initLocalFileSearchMsg": {
+      "object_id": "ui.initLocalFileSearchMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "ui.initSections": {
+      "object_id": "ui.initSections",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.loadLocalMarkdown": {
+      "object_id": "ui.loadLocalMarkdown",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.localFileSearchFinished": {
+      "object_id": "ui.localFileSearchFinished",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "ui.localFileToMarkdown": {
+      "object_id": "ui.localFileToMarkdown",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.markdown": {
+      "object_id": "ui.markdown",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "ui.markdown.relativeTime": {
+      "object_id": "ui.markdown.relativeTime",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.mergeColumns": {
+      "object_id": "ui.mergeColumns",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.model": {
+      "object_id": "ui.model",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "ui.model.Init": {
+      "object_id": "ui.model.Init",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "ui.model.Update": {
+      "object_id": "ui.model.Update",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "ui.model.View": {
+      "object_id": "ui.model.View",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "ui.newHelpColumn": {
+      "object_id": "ui.newHelpColumn",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.newModel": {
+      "object_id": "ui.newModel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.newPagerModel": {
+      "object_id": "ui.newPagerModel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.newStashModel": {
+      "object_id": "ui.newStashModel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.newStashPaginator": {
+      "object_id": "ui.newStashPaginator",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.normalize": {
+      "object_id": "ui.normalize",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.openEditor": {
+      "object_id": "ui.openEditor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.pagerModel": {
+      "object_id": "ui.pagerModel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "ui.pagerModel.View": {
+      "object_id": "ui.pagerModel.View",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "ui.pagerModel.helpView": {
+      "object_id": "ui.pagerModel.helpView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.pagerModel.statusBarView": {
+      "object_id": "ui.pagerModel.statusBarView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.pagerModel.update": {
+      "object_id": "ui.pagerModel.update",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.pagerState": {
+      "object_id": "ui.pagerState",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "ui.pagerStatusMessage": {
+      "object_id": "ui.pagerStatusMessage",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "ui.relativeTime": {
+      "object_id": "ui.relativeTime",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.reloadMsg": {
+      "object_id": "ui.reloadMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "ui.renderWithGlamour": {
+      "object_id": "ui.renderWithGlamour",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.section": {
+      "object_id": "ui.section",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "ui.sectionKey": {
+      "object_id": "ui.sectionKey",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "ui.sortMarkdowns": {
+      "object_id": "ui.sortMarkdowns",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashItemView": {
+      "object_id": "ui.stashItemView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel": {
+      "object_id": "ui.stashModel",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "ui.stashModel.currentSection": {
+      "object_id": "ui.stashModel.currentSection",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.cursor": {
+      "object_id": "ui.stashModel.cursor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.filterApplied": {
+      "object_id": "ui.stashModel.filterApplied",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.fullHelpView": {
+      "object_id": "ui.stashModel.fullHelpView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.getVisibleMarkdowns": {
+      "object_id": "ui.stashModel.getVisibleMarkdowns",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.headerView": {
+      "object_id": "ui.stashModel.headerView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.helpView": {
+      "object_id": "ui.stashModel.helpView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.loadingDone": {
+      "object_id": "ui.stashModel.loadingDone",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.markdownIndex": {
+      "object_id": "ui.stashModel.markdownIndex",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.miniHelpView": {
+      "object_id": "ui.stashModel.miniHelpView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.paginator": {
+      "object_id": "ui.stashModel.paginator",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.populatedView": {
+      "object_id": "ui.stashModel.populatedView",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.renderHelp": {
+      "object_id": "ui.stashModel.renderHelp",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.selectedMarkdown": {
+      "object_id": "ui.stashModel.selectedMarkdown",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.shouldSpin": {
+      "object_id": "ui.stashModel.shouldSpin",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.shouldUpdateFilter": {
+      "object_id": "ui.stashModel.shouldUpdateFilter",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.update": {
+      "object_id": "ui.stashModel.update",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashModel.view": {
+      "object_id": "ui.stashModel.view",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.stashViewState": {
+      "object_id": "ui.stashViewState",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "ui.state": {
+      "object_id": "ui.state",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "ui.state.String": {
+      "object_id": "ui.state.String",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "ui.statusMessage": {
+      "object_id": "ui.statusMessage",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "ui.statusMessage.String": {
+      "object_id": "ui.statusMessage.String",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "ui.statusMessageTimeoutMsg": {
+      "object_id": "ui.statusMessageTimeoutMsg",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "ui.statusMessageType": {
+      "object_id": "ui.statusMessageType",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "ui.stripAbsolutePath": {
+      "object_id": "ui.stripAbsolutePath",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.styleFilteredText": {
+      "object_id": "ui.styleFilteredText",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui.waitForStatusMessageTimeout": {
+      "object_id": "ui.waitForStatusMessageTimeout",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "ui/config.go": {
+      "object_id": "ui/config.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 1,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "ui/editor.go": {
+      "object_id": "ui/editor.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 4,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "ui/ignore_darwin.go": {
+      "object_id": "ui/ignore_darwin.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 2,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "ui/ignore_general.go": {
+      "object_id": "ui/ignore_general.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "ui/keys.go": {
+      "object_id": "ui/keys.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "ui/markdown.go": {
+      "object_id": "ui/markdown.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 14,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "ui/pager.go": {
+      "object_id": "ui/pager.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 38,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "ui/sort.go": {
+      "object_id": "ui/sort.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 3,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "ui/stash.go": {
+      "object_id": "ui/stash.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 57,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "ui/stashhelp.go": {
+      "object_id": "ui/stashhelp.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 14,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "ui/stashitem.go": {
+      "object_id": "ui/stashitem.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "ui/styles.go": {
+      "object_id": "ui/styles.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 1,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "ui/ui.go": {
+      "object_id": "ui/ui.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 35,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "url.go": {
+      "object_id": "url.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "utils.ExpandPath": {
+      "object_id": "utils.ExpandPath",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "utils.GlamourStyle": {
+      "object_id": "utils.GlamourStyle",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "utils.IsMarkdownFile": {
+      "object_id": "utils.IsMarkdownFile",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "utils.RemoveFrontmatter": {
+      "object_id": "utils.RemoveFrontmatter",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "utils.WrapCodeBlock": {
+      "object_id": "utils.WrapCodeBlock",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "utils.detectFrontmatter": {
+      "object_id": "utils.detectFrontmatter",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "utils/utils.go": {
+      "object_id": "utils/utils.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 15,
+      "instability": 1,
+      "abstractness": 0
+    }
+  },
+  "cycles": null,
+  "top_unstable": [
+    {
+      "object_id": "ui/ignore_darwin.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 2,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "ui/styles.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 1,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "ui/stashhelp.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 14,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "ui/pager.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 38,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "console_windows.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 4,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "config_cmd.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 10,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "gitlab.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "ui/markdown.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 14,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "man_cmd.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 5,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "github.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 8,
+      "instability": 1,
+      "abstractness": 0
+    }
+  ],
+  "top_coupled": [
+    {
+      "object_id": "ui/stash.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 57,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "ui/pager.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 38,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "ui/ui.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 35,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "main.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 32,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "utils/utils.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 15,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "ui/stashhelp.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 14,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "ui/markdown.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 14,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "import:fmt",
+      "afferent_coupling": 13,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    {
+      "object_id": "import:strings",
+      "afferent_coupling": 10,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    {
+      "object_id": "config_cmd.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 10,
+      "instability": 1,
+      "abstractness": 0
+    }
+  ]
+}
