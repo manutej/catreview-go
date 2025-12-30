@@ -385,3 +385,15 @@ func countUnique(m map[string]string) int {
 	}
 	return len(unique)
 }
+
+// Language returns the source language name.
+// Implements the Extractor interface.
+func (e *GoExtractor) Language() string {
+	return "go"
+}
+
+// FileExtensions returns the file extensions handled by this extractor.
+// Implements the Extractor interface.
+func (e *GoExtractor) FileExtensions() []string {
+	return []string{".go"}
+}
