@@ -1,0 +1,322 @@
+digraph CompositionStructure {
+  rankdir=TB;
+  node [shape=box, style="rounded,filled"];
+  edge [penwidth=1.5];
+  label="Composition Structure (Top 20 modules by object count)";
+  fontsize=16;
+
+  subgraph cluster_0 {
+    label="core_schema";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic_core.core_schema.model_fields_schema" [label="model_fields_schema", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic_core.core_schema.TimedeltaSchema" [label="TimedeltaSchema", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic_core.core_schema.call_schema" [label="call_schema", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic_core.core_schema.general_plain_validator_function" [label="general_plain_validator_function", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic_core.core_schema.chain_schema" [label="chain_schema", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic_core.core_schema.no_info_after_validator_function" [label="no_info_after_validator_function", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic_core.core_schema.definitions_schema" [label="definitions_schema", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic_core.core_schema.BytesSchema" [label="BytesSchema", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic_core.core_schema.complex_schema" [label="complex_schema", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic_core.core_schema.MultiHostUrlSchema" [label="MultiHostUrlSchema", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_1 {
+    label="_regex_core";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.DefaultBoundary" [label="DefaultBoundary", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_positional_flags" [label="parse_positional_flags", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core._check_firstset" [label="_check_firstset", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_limited_quantifier" [label="parse_limited_quantifier", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core._get_required_string" [label="_get_required_string", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_flags_subpattern" [label="parse_flags_subpattern", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.error" [label="error", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_numeric_escape" [label="parse_numeric_escape", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_sequence" [label="parse_sequence", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_cost_equation" [label="parse_cost_equation", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_2 {
+    label="errors";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.errors.IPv4NetworkError" [label="IPv4NetworkError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.errors.ListError" [label="ListError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.errors.UrlExtraError" [label="UrlExtraError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.errors.JsonError" [label="JsonError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.errors.NotDigitError" [label="NotDigitError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.errors.FrozenSetError" [label="FrozenSetError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.errors.UrlSchemeError" [label="UrlSchemeError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.errors.InvalidByteSize" [label="InvalidByteSize", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.errors.InvalidLengthForBrand" [label="InvalidLengthForBrand", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.errors.UrlHostTldError" [label="UrlHostTldError", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_3 {
+    label="uts46data";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.idna.uts46data._seg_27" [label="_seg_27", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.idna.uts46data._seg_77" [label="_seg_77", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.idna.uts46data._seg_60" [label="_seg_60", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.idna.uts46data._seg_46" [label="_seg_46", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.idna.uts46data._seg_17" [label="_seg_17", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.idna.uts46data._seg_64" [label="_seg_64", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.idna.uts46data._seg_67" [label="_seg_67", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.idna.uts46data._seg_43" [label="_seg_43", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.idna.uts46data._seg_6" [label="_seg_6", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.idna.uts46data._seg_42" [label="_seg_42", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_4 {
+    label="uts46data";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_25" [label="_seg_25", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_24" [label="_seg_24", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_46" [label="_seg_46", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_23" [label="_seg_23", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_48" [label="_seg_48", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_32" [label="_seg_32", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_68" [label="_seg_68", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_43" [label="_seg_43", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_17" [label="_seg_17", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_40" [label="_seg_40", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_5 {
+    label="templates";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pygments.lexers.templates.LassoXmlLexer" [label="LassoXmlLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pygments.lexers.templates.EvoqueLexer" [label="EvoqueLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pygments.lexers.templates.CssDjangoLexer" [label="CssDjangoLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pygments.lexers.templates.EvoqueXmlLexer" [label="EvoqueXmlLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pygments.lexers.templates.ColdfusionMarkupLexer" [label="ColdfusionMarkupLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pygments.lexers.templates.XmlErbLexer" [label="XmlErbLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pygments.lexers.templates.JspLexer" [label="JspLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pygments.lexers.templates.CheetahPythonLexer" [label="CheetahPythonLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pygments.lexers.templates.CheetahLexer" [label="CheetahLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pygments.lexers.templates.TwigHtmlLexer" [label="TwigHtmlLexer", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_6 {
+    label="_make";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.attr._make.ClassProps" [label="ClassProps", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.attr._make.attrs_to_tuple" [label="attrs_to_tuple", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.attr._make.attrs" [label="attrs", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.attr._make._setattr" [label="_setattr", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.attr._make._make_repr_script" [label="_make_repr_script", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.attr._make.__ne__" [label="__ne__", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.attr._make._determine_attrs_eq_order" [label="_determine_attrs_eq_order", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.attr._make.validate" [label="validate", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.attr._make._make_eq_script" [label="_make_eq_script", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.attr._make._frozen_setattrs" [label="_frozen_setattrs", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_7 {
+    label="util";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.HTTPSOnlyHandler" [label="HTTPSOnlyHandler", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.ExportEntry" [label="ExportEntry", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.unarchive" [label="unarchive", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.SafeTransport" [label="SafeTransport", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.iglob" [label="iglob", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.FileOperator" [label="FileOperator", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.get_executable" [label="get_executable", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.resolve" [label="resolve", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.get_host_platform" [label="get_host_platform", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.EventMixin" [label="EventMixin", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_8 {
+    label="web_exceptions";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.aiohttp.web_exceptions.HTTPSeeOther" [label="HTTPSeeOther", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.aiohttp.web_exceptions.HTTPNotFound" [label="HTTPNotFound", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.aiohttp.web_exceptions.HTTPGatewayTimeout" [label="HTTPGatewayTimeout", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.aiohttp.web_exceptions.HTTPPaymentRequired" [label="HTTPPaymentRequired", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.aiohttp.web_exceptions.HTTPConflict" [label="HTTPConflict", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.aiohttp.web_exceptions.HTTPForbidden" [label="HTTPForbidden", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.aiohttp.web_exceptions.HTTPException" [label="HTTPException", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.aiohttp.web_exceptions.HTTPRequestTimeout" [label="HTTPRequestTimeout", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.aiohttp.web_exceptions.HTTPUseProxy" [label="HTTPUseProxy", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.aiohttp.web_exceptions.HTTPSuccessful" [label="HTTPSuccessful", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_9 {
+    label="validators";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.validators.hashable_validator" [label="hashable_validator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.validators.pattern_validator" [label="pattern_validator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.validators.list_validator" [label="list_validator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.validators.decimal_validator" [label="decimal_validator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.validators.typeddict_validator" [label="typeddict_validator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.validators.float_finite_validator" [label="float_finite_validator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.validators.make_namedtuple_validator" [label="make_namedtuple_validator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.validators.set_validator" [label="set_validator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.validators.dict_validator" [label="dict_validator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.validators.frozenset_validator" [label="frozenset_validator", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_10 {
+    label="utils";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils.get_workspace_id" [label="get_workspace_id", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils.get_env_var" [label="get_env_var", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils.with_cache" [label="with_cache", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils.is_base_message_like" [label="is_base_message_like", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils.convert_langchain_message" [label="convert_langchain_message", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils.test_tracking_is_disabled" [label="test_tracking_is_disabled", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils.LangSmithUserError" [label="LangSmithUserError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils._is_localhost" [label="_is_localhost", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils.is_env_var_truish" [label="is_env_var_truish", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils.get_docker_compose_command" [label="get_docker_compose_command", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_11 {
+    label="hookspec";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages._pytest.hookspec.pytest_collectstart" [label="pytest_collectstart", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages._pytest.hookspec.pytest_runtestloop" [label="pytest_runtestloop", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages._pytest.hookspec.pytest_collect_directory" [label="pytest_collect_directory", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages._pytest.hookspec.pytest_collectreport" [label="pytest_collectreport", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages._pytest.hookspec.pytest_runtest_makereport" [label="pytest_runtest_makereport", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages._pytest.hookspec.pytest_plugin_registered" [label="pytest_plugin_registered", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages._pytest.hookspec.pytest_pyfunc_call" [label="pytest_pyfunc_call", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages._pytest.hookspec.pytest_cmdline_parse" [label="pytest_cmdline_parse", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages._pytest.hookspec.pytest_addhooks" [label="pytest_addhooks", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages._pytest.hookspec.pytest_runtest_protocol" [label="pytest_runtest_protocol", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_12 {
+    label="misc";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.utils.misc.get_pip_version" [label="get_pip_version", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.utils.misc.redact_auth_from_requirement" [label="redact_auth_from_requirement", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.utils.misc.tabulate" [label="tabulate", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.utils.misc._get_netloc" [label="_get_netloc", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.utils.misc.ConfiguredBuildBackendHookCaller" [label="ConfiguredBuildBackendHookCaller", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.utils.misc.is_local" [label="is_local", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.utils.misc.normalize_path" [label="normalize_path", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.utils.misc.get_prog" [label="get_prog", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.utils.misc.backup_dir" [label="backup_dir", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.utils.misc._check_no_input" [label="_check_no_input", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_13 {
+    label="types";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.types.PastDate" [label="PastDate", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.types.AwareDatetime" [label="AwareDatetime", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.types.FutureDatetime" [label="FutureDatetime", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.types.EncoderProtocol" [label="EncoderProtocol", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.types.Discriminator" [label="Discriminator", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.types._serialize_secret_field" [label="_serialize_secret_field", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.types._OnErrorOmit" [label="_OnErrorOmit", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.types.Tag" [label="Tag", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.types.UuidVersion" [label="UuidVersion", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.types.GetPydanticSchema" [label="GetPydanticSchema", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_14 {
+    label="utils";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.get_proxy" [label="get_proxy", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.urldefragauth" [label="urldefragauth", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.extract_zipped_paths" [label="extract_zipped_paths", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.set_environ" [label="set_environ", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.dict_to_sequence" [label="dict_to_sequence", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.iter_slices" [label="iter_slices", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.get_auth_from_url" [label="get_auth_from_url", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.to_key_val_list" [label="to_key_val_list", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.check_header_validity" [label="check_header_validity", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.parse_list_header" [label="parse_list_header", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_15 {
+    label="utils";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.requests.utils.unquote_unreserved" [label="unquote_unreserved", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.requests.utils.get_auth_from_url" [label="get_auth_from_url", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.requests.utils.stream_decode_response_unicode" [label="stream_decode_response_unicode", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.requests.utils.select_proxy" [label="select_proxy", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.requests.utils._parse_content_type_header" [label="_parse_content_type_header", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.requests.utils.get_unicode_from_response" [label="get_unicode_from_response", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.requests.utils.get_environ_proxies" [label="get_environ_proxies", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.requests.utils.iter_slices" [label="iter_slices", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.requests.utils.proxy_bypass" [label="proxy_bypass", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.requests.utils.default_headers" [label="default_headers", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_16 {
+    label="types";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.types.PositiveFloat" [label="PositiveFloat", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.types.PaymentCardBrand" [label="PaymentCardBrand", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.types.DirectoryPath" [label="DirectoryPath", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.types.StrictInt" [label="StrictInt", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.types.UUID5" [label="UUID5", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.types.UUID3" [label="UUID3", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.types.ConstrainedDate" [label="ConstrainedDate", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.types.NonNegativeFloat" [label="NonNegativeFloat", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.types.StrictFloat" [label="StrictFloat", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pydantic.v1.types.JsonMeta" [label="JsonMeta", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_17 {
+    label="exceptions";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.exceptions.PipError" [label="PipError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.exceptions.DiagnosticPipError" [label="DiagnosticPipError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.exceptions.PreviousBuildDirError" [label="PreviousBuildDirError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.exceptions._prefix_with_indent" [label="_prefix_with_indent", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.exceptions.InvalidSchemeCombination" [label="InvalidSchemeCombination", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.exceptions.ResolutionTooDeepError" [label="ResolutionTooDeepError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.exceptions.InvalidWheelFilename" [label="InvalidWheelFilename", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.exceptions.LegacyDistutilsInstall" [label="LegacyDistutilsInstall", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.exceptions.HashMismatch" [label="HashMismatch", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.exceptions.RequirementsFileParseError" [label="RequirementsFileParseError", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_18 {
+    label="exceptions";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.urllib3.exceptions.LocationValueError" [label="LocationValueError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.urllib3.exceptions.ProxyError" [label="ProxyError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.urllib3.exceptions.EmptyPoolError" [label="EmptyPoolError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.urllib3.exceptions.NameResolutionError" [label="NameResolutionError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.urllib3.exceptions.PoolError" [label="PoolError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.urllib3.exceptions.MaxRetryError" [label="MaxRetryError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.urllib3.exceptions.BodyNotHttplibCompatible" [label="BodyNotHttplibCompatible", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.urllib3.exceptions.ProxySchemeUnsupported" [label="ProxySchemeUnsupported", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.urllib3.exceptions.NotOpenSSLWarning" [label="NotOpenSSLWarning", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.urllib3.exceptions.LocationParseError" [label="LocationParseError", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_19 {
+    label="exceptions";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.SNIMissingWarning" [label="SNIMissingWarning", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.HeaderParsingError" [label="HeaderParsingError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.SSLError" [label="SSLError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.InvalidHeader" [label="InvalidHeader", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.InvalidChunkLength" [label="InvalidChunkLength", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.MaxRetryError" [label="MaxRetryError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.SubjectAltNameWarning" [label="SubjectAltNameWarning", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.SecurityWarning" [label="SecurityWarning", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.DecodeError" [label="DecodeError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.BodyNotHttplibCompatible" [label="BodyNotHttplibCompatible", fillcolor=lightblue, shape=box];
+  }
+
+  "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils.is_env_var_truish" -> "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils.get_env_var" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.utils.misc.is_local" -> "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.pip._internal.utils.misc.normalize_path" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils.get_workspace_id" -> "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils.get_env_var" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_numeric_escape" -> "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.error" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_cost_equation" -> "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.error" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_limited_quantifier" -> "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.error" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_flags_subpattern" -> "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.error" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils.test_tracking_is_disabled" -> "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.langsmith.utils.get_env_var" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_limited_quantifier" -> "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.error" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_flags_subpattern" -> "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.error" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_flags_subpattern" -> "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_positional_flags" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_cost_equation" -> "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.error" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.parse_flags_subpattern" -> "Users.manu.Documents.LUXOR.PROJECTS.ai-dialogue.venv.lib.python3.14.site-packages.regex._regex_core.error" [color=green, style=dashed];
+}

@@ -4,7 +4,7 @@
 *.dll
 *.so
 *.dylib
-catreview
+/catreview
 catreview-*
 
 # Test binary, built with `go test -c`
@@ -52,3 +52,13 @@ ehthumbs.db
 # Backup files
 *.bak
 *.backup
+
+# Python cache (from extractor scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Analysis outputs are KEPT (explicitly tracked)
+# analysis/ directory and all its contents should be committed

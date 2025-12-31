@@ -1,0 +1,341 @@
+digraph CompositionStructure {
+  rankdir=TB;
+  node [shape=box, style="rounded,filled"];
+  edge [penwidth=1.5];
+  label="Composition Structure (Top 20 modules by object count)";
+  fontsize=16;
+
+  subgraph cluster_0 {
+    label="uts46data";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_78" [label="_seg_78", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_3" [label="_seg_3", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_16" [label="_seg_16", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_49" [label="_seg_49", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_24" [label="_seg_24", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_11" [label="_seg_11", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_59" [label="_seg_59", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_14" [label="_seg_14", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_71" [label="_seg_71", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_51" [label="_seg_51", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_1 {
+    label="util";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.marker_expr" [label="marker_expr", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.tempdir" [label="tempdir", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.marker_var" [label="marker_var", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.get_extras" [label="get_extras", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.CSVBase" [label="CSVBase", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.read_exports" [label="read_exports", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.util._store_pypirc" [label="_store_pypirc", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.chdir" [label="chdir", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.normalize_name" [label="normalize_name", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.parse_name_and_version" [label="parse_name_and_version", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_2 {
+    label="misc";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.utils.misc.display_path" [label="display_path", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.utils.misc.ask_password" [label="ask_password", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.utils.misc.read_chunks" [label="read_chunks", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.utils.misc.ConfiguredBuildBackendHookCaller" [label="ConfiguredBuildBackendHookCaller", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.utils.misc.normalize_version_info" [label="normalize_version_info", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.utils.misc.build_url_from_netloc" [label="build_url_from_netloc", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.utils.misc.parse_netloc" [label="parse_netloc", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.utils.misc.ask_path_exists" [label="ask_path_exists", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.utils.misc.rmtree" [label="rmtree", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.utils.misc.warn_if_run_as_root" [label="warn_if_run_as_root", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_3 {
+    label="utils";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.requote_uri" [label="requote_uri", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.parse_header_links" [label="parse_header_links", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.unquote_unreserved" [label="unquote_unreserved", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.atomic_open" [label="atomic_open", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.get_proxy" [label="get_proxy", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.get_netrc_auth" [label="get_netrc_auth", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.default_headers" [label="default_headers", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.proxy_bypass" [label="proxy_bypass", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.select_proxy" [label="select_proxy", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.rewind_body" [label="rewind_body", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_4 {
+    label="exceptions";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.exceptions._is_kebab_case" [label="_is_kebab_case", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.exceptions.InvalidWheelFilename" [label="InvalidWheelFilename", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.exceptions.InstallationSubprocessError" [label="InstallationSubprocessError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.exceptions.UnsupportedPythonVersion" [label="UnsupportedPythonVersion", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.exceptions.DiagnosticPipError" [label="DiagnosticPipError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.exceptions.MetadataGenerationFailed" [label="MetadataGenerationFailed", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.exceptions.UnsupportedWheel" [label="UnsupportedWheel", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.exceptions.VcsHashUnsupported" [label="VcsHashUnsupported", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.exceptions.ConfigurationError" [label="ConfigurationError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.exceptions.FailedToPrepareCandidate" [label="FailedToPrepareCandidate", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_5 {
+    label="function";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.classes.function.is_empty" [label="is_empty", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.classes.function.add_cycle" [label="add_cycle", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.classes.function.remove_node_attributes" [label="remove_node_attributes", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.classes.function.is_path" [label="is_path", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.classes.function.non_edges" [label="non_edges", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.classes.function.to_undirected" [label="to_undirected", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.classes.function.common_neighbors" [label="common_neighbors", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.classes.function.is_frozen" [label="is_frozen", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.classes.function.number_of_edges" [label="number_of_edges", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.classes.function.all_neighbors" [label="all_neighbors", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_6 {
+    label="exceptions";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.ReadTimeoutError" [label="ReadTimeoutError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.ProtocolError" [label="ProtocolError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.ProxySchemeUnsupported" [label="ProxySchemeUnsupported", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.TimeoutError" [label="TimeoutError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.InvalidHeader" [label="InvalidHeader", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.SSLError" [label="SSLError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.InsecureRequestWarning" [label="InsecureRequestWarning", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.PoolError" [label="PoolError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.TimeoutStateError" [label="TimeoutStateError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.LocationValueError" [label="LocationValueError", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_7 {
+    label="__init__";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.platformdirs.__init__.user_cache_path" [label="user_cache_path", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.platformdirs.__init__.user_config_dir" [label="user_config_dir", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.platformdirs.__init__.user_runtime_dir" [label="user_runtime_dir", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.platformdirs.__init__.user_documents_path" [label="user_documents_path", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.platformdirs.__init__.site_runtime_dir" [label="site_runtime_dir", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.platformdirs.__init__.user_desktop_path" [label="user_desktop_path", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.platformdirs.__init__.user_pictures_path" [label="user_pictures_path", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.platformdirs.__init__.user_log_dir" [label="user_log_dir", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.platformdirs.__init__.user_videos_dir" [label="user_videos_dir", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.platformdirs.__init__._set_platform_dir_class" [label="_set_platform_dir_class", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_8 {
+    label="wheel";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel._normalized_outrows" [label="_normalized_outrows", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel.assert_no_path_traversal" [label="assert_no_path_traversal", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel.is_entrypoint_wrapper" [label="is_entrypoint_wrapper", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel.ZipBackedFile" [label="ZipBackedFile", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel.make_data_scheme_file" [label="make_data_scheme_file", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel.csv_io_kwargs" [label="csv_io_kwargs", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel.data_scheme_file_maker" [label="data_scheme_file_maker", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel.root_scheme_file_maker" [label="root_scheme_file_maker", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel._raise_for_invalid_entrypoint" [label="_raise_for_invalid_entrypoint", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel._install_wheel" [label="_install_wheel", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_9 {
+    label="cmdoptions";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.cli.cmdoptions._handle_config_settings" [label="_handle_config_settings", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.cli.cmdoptions.find_links" [label="find_links", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.cli.cmdoptions._handle_merge_hash" [label="_handle_merge_hash", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.cli.cmdoptions.make_option_group" [label="make_option_group", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.cli.cmdoptions.make_target_python" [label="make_target_python", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.cli.cmdoptions.raise_option_error" [label="raise_option_error", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.cli.cmdoptions._handle_no_cache_dir" [label="_handle_no_cache_dir", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.cli.cmdoptions.no_binary" [label="no_binary", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.cli.cmdoptions.exists_action" [label="exists_action", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.cli.cmdoptions.constraints" [label="constraints", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_10 {
+    label="_compat";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.click._compat.get_text_stderr" [label="get_text_stderr", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.click._compat.open_stream" [label="open_stream", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.click._compat._make_text_stream" [label="_make_text_stream", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.click._compat.get_text_stdout" [label="get_text_stdout", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.click._compat.get_binary_stdout" [label="get_binary_stdout", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.click._compat.get_binary_stdin" [label="get_binary_stdin", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.click._compat._AtomicFile" [label="_AtomicFile", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.click._compat._find_binary_reader" [label="_find_binary_reader", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.click._compat._NonClosingTextIOWrapper" [label="_NonClosingTextIOWrapper", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.click._compat._is_binary_reader" [label="_is_binary_reader", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_11 {
+    label="_parser";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.load" [label="load", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.parse_key_part" [label="parse_key_part", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.parse_basic_str_escape_multiline" [label="parse_basic_str_escape_multiline", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.DEPRECATED_DEFAULT" [label="DEPRECATED_DEFAULT", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.create_list_rule" [label="create_list_rule", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.parse_key" [label="parse_key", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.loads" [label="loads", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.Flags" [label="Flags", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.skip_comments_and_array_ws" [label="skip_comments_and_array_ws", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.parse_literal_str" [label="parse_literal_str", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_12 {
+    label="compat";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.compat.read_or_stop" [label="read_or_stop", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.compat.ZipFile" [label="ZipFile", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.compat.pop" [label="pop", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.compat.quote" [label="quote", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.compat.wrapper" [label="wrapper", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.compat._recursive_repr" [label="_recursive_repr", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.compat.ZipExtFile" [label="ZipExtFile", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.compat.callable" [label="callable", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.compat.ConvertingDict" [label="ConvertingDict", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.compat.valid_ident" [label="valid_ident", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_13 {
+    label="pretty";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty.BrokenRepr" [label="BrokenRepr", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty.Thing" [label="Thing", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty.Node" [label="Node", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty.display_hook" [label="display_hook", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty.iter_rich_args" [label="iter_rich_args", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty.pretty_repr" [label="pretty_repr", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty.StockKeepingUnit" [label="StockKeepingUnit", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty._safe_isinstance" [label="_safe_isinstance", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty._get_braces_for_array" [label="_get_braces_for_array", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty._Line" [label="_Line", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_14 {
+    label="small";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.generators.small.petersen_graph" [label="petersen_graph", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.generators.small.chvatal_graph" [label="chvatal_graph", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.generators.small.generalized_petersen_graph" [label="generalized_petersen_graph", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.generators.small.pappus_graph" [label="pappus_graph", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.generators.small.truncated_cube_graph" [label="truncated_cube_graph", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.generators.small.heawood_graph" [label="heawood_graph", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.generators.small.moebius_kantor_graph" [label="moebius_kantor_graph", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.generators.small.house_graph" [label="house_graph", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.generators.small.wrapper" [label="wrapper", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.generators.small.house_x_graph" [label="house_x_graph", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_15 {
+    label="threshold";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.algorithms.threshold.cluster_sequence" [label="cluster_sequence", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.algorithms.threshold.eigenvalues" [label="eigenvalues", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.algorithms.threshold.threshold_graph" [label="threshold_graph", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.algorithms.threshold.eigenvectors" [label="eigenvectors", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.algorithms.threshold.degree_correlation" [label="degree_correlation", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.algorithms.threshold.right_d_threshold_sequence" [label="right_d_threshold_sequence", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.algorithms.threshold.triangles" [label="triangles", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.algorithms.threshold.left_d_threshold_sequence" [label="left_d_threshold_sequence", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.algorithms.threshold.uncompact" [label="uncompact", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.algorithms.threshold.shortest_path" [label="shortest_path", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_16 {
+    label="layout";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.drawing.layout.rescale_layout_dict" [label="rescale_layout_dict", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.drawing.layout._cost_FR" [label="_cost_FR", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.drawing.layout.spring_layout" [label="spring_layout", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.drawing.layout._energy_fruchterman_reingold" [label="_energy_fruchterman_reingold", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.drawing.layout.forceatlas2_layout" [label="forceatlas2_layout", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.drawing.layout.multipartite_layout" [label="multipartite_layout", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.drawing.layout.bipartite_layout" [label="bipartite_layout", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.drawing.layout.kamada_kawai_layout" [label="kamada_kawai_layout", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.drawing.layout.shell_layout" [label="shell_layout", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.drawing.layout.planar_layout" [label="planar_layout", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_17 {
+    label="exceptions";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.exceptions.RequestException" [label="RequestException", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.exceptions.ContentDecodingError" [label="ContentDecodingError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.exceptions.TooManyRedirects" [label="TooManyRedirects", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.exceptions.RequestsWarning" [label="RequestsWarning", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.exceptions.ReadTimeout" [label="ReadTimeout", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.exceptions.InvalidSchema" [label="InvalidSchema", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.exceptions.StreamConsumedError" [label="StreamConsumedError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.exceptions.RetryError" [label="RetryError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.exceptions.InvalidHeader" [label="InvalidHeader", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.exceptions.InvalidJSONError" [label="InvalidJSONError", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_18 {
+    label="tags";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags.interpreter_version" [label="interpreter_version", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._is_threaded_cpython" [label="_is_threaded_cpython", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._get_config_var" [label="_get_config_var", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags.interpreter_name" [label="interpreter_name", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags.sys_tags" [label="sys_tags", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._normalize_string" [label="_normalize_string", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags.parse_tag" [label="parse_tag", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._cpython_abis" [label="_cpython_abis", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._version_nodot" [label="_version_nodot", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags.mac_platforms" [label="mac_platforms", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_19 {
+    label="distro";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distro.distro.os_release_info" [label="os_release_info", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distro.distro.like" [label="like", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distro.distro.distro_release_attr" [label="distro_release_attr", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distro.distro.codename" [label="codename", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distro.distro.VersionDict" [label="VersionDict", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distro.distro.cached_property" [label="cached_property", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distro.distro.minor_version" [label="minor_version", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distro.distro.lsb_release_info" [label="lsb_release_info", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distro.distro.os_release_attr" [label="os_release_attr", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distro.distro.major_version" [label="major_version", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel._install_wheel" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel._normalized_outrows" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.create_list_rule" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.parse_key" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.cli.cmdoptions._handle_no_cache_dir" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.cli.cmdoptions.raise_option_error" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.loads" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.create_list_rule" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags.interpreter_version" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._get_config_var" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.requote_uri" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.unquote_unreserved" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty.display_hook" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty._safe_isinstance" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._cpython_abis" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._get_config_var" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.algorithms.threshold.threshold_graph" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.algorithms.threshold.uncompact" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.utils.misc.parse_netloc" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.utils.misc.build_url_from_netloc" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags.sys_tags" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags.interpreter_name" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel.make_data_scheme_file" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel.assert_no_path_traversal" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty.iter_rich_args" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty._safe_isinstance" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.load" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.loads" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags.sys_tags" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags.interpreter_version" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.parse_key" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.parse_key_part" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.parse_key_part" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.parse_literal_str" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._cpython_abis" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._get_config_var" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.algorithms.threshold.shortest_path" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.algorithms.threshold.uncompact" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.marker_expr" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.marker_var" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel._install_wheel" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel.csv_io_kwargs" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty.pretty_repr" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.rich.pretty._safe_isinstance" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel.make_data_scheme_file" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel.ZipBackedFile" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._cpython_abis" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._get_config_var" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._cpython_abis" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._get_config_var" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.generators.small.house_x_graph" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.networkx.generators.small.house_graph" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.marker_expr" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.marker_var" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._cpython_abis" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._version_nodot" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags.interpreter_version" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.packaging.tags._version_nodot" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.parse_key" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._vendor.tomli._parser.parse_key_part" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel._install_wheel" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel.root_scheme_file_maker" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel._install_wheel" -> "Users.manu.Documents.LUXOR.categorical-codebase-review.implementation.venv.lib.python3.14.site-packages.pip._internal.operations.install.wheel.data_scheme_file_maker" [color=green, style=dashed];
+}

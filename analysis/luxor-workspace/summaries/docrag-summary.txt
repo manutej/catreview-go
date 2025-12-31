@@ -1,0 +1,10 @@
+═══════════════════════════════════════════════════════════════
+  Categorical Code Analysis Summary
+═══════════════════════════════════════════════════════════════
+
+Project: /Users/manu/Documents/LUXOR/PROJECTS/docrag
+Python Files: 418
+
+Objects: 7109
+Morphisms: 17281
+Ratio: 2.43 morphisms per object
