@@ -1,0 +1,27 @@
+═══════════════════════════════════════════════════════════════
+  Categorical Code Analysis Summary
+═══════════════════════════════════════════════════════════════
+
+Project: /Users/manu/Documents/LUXOR/PROJECTS/BARQUE
+Analyzed: 2025-12-30 19:50:08
+Duration: 47.079286417s
+Python Files: 1412
+
+Objects: 24184
+Morphisms: 65457
+Ratio: 2.71 morphisms per object
+
+═══════════════════════════════════════════════════════════════
+Top Modules (by object count)
+═══════════════════════════════════════════════════════════════
+
+ 1. Users                                              19914 objects
+ 2. import:                                             1859 objects
+ 3. import:pip                                           603 objects
+ 4. import:fontTools                                     485 objects
+ 5. import:pygments                                      379 objects
+ 6. import:typing                                         46 objects
+ 7. import:urllib                                         43 objects
+ 8. import:ctypes                                         43 objects
+ 9. import:math                                           25 objects
+10. import:collections                                    23 objects

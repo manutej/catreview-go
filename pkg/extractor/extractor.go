@@ -1,7 +1,7 @@
 package extractor
 
 import (
-	"catreview/pkg/category"
+	"github.com/manu/catreview/pkg/category"
 )
 
 // Extractor is the language-agnostic interface for extracting categorical models.

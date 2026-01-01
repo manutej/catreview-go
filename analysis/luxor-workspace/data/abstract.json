@@ -1,0 +1,744 @@
+{
+  "category_stats": {
+    "identities": 84,
+    "morphisms": 102,
+    "objects": 84
+  },
+  "diagram_complexity": 509.4903868592322,
+  "kolmogorov_complexity": 7421,
+  "coupling_metrics": {
+    "analysis.*ComplexityAnalyzer.ComputeCoupling": {
+      "object_id": "analysis.*ComplexityAnalyzer.ComputeCoupling",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "analysis.*ComplexityAnalyzer.DiagramComplexity": {
+      "object_id": "analysis.*ComplexityAnalyzer.DiagramComplexity",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "analysis.*ComplexityAnalyzer.KolmogorovComplexity": {
+      "object_id": "analysis.*ComplexityAnalyzer.KolmogorovComplexity",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "analysis.*ComplexityAnalyzer.compositionComplexity": {
+      "object_id": "analysis.*ComplexityAnalyzer.compositionComplexity",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "analysis.*ComplexityAnalyzer.computeAbstractness": {
+      "object_id": "analysis.*ComplexityAnalyzer.computeAbstractness",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "analysis.*ComplexityAnalyzer.morphismComplexity": {
+      "object_id": "analysis.*ComplexityAnalyzer.morphismComplexity",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "analysis.*ComplexityAnalyzer.objectComplexity": {
+      "object_id": "analysis.*ComplexityAnalyzer.objectComplexity",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "analysis.*CycleAnalyzer.FindCycles": {
+      "object_id": "analysis.*CycleAnalyzer.FindCycles",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "analysis.*CycleAnalyzer.dfs": {
+      "object_id": "analysis.*CycleAnalyzer.dfs",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "analysis.ComplexityAnalyzer": {
+      "object_id": "analysis.ComplexityAnalyzer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "analysis.CouplingMetrics": {
+      "object_id": "analysis.CouplingMetrics",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "analysis.Cycle": {
+      "object_id": "analysis.Cycle",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "analysis.CycleAnalyzer": {
+      "object_id": "analysis.CycleAnalyzer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "analysis.GenerateReport": {
+      "object_id": "analysis.GenerateReport",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "analysis.NewComplexityAnalyzer": {
+      "object_id": "analysis.NewComplexityAnalyzer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "analysis.NewCycleAnalyzer": {
+      "object_id": "analysis.NewCycleAnalyzer",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "analysis.Report": {
+      "object_id": "analysis.Report",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "analysis.findTopN": {
+      "object_id": "analysis.findTopN",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "category.*Category.AddMorphism": {
+      "object_id": "category.*Category.AddMorphism",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "category.*Category.AddObject": {
+      "object_id": "category.*Category.AddObject",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "category.*Category.Compose": {
+      "object_id": "category.*Category.Compose",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "category.*Category.GetMorphism": {
+      "object_id": "category.*Category.GetMorphism",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "category.*Category.GetObject": {
+      "object_id": "category.*Category.GetObject",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "category.*Category.Morphisms": {
+      "object_id": "category.*Category.Morphisms",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "category.*Category.Objects": {
+      "object_id": "category.*Category.Objects",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "category.*Category.Stats": {
+      "object_id": "category.*Category.Stats",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "category.*Category.VerifyAxioms": {
+      "object_id": "category.*Category.VerifyAxioms",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "category.*Morphism.IsComposable": {
+      "object_id": "category.*Morphism.IsComposable",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "category.*Object.Hash": {
+      "object_id": "category.*Object.Hash",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "category.Category": {
+      "object_id": "category.Category",
+      "afferent_coupling": 3,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "category.Morphism": {
+      "object_id": "category.Morphism",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "category.NewCategory": {
+      "object_id": "category.NewCategory",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "category.NewMorphism": {
+      "object_id": "category.NewMorphism",
+      "afferent_coupling": 7,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "category.NewObject": {
+      "object_id": "category.NewObject",
+      "afferent_coupling": 6,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "category.Object": {
+      "object_id": "category.Object",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "extractor.*GoExtractor.ExtractFromPath": {
+      "object_id": "extractor.*GoExtractor.ExtractFromPath",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "extractor.*GoExtractor.Stats": {
+      "object_id": "extractor.*GoExtractor.Stats",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "extractor.*GoExtractor.extractFromFile": {
+      "object_id": "extractor.*GoExtractor.extractFromFile",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.2
+    },
+    "extractor.*GoExtractor.extractFuncDecl": {
+      "object_id": "extractor.*GoExtractor.extractFuncDecl",
+      "afferent_coupling": 1,
+      "efferent_coupling": 2,
+      "instability": 0.6666666666666666,
+      "abstractness": 0.2
+    },
+    "extractor.*GoExtractor.extractFunctionCall": {
+      "object_id": "extractor.*GoExtractor.extractFunctionCall",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.2
+    },
+    "extractor.*GoExtractor.extractGenDecl": {
+      "object_id": "extractor.*GoExtractor.extractGenDecl",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "extractor.*GoExtractor.extractImport": {
+      "object_id": "extractor.*GoExtractor.extractImport",
+      "afferent_coupling": 1,
+      "efferent_coupling": 2,
+      "instability": 0.6666666666666666,
+      "abstractness": 0.2
+    },
+    "extractor.*GoExtractor.extractStructFields": {
+      "object_id": "extractor.*GoExtractor.extractStructFields",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "extractor.*GoExtractor.extractTypeRef": {
+      "object_id": "extractor.*GoExtractor.extractTypeRef",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.2
+    },
+    "extractor.*GoExtractor.extractTypeSpec": {
+      "object_id": "extractor.*GoExtractor.extractTypeSpec",
+      "afferent_coupling": 1,
+      "efferent_coupling": 2,
+      "instability": 0.6666666666666666,
+      "abstractness": 0.2
+    },
+    "extractor.GoExtractor": {
+      "object_id": "extractor.GoExtractor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.1
+    },
+    "extractor.NewGoExtractor": {
+      "object_id": "extractor.NewGoExtractor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.5
+    },
+    "extractor.countUnique": {
+      "object_id": "extractor.countUnique",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "extractor.exprToString": {
+      "object_id": "extractor.exprToString",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "extractor.getDocComment": {
+      "object_id": "extractor.getDocComment",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.2
+    },
+    "functor.*BaseFunctor.AddMorphismMapping": {
+      "object_id": "functor.*BaseFunctor.AddMorphismMapping",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "functor.*BaseFunctor.AddObjectMapping": {
+      "object_id": "functor.*BaseFunctor.AddObjectMapping",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "functor.*BaseFunctor.GetMorphismMapping": {
+      "object_id": "functor.*BaseFunctor.GetMorphismMapping",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "functor.*BaseFunctor.GetObjectMapping": {
+      "object_id": "functor.*BaseFunctor.GetObjectMapping",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "functor.*BaseFunctor.Name": {
+      "object_id": "functor.*BaseFunctor.Name",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "functor.*BaseFunctor.SourceCategory": {
+      "object_id": "functor.*BaseFunctor.SourceCategory",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "functor.*BaseFunctor.TargetCategory": {
+      "object_id": "functor.*BaseFunctor.TargetCategory",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "functor.*BaseFunctor.VerifyCompositionLaw": {
+      "object_id": "functor.*BaseFunctor.VerifyCompositionLaw",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "functor.*BaseFunctor.VerifyIdentityLaw": {
+      "object_id": "functor.*BaseFunctor.VerifyIdentityLaw",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "functor.*PackageAbstractionFunctor.MapMorphism": {
+      "object_id": "functor.*PackageAbstractionFunctor.MapMorphism",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.5
+    },
+    "functor.*PackageAbstractionFunctor.MapObject": {
+      "object_id": "functor.*PackageAbstractionFunctor.MapObject",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.5
+    },
+    "functor.*PackageAbstractionFunctor.VerifyLaws": {
+      "object_id": "functor.*PackageAbstractionFunctor.VerifyLaws",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "functor.BaseFunctor": {
+      "object_id": "functor.BaseFunctor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 3,
+      "instability": 0.75,
+      "abstractness": 0.1
+    },
+    "functor.Functor": {
+      "object_id": "functor.Functor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 1
+    },
+    "functor.NewBaseFunctor": {
+      "object_id": "functor.NewBaseFunctor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "functor.NewPackageAbstractionFunctor": {
+      "object_id": "functor.NewPackageAbstractionFunctor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    "functor.PackageAbstractionFunctor": {
+      "object_id": "functor.PackageAbstractionFunctor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    },
+    "import:bytes": {
+      "object_id": "import:bytes",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:compress/gzip": {
+      "object_id": "import:compress/gzip",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:crypto/sha256": {
+      "object_id": "import:crypto/sha256",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:encoding/json": {
+      "object_id": "import:encoding/json",
+      "afferent_coupling": 2,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:fmt": {
+      "object_id": "import:fmt",
+      "afferent_coupling": 4,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:github.com/manu/catreview/pkg/category": {
+      "object_id": "import:github.com/manu/catreview/pkg/category",
+      "afferent_coupling": 3,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:go/ast": {
+      "object_id": "import:go/ast",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:go/parser": {
+      "object_id": "import:go/parser",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:go/token": {
+      "object_id": "import:go/token",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:math": {
+      "object_id": "import:math",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:os": {
+      "object_id": "import:os",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:path/filepath": {
+      "object_id": "import:path/filepath",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "import:strings": {
+      "object_id": "import:strings",
+      "afferent_coupling": 1,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    "pkg/analysis/complexity.go": {
+      "object_id": "pkg/analysis/complexity.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 24,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "pkg/category/types.go": {
+      "object_id": "pkg/category/types.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 20,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "pkg/extractor/go_extractor.go": {
+      "object_id": "pkg/extractor/go_extractor.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 23,
+      "instability": 1,
+      "abstractness": 0
+    },
+    "pkg/functor/functor.go": {
+      "object_id": "pkg/functor/functor.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 19,
+      "instability": 1,
+      "abstractness": 0
+    }
+  },
+  "cycles": null,
+  "top_unstable": [
+    {
+      "object_id": "pkg/analysis/complexity.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 24,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "pkg/extractor/go_extractor.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 23,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "pkg/category/types.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 20,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "pkg/functor/functor.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 19,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "functor.BaseFunctor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 3,
+      "instability": 0.75,
+      "abstractness": 0.1
+    },
+    {
+      "object_id": "extractor.*GoExtractor.extractImport",
+      "afferent_coupling": 1,
+      "efferent_coupling": 2,
+      "instability": 0.6666666666666666,
+      "abstractness": 0.2
+    },
+    {
+      "object_id": "extractor.*GoExtractor.extractFuncDecl",
+      "afferent_coupling": 1,
+      "efferent_coupling": 2,
+      "instability": 0.6666666666666666,
+      "abstractness": 0.2
+    },
+    {
+      "object_id": "extractor.*GoExtractor.extractTypeSpec",
+      "afferent_coupling": 1,
+      "efferent_coupling": 2,
+      "instability": 0.6666666666666666,
+      "abstractness": 0.2
+    },
+    {
+      "object_id": "functor.*PackageAbstractionFunctor.MapMorphism",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.5
+    },
+    {
+      "object_id": "functor.*PackageAbstractionFunctor.MapObject",
+      "afferent_coupling": 1,
+      "efferent_coupling": 1,
+      "instability": 0.5,
+      "abstractness": 0.5
+    }
+  ],
+  "top_coupled": [
+    {
+      "object_id": "pkg/analysis/complexity.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 24,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "pkg/extractor/go_extractor.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 23,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "pkg/category/types.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 20,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "pkg/functor/functor.go",
+      "afferent_coupling": 0,
+      "efferent_coupling": 19,
+      "instability": 1,
+      "abstractness": 0
+    },
+    {
+      "object_id": "category.NewMorphism",
+      "afferent_coupling": 7,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    {
+      "object_id": "category.NewObject",
+      "afferent_coupling": 6,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.5
+    },
+    {
+      "object_id": "import:fmt",
+      "afferent_coupling": 4,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0
+    },
+    {
+      "object_id": "functor.BaseFunctor",
+      "afferent_coupling": 1,
+      "efferent_coupling": 3,
+      "instability": 0.75,
+      "abstractness": 0.1
+    },
+    {
+      "object_id": "extractor.*GoExtractor.extractImport",
+      "afferent_coupling": 1,
+      "efferent_coupling": 2,
+      "instability": 0.6666666666666666,
+      "abstractness": 0.2
+    },
+    {
+      "object_id": "category.Category",
+      "afferent_coupling": 3,
+      "efferent_coupling": 0,
+      "instability": 0,
+      "abstractness": 0.1
+    }
+  ]
+}

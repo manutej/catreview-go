@@ -1,0 +1,331 @@
+digraph CompositionStructure {
+  rankdir=TB;
+  node [shape=box, style="rounded,filled"];
+  edge [penwidth=1.5];
+  label="Composition Structure (Top 20 modules by object count)";
+  fontsize=16;
+
+  subgraph cluster_0 {
+    label="properties";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.properties.width_height" [label="width_height", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.properties.font_feature_settings" [label="font_feature_settings", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.properties.bleed" [label="bleed", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.properties.image_rendering" [label="image_rendering", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.properties.line_height" [label="line_height", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.properties.font_variant_alternates" [label="font_variant_alternates", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.properties.counter_set" [label="counter_set", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.properties.flex_wrap" [label="flex_wrap", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.properties.bookmark_level" [label="bookmark_level", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.properties.box" [label="box", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_1 {
+    label="__init__";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.cffLib.__init__.TopDictCompiler" [label="TopDictCompiler", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.cffLib.__init__.TopDict" [label="TopDict", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.cffLib.__init__.buildOperatorDict" [label="buildOperatorDict", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.cffLib.__init__.Latin1Converter" [label="Latin1Converter", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.cffLib.__init__.IndexedStrings" [label="IndexedStrings", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.cffLib.__init__.NumberConverter" [label="NumberConverter", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.cffLib.__init__.DictCompiler" [label="DictCompiler", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.cffLib.__init__.ArrayConverter" [label="ArrayConverter", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.cffLib.__init__.writeCard16" [label="writeCard16", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.cffLib.__init__.readSID" [label="readSID", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_2 {
+    label="uts46data";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_57" [label="_seg_57", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_65" [label="_seg_65", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_15" [label="_seg_15", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_28" [label="_seg_28", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_52" [label="_seg_52", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_31" [label="_seg_31", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_77" [label="_seg_77", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_50" [label="_seg_50", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_74" [label="_seg_74", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_11" [label="_seg_11", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_3 {
+    label="nodes";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.jinja2.nodes.EvalContext" [label="EvalContext", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.jinja2.nodes.Sub" [label="Sub", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.jinja2.nodes.Assign" [label="Assign", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.jinja2.nodes.Break" [label="Break", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.jinja2.nodes.Keyword" [label="Keyword", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.jinja2.nodes.Tuple" [label="Tuple", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.jinja2.nodes.InternalName" [label="InternalName", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.jinja2.nodes.For" [label="For", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.jinja2.nodes.Pair" [label="Pair", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.jinja2.nodes.Scope" [label="Scope", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_4 {
+    label="ast";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.feaLib.ast.MarkBasePosStatement" [label="MarkBasePosStatement", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.feaLib.ast.AxisValueLocationStatement" [label="AxisValueLocationStatement", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.feaLib.ast.asFea" [label="asFea", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.feaLib.ast.GlyphClass" [label="GlyphClass", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.feaLib.ast.CVParametersNameStatement" [label="CVParametersNameStatement", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.feaLib.ast.OS2Field" [label="OS2Field", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.feaLib.ast.VariationBlock" [label="VariationBlock", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.feaLib.ast.Statement" [label="Statement", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.feaLib.ast.SinglePosStatement" [label="SinglePosStatement", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.feaLib.ast.GlyphClassDefinition" [label="GlyphClassDefinition", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_5 {
+    label="builder";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.otlLib.builder._getSinglePosValueKey" [label="_getSinglePosValueKey", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.otlLib.builder.buildLigatureAttach" [label="buildLigatureAttach", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.otlLib.builder.buildMathTable" [label="buildMathTable", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.otlLib.builder.MarkLigPosBuilder" [label="MarkLigPosBuilder", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.otlLib.builder.buildLookup" [label="buildLookup", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.otlLib.builder._buildAxisRecords" [label="_buildAxisRecords", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.otlLib.builder.ChainContextSubstBuilder" [label="ChainContextSubstBuilder", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.otlLib.builder.buildMarkGlyphSetsDef" [label="buildMarkGlyphSetsDef", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.otlLib.builder.buildLigCaretList" [label="buildLigCaretList", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.otlLib.builder.ReverseChainSingleSubstBuilder" [label="ReverseChainSingleSubstBuilder", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_6 {
+    label="templates";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pygments.lexers.templates.HtmlGenshiLexer" [label="HtmlGenshiLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pygments.lexers.templates.VelocityXmlLexer" [label="VelocityXmlLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pygments.lexers.templates.MakoXmlLexer" [label="MakoXmlLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pygments.lexers.templates.CssSmartyLexer" [label="CssSmartyLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pygments.lexers.templates.LiquidLexer" [label="LiquidLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pygments.lexers.templates.TeaTemplateLexer" [label="TeaTemplateLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pygments.lexers.templates.SqlJinjaLexer" [label="SqlJinjaLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pygments.lexers.templates.CheetahJavascriptLexer" [label="CheetahJavascriptLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pygments.lexers.templates.HtmlSmartyLexer" [label="HtmlSmartyLexer", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pygments.lexers.templates.HtmlPhpLexer" [label="HtmlPhpLexer", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_7 {
+    label="util";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.distlib.util._iglob" [label="_iglob", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.get_resources_dests" [label="get_resources_dests", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.distlib.util._csv_open" [label="_csv_open", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.marker_expr" [label="marker_expr", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.HTTPSConnection" [label="HTTPSConnection", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.cached_property" [label="cached_property", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.write_exports" [label="write_exports", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.parse_credentials" [label="parse_credentials", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.Configurator" [label="Configurator", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.distlib.util.get_project_data" [label="get_project_data", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_8 {
+    label="__init__";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.mtiLib.__init__.mapLookup" [label="mapLookup", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.mtiLib.__init__.mapFeature" [label="mapFeature", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.mtiLib.__init__.parseCursive" [label="parseCursive", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.mtiLib.__init__.parseKernset" [label="parseKernset", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.mtiLib.__init__.parseGSUBGPOS" [label="parseGSUBGPOS", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.mtiLib.__init__.ContextHelper" [label="ContextHelper", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.mtiLib.__init__.bucketizeRules" [label="bucketizeRules", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.mtiLib.__init__.parseLookup" [label="parseLookup", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.mtiLib.__init__.MarkToLigatureHelper" [label="MarkToLigatureHelper", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.mtiLib.__init__.MtiLibError" [label="MtiLibError", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_9 {
+    label="otConverters";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otConverters.NameID" [label="NameID", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otConverters.Table" [label="Table", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otConverters.GlyphID" [label="GlyphID", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otConverters.DeltaValue" [label="DeltaValue", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otConverters.StructWithLength" [label="StructWithLength", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otConverters._UInt8Enum" [label="_UInt8Enum", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otConverters.CompositeMode" [label="CompositeMode", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otConverters.OptionalValue" [label="OptionalValue", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otConverters.ComputedUShort" [label="ComputedUShort", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otConverters.ValueRecord" [label="ValueRecord", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_10 {
+    label="c_ast";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pycparser.c_ast.PtrDecl" [label="PtrDecl", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pycparser.c_ast.StructRef" [label="StructRef", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pycparser.c_ast.Decl" [label="Decl", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pycparser.c_ast.CompoundLiteral" [label="CompoundLiteral", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pycparser.c_ast.Cast" [label="Cast", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pycparser.c_ast.Switch" [label="Switch", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pycparser.c_ast.StaticAssert" [label="StaticAssert", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pycparser.c_ast.Break" [label="Break", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pycparser.c_ast.ArrayDecl" [label="ArrayDecl", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pycparser.c_ast.Goto" [label="Goto", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_11 {
+    label="bezierTools";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools.approximateCubicArcLength" [label="approximateCubicArcLength", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools.calcCubicBounds" [label="calcCubicBounds", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools._alignment_transformation" [label="_alignment_transformation", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools.quadraticPointAtT" [label="quadraticPointAtT", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools.splitCubicAtT" [label="splitCubicAtT", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools.calcCubicParameters" [label="calcCubicParameters", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools.approximateQuadraticArcLength" [label="approximateQuadraticArcLength", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools.calcCubicPointsC" [label="calcCubicPointsC", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools._is_linelike" [label="_is_linelike", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools.calcCubicArcLengthC" [label="calcCubicArcLengthC", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_12 {
+    label="misc";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.utils.misc.ask_path_exists" [label="ask_path_exists", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.utils.misc.partition" [label="partition", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.utils.misc.parse_netloc" [label="parse_netloc", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.utils.misc.protect_pip_from_modification_on_windows" [label="protect_pip_from_modification_on_windows", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.utils.misc.read_chunks" [label="read_chunks", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.utils.misc.rmtree" [label="rmtree", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.utils.misc.splitext" [label="splitext", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.utils.misc.ensure_dir" [label="ensure_dir", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.utils.misc.hide_value" [label="hide_value", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.utils.misc.redact_netloc" [label="redact_netloc", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_13 {
+    label="glifLib";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.glifLib._FetchUnicodesParser" [label="_FetchUnicodesParser", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.glifLib._BaseParser" [label="_BaseParser", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.glifLib._writeGuidelines" [label="_writeGuidelines", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.glifLib._FetchImageFileNameParser" [label="_FetchImageFileNameParser", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.glifLib._FetchComponentBasesParser" [label="_FetchComponentBasesParser", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.glifLib.buildOutlineFormat1" [label="buildOutlineFormat1", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.glifLib._fetchUnicodes" [label="_fetchUnicodes", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.glifLib.GLIFFormatVersion" [label="GLIFFormatVersion", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.glifLib._fetchImageFileName" [label="_fetchImageFileName", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.glifLib._readName" [label="_readName", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_14 {
+    label="__init__";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.varLib.instancer.__init__.storeBlendsToVarStore" [label="storeBlendsToVarStore", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.varLib.instancer.__init__.NormalizedAxisRange" [label="NormalizedAxisRange", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.varLib.instancer.__init__.main" [label="main", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.varLib.instancer.__init__._BaseAxisLimits" [label="_BaseAxisLimits", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.varLib.instancer.__init__.setMvarDeltas" [label="setMvarDeltas", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.varLib.instancer.__init__.NormalizedAxisLimits" [label="NormalizedAxisLimits", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.varLib.instancer.__init__.OverlapMode" [label="OverlapMode", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.varLib.instancer.__init__.AxisLimits" [label="AxisLimits", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.varLib.instancer.__init__.instantiateFvar" [label="instantiateFvar", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.varLib.instancer.__init__.axisValuesFromAxisLimits" [label="axisValuesFromAxisLimits", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_15 {
+    label="validators";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.validators.genericTypeValidator" [label="genericTypeValidator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.validators.fontInfoOpenTypeHeadCreatedValidator" [label="fontInfoOpenTypeHeadCreatedValidator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.validators.fontInfoWOFFMetadataCreditsValidator" [label="fontInfoWOFFMetadataCreditsValidator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.validators.fontInfoOpenTypeOS2WidthClassValidator" [label="fontInfoOpenTypeOS2WidthClassValidator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.validators.fontInfoPostscriptWindowsCharacterSetValidator" [label="fontInfoPostscriptWindowsCharacterSetValidator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.validators.fontInfoVersion2OpenTypeOS2PanoseValidator" [label="fontInfoVersion2OpenTypeOS2PanoseValidator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.validators.fontInfoWOFFMetadataExtensionValidator" [label="fontInfoWOFFMetadataExtensionValidator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.validators.fontLibValidator" [label="fontLibValidator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.validators.groupsValidator" [label="groupsValidator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.validators.fontInfoWOFFMetadataExtensionItemValidator" [label="fontInfoWOFFMetadataExtensionItemValidator", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_16 {
+    label="otTables";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otTables.InsertionMorphAction" [label="InsertionMorphAction", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otTables.DeltaSetIndexMap" [label="DeltaSetIndexMap", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otTables.Paint" [label="Paint", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otTables.LigatureMorphAction" [label="LigatureMorphAction", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otTables.LookupList" [label="LookupList", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otTables.LigatureSubst" [label="LigatureSubst", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otTables.ClassDef" [label="ClassDef", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otTables.BaseGlyphList" [label="BaseGlyphList", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otTables.ClipBoxFormat" [label="ClipBoxFormat", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ttLib.tables.otTables.CompositeMode" [label="CompositeMode", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_17 {
+    label="utils";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.get_encodings_from_content" [label="get_encodings_from_content", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.default_headers" [label="default_headers", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.parse_header_links" [label="parse_header_links", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.get_encoding_from_headers" [label="get_encoding_from_headers", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.address_in_network" [label="address_in_network", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.dict_to_sequence" [label="dict_to_sequence", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.should_bypass_proxies" [label="should_bypass_proxies", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.stream_decode_response_unicode" [label="stream_decode_response_unicode", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.check_header_validity" [label="check_header_validity", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.from_key_val_list" [label="from_key_val_list", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_18 {
+    label="expanders";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_text_align" [label="expand_text_align", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_font" [label="expand_font", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.PendingExpander" [label="PendingExpander", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_page_break_inside" [label="expand_page_break_inside", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_flex_flow" [label="expand_flex_flow", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expander_decorator" [label="expander_decorator", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expander" [label="expander", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_page_break_before_after" [label="expand_page_break_before_after", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_background" [label="expand_background", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_border_side" [label="expand_border_side", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_19 {
+    label="exceptions";
+    style=filled;
+    fillcolor=lightgray;
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.exceptions._prefix_with_indent" [label="_prefix_with_indent", fillcolor=lightgreen, shape=ellipse];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.exceptions.DiagnosticPipError" [label="DiagnosticPipError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.exceptions.ResolutionTooDeepError" [label="ResolutionTooDeepError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.exceptions.HashErrors" [label="HashErrors", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.exceptions.NoneMetadataError" [label="NoneMetadataError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.exceptions.InvalidInstalledPackage" [label="InvalidInstalledPackage", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.exceptions.FailedToPrepareCandidate" [label="FailedToPrepareCandidate", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.exceptions.PipError" [label="PipError", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.exceptions.InvalidSchemeCombination" [label="InvalidSchemeCombination", fillcolor=lightblue, shape=box];
+    "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._internal.exceptions.RequirementsFileParseError" [label="RequirementsFileParseError", fillcolor=lightblue, shape=box];
+  }
+
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_border_side" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expander" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.distlib.util._iglob" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.distlib.util._iglob" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.mtiLib.__init__.parseGSUBGPOS" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.mtiLib.__init__.parseLookup" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_border_side" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expander" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_flex_flow" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expander" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.distlib.util._iglob" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.distlib.util._iglob" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.validators.fontInfoWOFFMetadataExtensionValidator" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.validators.fontInfoWOFFMetadataExtensionItemValidator" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_text_align" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expander" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.glifLib._fetchImageFileName" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.glifLib._FetchImageFileNameParser" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.glifLib._fetchUnicodes" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.ufoLib.glifLib._FetchUnicodesParser" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_border_side" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expander" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_border_side" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expander" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_page_break_inside" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expander" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools._is_linelike" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools._alignment_transformation" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools.splitCubicAtT" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools.calcCubicParameters" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_background" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expander" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools.calcCubicBounds" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.misc.bezierTools.calcCubicParameters" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.should_bypass_proxies" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.pip._vendor.requests.utils.address_in_network" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_border_side" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expander" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_font" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expander" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.feaLib.ast.asFea" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.fontTools.feaLib.ast.asFea" [color=green, style=dashed];
+  "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expand_border_side" -> "Users.manu.Documents.LUXOR.PROJECTS.BARQUE.venv.lib.python3.14.site-packages.weasyprint.css.validation.expanders.expander" [color=green, style=dashed];
+}

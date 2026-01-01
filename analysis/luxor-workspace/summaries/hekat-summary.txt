@@ -1,0 +1,10 @@
+═══════════════════════════════════════════════════════════════
+  Categorical Code Analysis Summary
+═══════════════════════════════════════════════════════════════
+
+Project: /Users/manu/Documents/LUXOR/PROJECTS/hekat
+Python Files: 3102
+
+Objects: 50049
+Morphisms: 119349
+Ratio: 2.38 morphisms per object

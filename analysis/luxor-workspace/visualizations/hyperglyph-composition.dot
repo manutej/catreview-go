@@ -1,0 +1,309 @@
+digraph CompositionStructure {
+  rankdir=TB;
+  node [shape=box, style="rounded,filled"];
+  edge [penwidth=1.5];
+  label="Composition Structure (Top 20 modules by object count)";
+  fontsize=16;
+
+  subgraph cluster_0 {
+    label="test_axes";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_axes.test_fill_between_interpolate_decreasing" [label="test_fill_between_interpolate_decreasing", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_axes.test_hexbin_extent" [label="test_hexbin_extent", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_axes.test_bxp_patchartist" [label="test_bxp_patchartist", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_axes.test_spines_properbbox_after_zoom" [label="test_spines_properbbox_after_zoom", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_axes.test_invisible_axes_events" [label="test_invisible_axes_events", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_axes.test_hist_stacked_stepfilled_alpha" [label="test_hist_stacked_stepfilled_alpha", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_axes.test_autoscale_tight" [label="test_autoscale_tight", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_axes.test_xerr_yerr_not_none" [label="test_xerr_yerr_not_none", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_axes.test_twinx_knows_limits" [label="test_twinx_knows_limits", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_axes.test_eventplot_colors" [label="test_eventplot_colors", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_1 {
+    label="pyplot";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.matplotlib.pyplot.get_plot_commands" [label="get_plot_commands", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.pyplot.fill_betweenx" [label="fill_betweenx", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.pyplot.inferno" [label="inferno", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.pyplot.flag" [label="flag", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.pyplot.yticks" [label="yticks", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.pyplot.acorr" [label="acorr", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.pyplot.autumn" [label="autumn", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.pyplot.hlines" [label="hlines", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.pyplot.rgrids" [label="rgrids", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.pyplot.stackplot" [label="stackplot", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_2 {
+    label="test_multiarray";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_multiarray.ArrayLikeNoCopy" [label="ArrayLikeNoCopy", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_multiarray.TestCreation" [label="TestCreation", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_multiarray.MyArray" [label="MyArray", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_multiarray.TestStackedNeighborhoodIter" [label="TestStackedNeighborhoodIter", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_multiarray.test_argsort_int" [label="test_argsort_int", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_multiarray.test_matmul_axes" [label="test_matmul_axes", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_multiarray.TestAttributes" [label="TestAttributes", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_multiarray.SuperFinalize" [label="SuperFinalize", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_multiarray.test_insufficient_width" [label="test_insufficient_width", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_multiarray.TestNewBufferProtocol" [label="TestNewBufferProtocol", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_3 {
+    label="test_axes3d";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.mpl_toolkits.mplot3d.tests.test_axes3d.convert_lim" [label="convert_lim", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.mpl_toolkits.mplot3d.tests.test_axes3d.test_quiver3d" [label="test_quiver3d", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.mpl_toolkits.mplot3d.tests.test_axes3d.test_surface3d_masked" [label="test_surface3d_masked", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.mpl_toolkits.mplot3d.tests.test_axes3d.test_marker_draw_order_view_rotated" [label="test_marker_draw_order_view_rotated", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.mpl_toolkits.mplot3d.tests.test_axes3d.test_margins" [label="test_margins", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.mpl_toolkits.mplot3d.tests.test_axes3d.test_wireframe3dzerorstride" [label="test_wireframe3dzerorstride", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.mpl_toolkits.mplot3d.tests.test_axes3d.test_plotsurface_1d_raises" [label="test_plotsurface_1d_raises", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.mpl_toolkits.mplot3d.tests.test_axes3d.test_trisurf3d" [label="test_trisurf3d", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.mpl_toolkits.mplot3d.tests.test_axes3d.test_plot_surface_None_arg" [label="test_plot_surface_None_arg", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.mpl_toolkits.mplot3d.tests.test_axes3d.test_axes3d_primary_views" [label="test_axes3d_primary_views", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_4 {
+    label="typing_extensions";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.pip._vendor.typing_extensions.get_type_hints" [label="get_type_hints", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.pip._vendor.typing_extensions._NamedTupleMeta" [label="_NamedTupleMeta", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.pip._vendor.typing_extensions.ParamSpec" [label="ParamSpec", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.pip._vendor.typing_extensions._RequiredForm" [label="_RequiredForm", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.pip._vendor.typing_extensions.is_protocol" [label="is_protocol", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.pip._vendor.typing_extensions._ReadOnlyForm" [label="_ReadOnlyForm", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.pip._vendor.typing_extensions._type_check_issubclass_arg_1" [label="_type_check_issubclass_arg_1", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.pip._vendor.typing_extensions._get_typeddict_qualifiers" [label="_get_typeddict_qualifiers", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.pip._vendor.typing_extensions._ensure_subclassable" [label="_ensure_subclassable", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.pip._vendor.typing_extensions.ReadOnly" [label="ReadOnly", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_5 {
+    label="test_nditer";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_nditer.test_iter_copy_casts_structured2" [label="test_iter_copy_casts_structured2", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_nditer.test_iter_allocate_output_buffered_readwrite" [label="test_iter_allocate_output_buffered_readwrite", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_nditer.test_all_allocated" [label="test_all_allocated", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_nditer.test_iter_reduction" [label="test_iter_reduction", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_nditer.test_nditer_multi_index_set_refcount" [label="test_nditer_multi_index_set_refcount", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_nditer.iter_indices" [label="iter_indices", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_nditer.test_iter_buffering_reduction" [label="test_iter_buffering_reduction", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_nditer.test_iter_contig_flag_incorrect" [label="test_iter_contig_flag_incorrect", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_nditer.test_iter_remove_axis" [label="test_iter_remove_axis", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_nditer._is_buffered" [label="_is_buffered", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_6 {
+    label="auxfuncs";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.numpy.f2py.auxfuncs.isintent_aligned8" [label="isintent_aligned8", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.f2py.auxfuncs.isunsigned_chararray" [label="isunsigned_chararray", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.f2py.auxfuncs.ischaracter_or_characterarray" [label="ischaracter_or_characterarray", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.f2py.auxfuncs.isexternal" [label="isexternal", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.f2py.auxfuncs.issubroutine" [label="issubroutine", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.f2py.auxfuncs.isintent_in" [label="isintent_in", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.f2py.auxfuncs.isstringfunction" [label="isstringfunction", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.f2py.auxfuncs.hascallstatement" [label="hascallstatement", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.f2py.auxfuncs.isroutine" [label="isroutine", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.f2py.auxfuncs.issubroutine_wrap" [label="issubroutine_wrap", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_7 {
+    label="core";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.numpy.ma.core.round_" [label="round_", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.ma.core._get_dtype_of" [label="_get_dtype_of", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.ma.core.isMaskedArray" [label="isMaskedArray", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.ma.core.allclose" [label="allclose", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.ma.core.MaskError" [label="MaskError", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy.ma.core._recursive_printoption" [label="_recursive_printoption", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.ma.core.masked_inside" [label="masked_inside", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.ma.core._extremum_fill_value" [label="_extremum_fill_value", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.ma.core.maximum_fill_value" [label="maximum_fill_value", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.ma.core.getmask" [label="getmask", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_8 {
+    label="test_umath";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_umath.test_nextafter" [label="test_nextafter", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_umath._FilterInvalids" [label="_FilterInvalids", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_umath.TestAVXFloat32Transcendental" [label="TestAVXFloat32Transcendental", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_umath.B" [label="B", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_umath.TestPower" [label="TestPower", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_umath.TestLog1p" [label="TestLog1p", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_umath.TestExp2" [label="TestExp2", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_umath.bad_arcsinh" [label="bad_arcsinh", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_umath._signs" [label="_signs", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.tests.test_umath.TestBool" [label="TestBool", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_9 {
+    label="test_colors";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_colors.test_SymLogNorm_colorbar" [label="test_SymLogNorm_colorbar", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_colors.test_CenteredNorm" [label="test_CenteredNorm", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_colors.test_make_norm_from_scale_name" [label="test_make_norm_from_scale_name", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_colors.test_pandas_iterable" [label="test_pandas_iterable", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_colors.test_double_register_builtin_cmap" [label="test_double_register_builtin_cmap", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_colors.test_color_names" [label="test_color_names", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_colors.test_cmap_and_norm_from_levels_and_colors" [label="test_cmap_and_norm_from_levels_and_colors", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_colors.test_resampled" [label="test_resampled", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_colors.test_TwoSlopeNorm_autoscale_None_vmin" [label="test_TwoSlopeNorm_autoscale_None_vmin", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_colors.test_colormap_bad_data_with_alpha" [label="test_colormap_bad_data_with_alpha", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_10 {
+    label="pkg_resources";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.pip._vendor.pkg_resources.DistInfoDistribution" [label="DistInfoDistribution", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.pip._vendor.pkg_resources.find_distributions" [label="find_distributions", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.pip._vendor.pkg_resources.EggInfoDistribution" [label="EggInfoDistribution", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.pip._vendor.pkg_resources._macos_vers" [label="_macos_vers", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.pip._vendor.pkg_resources.Distribution" [label="Distribution", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.pip._vendor.pkg_resources.safe_sys_path_index" [label="safe_sys_path_index", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.pip._vendor.pkg_resources._is_unpacked_egg" [label="_is_unpacked_egg", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.pip._vendor.pkg_resources.DefaultProvider" [label="DefaultProvider", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.pip._vendor.pkg_resources._bypass_ensure_directory" [label="_bypass_ensure_directory", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.pip._vendor.pkg_resources.find_eggs_in_zip" [label="find_eggs_in_zip", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_11 {
+    label="test_legend";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_legend.test_no_warn_big_data_when_loc_specified" [label="test_no_warn_big_data_when_loc_specified", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_legend.test_alpha_rcparam" [label="test_alpha_rcparam", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_legend.test_plot_single_input_list_label" [label="test_plot_single_input_list_label", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_legend.test_setting_alpha_keeps_polycollection_color" [label="test_setting_alpha_keeps_polycollection_color", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_legend.test_legend_nolabels_draw" [label="test_legend_nolabels_draw", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_legend.test_alpha_handles" [label="test_alpha_handles", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_legend.test_legend_pathcollection_labelcolor_linecolor_cmap" [label="test_legend_pathcollection_labelcolor_linecolor_cmap", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_legend.test_loc_validation_numeric_value" [label="test_loc_validation_numeric_value", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_legend.test_hatching" [label="test_hatching", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_legend.test_fancy" [label="test_fancy", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_12 {
+    label="test_image";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_image.test_interp_nearest_vs_none" [label="test_interp_nearest_vs_none", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_image.test_image_alpha" [label="test_image_alpha", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_image.test_image_preserve_size" [label="test_image_preserve_size", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_image.test_exact_vmin" [label="test_exact_vmin", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_image.test_clip_path_disables_compositing" [label="test_clip_path_disables_compositing", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_image.test_imshow_10_10_1" [label="test_imshow_10_10_1", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_image.test_imshow_float128" [label="test_imshow_float128", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_image.test_unclipped" [label="test_unclipped", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_image.test_image_composite_background" [label="test_image_composite_background", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_image.test_imshow_endianess" [label="test_imshow_endianess", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_13 {
+    label="_function_base_impl";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.numpy.lib._function_base_impl._meshgrid_dispatcher" [label="_meshgrid_dispatcher", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib._function_base_impl.hamming" [label="hamming", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib._function_base_impl._diff_dispatcher" [label="_diff_dispatcher", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib._function_base_impl.i0" [label="i0", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib._function_base_impl._i0_1" [label="_i0_1", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib._function_base_impl.diff" [label="diff", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib._function_base_impl._update_dim_sizes" [label="_update_dim_sizes", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib._function_base_impl.asarray_chkfinite" [label="asarray_chkfinite", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib._function_base_impl._select_dispatcher" [label="_select_dispatcher", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib._function_base_impl.percentile" [label="percentile", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_14 {
+    label="fromnumeric";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.numpy._core.fromnumeric.round" [label="round", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.fromnumeric._matrix_transpose_dispatcher" [label="_matrix_transpose_dispatcher", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.fromnumeric._trace_dispatcher" [label="_trace_dispatcher", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.fromnumeric._var_dispatcher" [label="_var_dispatcher", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.fromnumeric._prod_dispatcher" [label="_prod_dispatcher", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.fromnumeric.mean" [label="mean", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.fromnumeric._argpartition_dispatcher" [label="_argpartition_dispatcher", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.fromnumeric.amin" [label="amin", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.fromnumeric.resize" [label="resize", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy._core.fromnumeric.nonzero" [label="nonzero", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_15 {
+    label="test_figure";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_figure.test_align_titles" [label="test_align_titles", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_figure.test_get_constrained_layout_pads" [label="test_get_constrained_layout_pads", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_figure.test_add_axes_kwargs" [label="test_add_axes_kwargs", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_figure.test_add_subplot_invalid" [label="test_add_subplot_invalid", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_figure.test_gridspec_no_mutate_input" [label="test_gridspec_no_mutate_input", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_figure.test_subfigure_remove" [label="test_subfigure_remove", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_figure.test_warn_colorbar_mismatch" [label="test_warn_colorbar_mismatch", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_figure.test_alpha" [label="test_alpha", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_figure.test_savefig_preserve_layout_engine" [label="test_savefig_preserve_layout_engine", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.matplotlib.tests.test_figure.test_figure_repr" [label="test_figure_repr", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_16 {
+    label="_linalg";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.numpy.linalg._linalg._tensorsolve_dispatcher" [label="_tensorsolve_dispatcher", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.linalg._linalg._assert_finite" [label="_assert_finite", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.linalg._linalg._eigvalsh_dispatcher" [label="_eigvalsh_dispatcher", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.linalg._linalg.EigResult" [label="EigResult", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy.linalg._linalg._assert_stacked_square" [label="_assert_stacked_square", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.linalg._linalg.SlogdetResult" [label="SlogdetResult", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy.linalg._linalg.cross" [label="cross", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.linalg._linalg._cond_dispatcher" [label="_cond_dispatcher", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.linalg._linalg._is_empty_2d" [label="_is_empty_2d", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.linalg._linalg._matrix_power_dispatcher" [label="_matrix_power_dispatcher", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_17 {
+    label="test_linalg";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.numpy.linalg.tests.test_linalg.InvCases" [label="InvCases", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy.linalg.tests.test_linalg.TestCond" [label="TestCond", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy.linalg.tests.test_linalg.test_xerbla_override" [label="test_xerbla_override", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.linalg.tests.test_linalg.test_matmul" [label="test_matmul", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.linalg.tests.test_linalg.TestNorm_NonSystematic" [label="TestNorm_NonSystematic", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy.linalg.tests.test_linalg._TestNorm2D" [label="_TestNorm2D", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy.linalg.tests.test_linalg.test_blas64_geqrf_lwork_smoketest" [label="test_blas64_geqrf_lwork_smoketest", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.linalg.tests.test_linalg.test_matrix_norm_empty" [label="test_matrix_norm_empty", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.linalg.tests.test_linalg.LinalgGeneralizedNonsquareTestCase" [label="LinalgGeneralizedNonsquareTestCase", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy.linalg.tests.test_linalg.TestNormSingle" [label="TestNormSingle", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_18 {
+    label="test_pylab";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.networkx.drawing.tests.test_pylab.test_display_node_labels" [label="test_display_node_labels", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.networkx.drawing.tests.test_pylab.test_draw_bipartite" [label="test_draw_bipartite", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.networkx.drawing.tests.test_pylab.test_display_edge_margins" [label="test_display_edge_margins", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.networkx.drawing.tests.test_pylab.test_display_node_position" [label="test_display_node_position", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.networkx.drawing.tests.test_pylab.test_display_edge_multiple_colors" [label="test_display_edge_multiple_colors", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.networkx.drawing.tests.test_pylab.test_draw_networkx_edges_multiedge_connectionstyle" [label="test_draw_networkx_edges_multiedge_connectionstyle", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.networkx.drawing.tests.test_pylab.test_display_arg_handling_node_alpha" [label="test_display_arg_handling_node_alpha", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.networkx.drawing.tests.test_pylab.test_display_mismatched_edge_position" [label="test_display_mismatched_edge_position", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.networkx.drawing.tests.test_pylab.test_display_shortest_path" [label="test_display_shortest_path", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.networkx.drawing.tests.test_pylab.test_house_with_colors" [label="test_house_with_colors", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_19 {
+    label="test_loadtxt";
+    style=filled;
+    fillcolor=lightgray;
+    "glyph.lib.python3.13.site-packages.numpy.lib.tests.test_loadtxt.test_blank_lines_normal_delimiter" [label="test_blank_lines_normal_delimiter", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib.tests.test_loadtxt.test_control_characters_as_bytes" [label="test_control_characters_as_bytes", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib.tests.test_loadtxt.test_exception_noninteger_row_limits" [label="test_exception_noninteger_row_limits", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib.tests.test_loadtxt.test_empty_usecols" [label="test_empty_usecols", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib.tests.test_loadtxt.BadSequence" [label="BadSequence", fillcolor=lightblue, shape=box];
+    "glyph.lib.python3.13.site-packages.numpy.lib.tests.test_loadtxt.test_structured_dtype_with_multi_shape" [label="test_structured_dtype_with_multi_shape", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib.tests.test_loadtxt.test_bad_newline_in_iterator" [label="test_bad_newline_in_iterator", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib.tests.test_loadtxt.test_universal_newlines_quoted" [label="test_universal_newlines_quoted", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib.tests.test_loadtxt.test_warn_on_no_data" [label="test_warn_on_no_data", fillcolor=lightgreen, shape=ellipse];
+    "glyph.lib.python3.13.site-packages.numpy.lib.tests.test_loadtxt.test_exception_message_bad_values" [label="test_exception_message_bad_values", fillcolor=lightgreen, shape=ellipse];
+  }
+
+}

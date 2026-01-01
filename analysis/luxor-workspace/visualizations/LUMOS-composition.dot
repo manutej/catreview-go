@@ -1,0 +1,309 @@
+digraph CompositionStructure {
+  rankdir=TB;
+  node [shape=box, style="rounded,filled"];
+  edge [penwidth=1.5];
+  label="Composition Structure (Top 20 modules by object count)";
+  fontsize=16;
+
+  subgraph cluster_0 {
+    label="typing_extensions";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions.TypeGuard" [label="TypeGuard", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._RequiredForm" [label="_RequiredForm", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions.NamedTuple" [label="NamedTuple", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._type_convert" [label="_type_convert", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._should_collect_from_parameters" [label="_should_collect_from_parameters", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions.NoDefaultType" [label="NoDefaultType", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._has_generic_or_protocol_as_origin" [label="_has_generic_or_protocol_as_origin", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._lax_type_check" [label="_lax_type_check", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions.is_typeddict" [label="is_typeddict", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._unpack_args" [label="_unpack_args", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_1 {
+    label="pkg_resources";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.ZipManifests" [label="ZipManifests", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources._ReqExtras" [label="_ReqExtras", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.declare_namespace" [label="declare_namespace", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.EggProvider" [label="EggProvider", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.safe_name" [label="safe_name", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.DistInfoDistribution" [label="DistInfoDistribution", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources._macos_vers" [label="_macos_vers", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.ContextualVersionConflict" [label="ContextualVersionConflict", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.get_default_cache" [label="get_default_cache", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.UnknownExtra" [label="UnknownExtra", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_2 {
+    label="paragraph";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.paragraph._hyGenPair" [label="_hyGenPair", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.paragraph.cjkU" [label="cjkU", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.paragraph._nbspCount" [label="_nbspCount", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.paragraph._rescaleFrag" [label="_rescaleFrag", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.paragraph.rstrip" [label="rstrip", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.paragraph._SHYIndexedStr" [label="_SHYIndexedStr", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.paragraph._SHYSplit" [label="_SHYSplit", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.paragraph._centerDrawParaLineX" [label="_centerDrawParaLineX", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.paragraph._SplitFrag" [label="_SplitFrag", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.paragraph._BidiStrWrapRejoinSplitWords" [label="_BidiStrWrapRejoinSplitWords", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_3 {
+    label="utils";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.utils.getHyphenater" [label="getHyphenater", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.utils.xre" [label="xre", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.utils.normalize_path" [label="normalize_path", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.utils.int2Byte" [label="int2Byte", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.utils.isFileSystemDistro" [label="isFileSystemDistro", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.utils.isSeq" [label="isSeq", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.utils.asUnicodeEx" [label="asUnicodeEx", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.utils.decode_label" [label="decode_label", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.utils.isMethod" [label="isMethod", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.utils.rl_get_module" [label="rl_get_module", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_4 {
+    label="uts46data";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_34" [label="_seg_34", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_19" [label="_seg_19", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_61" [label="_seg_61", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_78" [label="_seg_78", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_81" [label="_seg_81", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_54" [label="_seg_54", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_22" [label="_seg_22", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_65" [label="_seg_65", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_66" [label="_seg_66", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_5" [label="_seg_5", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_5 {
+    label="pdfdoc";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.reportlab.pdfbase.pdfdoc.teststream" [label="teststream", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.pdfbase.pdfdoc.PDFArrayCompact" [label="PDFArrayCompact", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.pdfbase.pdfdoc.PDFTrueTypeFont" [label="PDFTrueTypeFont", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.pdfbase.pdfdoc.FreeTextAnnotation" [label="FreeTextAnnotation", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.pdfbase.pdfdoc.PDFType1Font" [label="PDFType1Font", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.pdfbase.pdfdoc.PDFDestinationFitBH" [label="PDFDestinationFitBH", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.pdfbase.pdfdoc.PDFImageXObject" [label="PDFImageXObject", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.pdfbase.pdfdoc.PDFFunctionShading" [label="PDFFunctionShading", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.pdfbase.pdfdoc.PDFDestinationFitB" [label="PDFDestinationFitB", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.pdfbase.pdfdoc.LinkAnnotation" [label="LinkAnnotation", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_6 {
+    label="util";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.get_executable" [label="get_executable", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.in_venv" [label="in_venv", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.HTTPSConnection" [label="HTTPSConnection", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.CSVBase" [label="CSVBase", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.distlib.util._csv_open" [label="_csv_open", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.tempdir" [label="tempdir", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.ensure_slash" [label="ensure_slash", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.get_versions" [label="get_versions", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.ExportEntry" [label="ExportEntry", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.marker" [label="marker", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_7 {
+    label="flowables";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.flowables.Preformatted" [label="Preformatted", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.flowables._bulletFormat" [label="_bulletFormat", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.flowables.DocIf" [label="DocIf", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.flowables.KeepTogetherSplitAtTop" [label="KeepTogetherSplitAtTop", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.flowables._LIParams" [label="_LIParams", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.flowables.ParagraphAndImage" [label="ParagraphAndImage", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.flowables.ListFlowable" [label="ListFlowable", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.flowables.FailOnDraw" [label="FailOnDraw", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.flowables.SetTopFlowables" [label="SetTopFlowables", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.flowables.TopPadder" [label="TopPadder", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_8 {
+    label="Image";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.PIL.Image.DecompressionBombError" [label="DecompressionBombError", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.PIL.Image.fromqpixmap" [label="fromqpixmap", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.PIL.Image.getmodetype" [label="getmodetype", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.PIL.Image.SupportsArrayInterface" [label="SupportsArrayInterface", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.PIL.Image._decompression_bomb_check" [label="_decompression_bomb_check", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.PIL.Image._apply_env_variables" [label="_apply_env_variables", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.PIL.Image.registered_extensions" [label="registered_extensions", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.PIL.Image.DecompressionBombWarning" [label="DecompressionBombWarning", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.PIL.Image._getscaleoffset" [label="_getscaleoffset", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.PIL.Image.fromqimage" [label="fromqimage", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_9 {
+    label="six";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.create_unbound_method" [label="create_unbound_method", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.metaclass" [label="metaclass", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six._import_module" [label="_import_module", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.iterlists" [label="iterlists", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.remove_move" [label="remove_move", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.raise_from" [label="raise_from", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.Iterator" [label="Iterator", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.iteritems" [label="iteritems", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.callable" [label="callable", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.Module_six_moves_urllib_robotparser" [label="Module_six_moves_urllib_robotparser", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_10 {
+    label="misc";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.pip._internal.utils.misc._redact_netloc" [label="_redact_netloc", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._internal.utils.misc.remove_auth_from_url" [label="remove_auth_from_url", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._internal.utils.misc.split_auth_netloc_from_url" [label="split_auth_netloc_from_url", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._internal.utils.misc.ensure_dir" [label="ensure_dir", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._internal.utils.misc.is_console_interactive" [label="is_console_interactive", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._internal.utils.misc.format_size" [label="format_size", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._internal.utils.misc.ConfiguredBuildBackendHookCaller" [label="ConfiguredBuildBackendHookCaller", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._internal.utils.misc._check_no_input" [label="_check_no_input", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._internal.utils.misc.write_output" [label="write_output", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._internal.utils.misc.tabulate" [label="tabulate", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_11 {
+    label="barcharts";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.barcharts.BarChartProperties" [label="BarChartProperties", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.barcharts.sampleH2b" [label="sampleH2b", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.barcharts.sampleV4c" [label="sampleV4c", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.barcharts.sampleH0b" [label="sampleH0b", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.barcharts._FakeGroup" [label="_FakeGroup", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.barcharts.sampleH2c" [label="sampleH2c", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.barcharts.sampleH1" [label="sampleH1", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.barcharts.sampleV5c3" [label="sampleV5c3", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.barcharts.HorizontalBarChart3D" [label="HorizontalBarChart3D", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.barcharts.sampleV5b" [label="sampleV5b", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_12 {
+    label="utils";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.from_key_val_list" [label="from_key_val_list", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.to_key_val_list" [label="to_key_val_list", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.get_auth_from_url" [label="get_auth_from_url", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.requote_uri" [label="requote_uri", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.requests.utils._parse_content_type_header" [label="_parse_content_type_header", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.dotted_netmask" [label="dotted_netmask", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.requests.utils._validate_header_part" [label="_validate_header_part", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.check_header_validity" [label="check_header_validity", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.extract_zipped_paths" [label="extract_zipped_paths", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.dict_from_cookiejar" [label="dict_from_cookiejar", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_13 {
+    label="exceptions";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.pip._internal.exceptions.IncompleteDownloadError" [label="IncompleteDownloadError", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._internal.exceptions._is_kebab_case" [label="_is_kebab_case", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._internal.exceptions.MissingPyProjectBuildRequires" [label="MissingPyProjectBuildRequires", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._internal.exceptions.InstallationError" [label="InstallationError", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._internal.exceptions.BadCommand" [label="BadCommand", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._internal.exceptions.PreviousBuildDirError" [label="PreviousBuildDirError", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._internal.exceptions.NoneMetadataError" [label="NoneMetadataError", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._internal.exceptions.UserInstallationInvalid" [label="UserInstallationInvalid", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._internal.exceptions.ConfigurationFileCouldNotBeLoaded" [label="ConfigurationFileCouldNotBeLoaded", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._internal.exceptions.UnsupportedPythonVersion" [label="UnsupportedPythonVersion", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_14 {
+    label="piecharts";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.piecharts.sample5" [label="sample5", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.piecharts._arcCF" [label="_arcCF", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.piecharts.sample0a" [label="sample0a", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.piecharts.Wedge3dProperties" [label="Wedge3dProperties", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.piecharts.AngleData" [label="AngleData", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.piecharts._keyFLA" [label="_keyFLA", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.piecharts.sample7" [label="sample7", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.piecharts.theta0" [label="theta0", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.piecharts.sample6" [label="sample6", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.charts.piecharts.sample0b" [label="sample0b", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_15 {
+    label="shapes";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.shapes.Circle" [label="Circle", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.shapes.Drawing" [label="Drawing", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.shapes._getBezierExtrema" [label="_getBezierExtrema", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.shapes.Wedge" [label="Wedge", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.shapes.getPathBounds" [label="getPathBounds", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.shapes._renderGroupPy" [label="_renderGroupPy", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.shapes._textBoxLimits" [label="_textBoxLimits", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.shapes._repr" [label="_repr", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.shapes.Hatching" [label="Hatching", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.graphics.shapes.PolyLine" [label="PolyLine", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_16 {
+    label="exceptions";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.RequestError" [label="RequestError", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.URLSchemeUnknown" [label="URLSchemeUnknown", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.IncompleteRead" [label="IncompleteRead", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.DecodeError" [label="DecodeError", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.LocationValueError" [label="LocationValueError", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.ProtocolError" [label="ProtocolError", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.PoolError" [label="PoolError", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.ClosedPoolError" [label="ClosedPoolError", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.BodyNotHttplibCompatible" [label="BodyNotHttplibCompatible", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.HeaderParsingError" [label="HeaderParsingError", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_17 {
+    label="validators";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.validators._isTransform" [label="_isTransform", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.validators._isNotSet" [label="_isNotSet", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.validators.Inherit" [label="Inherit", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.validators._isValidChild" [label="_isValidChild", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.validators._isListOfStringsOrNone" [label="_isListOfStringsOrNone", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.validators.AutoOr" [label="AutoOr", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.validators._isColorOrNone" [label="_isColorOrNone", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.validators.SequenceOf" [label="SequenceOf", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.validators._isString" [label="_isString", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.lib.validators._isBoolean" [label="_isBoolean", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_18 {
+    label="para";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.para.HotLink" [label="HotLink", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.para.readColor" [label="readColor", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.para.FastPara" [label="FastPara", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.para.defaultContext" [label="defaultContext", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.para.test2" [label="test2", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.para.StyleAttributeConverters" [label="StyleAttributeConverters", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.para.paragraphEngine" [label="paragraphEngine", fillcolor=lightblue, shape=box];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.para.Paragraph" [label="Paragraph", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.para.simpleJustifyAlign" [label="simpleJustifyAlign", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.reportlab.platypus.para.PageNumberObject" [label="PageNumberObject", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_19 {
+    label="platformdirs";
+    style=filled;
+    fillcolor=lightgray;
+    "test.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.user_config_dir" [label="user_config_dir", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.site_runtime_dir" [label="site_runtime_dir", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.user_log_path" [label="user_log_path", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.user_data_path" [label="user_data_path", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.user_pictures_path" [label="user_pictures_path", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.site_config_path" [label="site_config_path", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.user_desktop_dir" [label="user_desktop_dir", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.user_documents_dir" [label="user_documents_dir", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.user_pictures_dir" [label="user_pictures_dir", fillcolor=lightgreen, shape=ellipse];
+    "test.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.site_data_dir" [label="site_data_dir", fillcolor=lightgreen, shape=ellipse];
+  }
+
+}

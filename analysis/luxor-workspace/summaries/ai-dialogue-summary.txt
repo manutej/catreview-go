@@ -1,0 +1,27 @@
+═══════════════════════════════════════════════════════════════
+  Categorical Code Analysis Summary
+═══════════════════════════════════════════════════════════════
+
+Project: /Users/manu/Documents/LUXOR/PROJECTS/ai-dialogue
+Analyzed: 2025-12-30 19:51:47
+Duration: 1m21.418955917s
+Python Files: 2631
+
+Objects: 34274
+Morphisms: 97433
+Ratio: 2.84 morphisms per object
+
+═══════════════════════════════════════════════════════════════
+Top Modules (by object count)
+═══════════════════════════════════════════════════════════════
+
+ 1. Users                                              25581 objects
+ 2. import:                                             4939 objects
+ 3. import:pip                                           603 objects
+ 4. import:langchain_core                                515 objects
+ 5. import:pygments                                      380 objects
+ 6. import:pydantic                                      273 objects
+ 7. import:_pytest                                       244 objects
+ 8. import:langsmith                                     164 objects
+ 9. import:typing                                         79 objects
+10. import:mypy                                           70 objects

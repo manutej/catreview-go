@@ -1,0 +1,10 @@
+═══════════════════════════════════════════════════════════════
+  Categorical Code Analysis Summary
+═══════════════════════════════════════════════════════════════
+
+Project: /Users/manu/Documents/LUXOR/PROJECTS/HALCON
+Python Files: 940
+
+Objects: 16126
+Morphisms: 38431
+Ratio: 2.38 morphisms per object
