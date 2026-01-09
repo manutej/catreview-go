@@ -1,0 +1,169 @@
+digraph G {
+    rankdir=BT;
+    node [shape=box, style=filled];
+    edge [arrowsize=0.7];
+
+    // Layer 0: Foundations
+    subgraph cluster_0 {
+        label="Foundations";
+        style=filled;
+        fillcolor="#c8e6c9";
+        n_import_context [label="import:context\nA:78 E:0", fillcolor="#ffffff"];
+        n_import_fmt [label="import:fmt\nA:63 E:0", fillcolor="#ffffff"];
+        n_import_strings [label="import:strings\nA:54 E:0", fillcolor="#ffffff"];
+        n_backend_FromContext [label="backend.FromContext\nA:51 E:0", fillcolor="#ffffff"];
+        n_db_WrapError [label="db.WrapError\nA:49 E:0", fillcolor="#ffffff"];
+        n_import_github_com_charmbracelet_soft_serve_pkg_db [label="db\nA:45 E:0", fillcolor="#ffffff"];
+        n_import_github_com_charmbracelet_soft_serve_pkg_backend [label="backend\nA:44 E:0", fillcolor="#ffffff"];
+        n_import_github_com_charmbracelet_soft_serve_pkg_proto [label="proto\nA:41 E:0", fillcolor="#fbfbfb"];
+        n_import_time [label="import:time\nA:41 E:0", fillcolor="#fbfbfb"];
+        n_import_errors [label="import:errors\nA:40 E:0", fillcolor="#f8f8f8"];
+        n_import_github_com_charmbracelet_soft_serve_pkg_config [label="config\nA:39 E:0", fillcolor="#f5f5f5"];
+        n_import_github_com_charmbracelet_log_v2 [label="v2\nA:37 E:0", fillcolor="#efefef"];
+        n_import_github_com_spf13_cobra [label="cobra\nA:34 E:0", fillcolor="#e6e6e6"];
+        n_config_FromContext [label="config.FromContext\nA:34 E:0", fillcolor="#e6e6e6"];
+        n_import_github_com_charmbracelet_soft_serve_git [label="git\nA:27 E:0", fillcolor="#d1d1d1"];
+    }
+
+    // Layer 1: Core
+    subgraph cluster_1 {
+        label="Core";
+        style=filled;
+        fillcolor="#ffe0b2";
+        n_pkg_backend_repo_go [label="repo.go\nA:0 E:52", fillcolor="#ffffff"];
+        n_pkg_web_git_go [label="git.go\nA:0 E:51", fillcolor="#ffffff"];
+        n_pkg_ui_pages_repo_log_go [label="log.go\nA:0 E:44", fillcolor="#ffffff"];
+    }
+
+    // Layer 2: Support
+    subgraph cluster_2 {
+        label="Support";
+        style=filled;
+        fillcolor="#bbdefb";
+        n_pkg_ui_pages_repo_repo_go [label="repo.go\nA:0 E:40", fillcolor="#f8f8f8"];
+        n_pkg_ui_components_selector_selector_go [label="selector.go\nA:0 E:39", fillcolor="#f5f5f5"];
+        n_pkg_git_lfs_go [label="lfs.go\nA:0 E:39", fillcolor="#f5f5f5"];
+        n_pkg_config_config_go [label="config.go\nA:0 E:39", fillcolor="#f5f5f5"];
+        n_pkg_web_git_lfs_go [label="git_lfs.go\nA:0 E:37", fillcolor="#efefef"];
+        n_pkg_ui_pages_repo_files_go [label="files.go\nA:0 E:37", fillcolor="#efefef"];
+        n_pkg_backend_user_go [label="user.go\nA:0 E:33", fillcolor="#e3e3e3"];
+        n_cmd_soft_browse_browse_go [label="browse.go\nA:0 E:32", fillcolor="#e0e0e0"];
+        n_pkg_ui_pages_selection_item_go [label="item.go\nA:0 E:30", fillcolor="#dadada"];
+        n_pkg_ui_pages_repo_refs_go [label="refs.go\nA:0 E:29", fillcolor="#d7d7d7"];
+        n_pkg_ssh_ssh_go [label="ssh.go\nA:0 E:29", fillcolor="#d7d7d7"];
+        n_pkg_ui_pages_repo_stash_go [label="stash.go\nA:0 E:29", fillcolor="#d7d7d7"];
+        n_pkg_webhook_webhook_go [label="webhook.go\nA:0 E:28", fillcolor="#d4d4d4"];
+        n_pkg_ssh_ui_go [label="ui.go\nA:0 E:28", fillcolor="#d4d4d4"];
+        n_pkg_daemon_daemon_go [label="daemon.go\nA:0 E:28", fillcolor="#d4d4d4"];
+    }
+
+    // Layer 3: Applications
+    subgraph cluster_3 {
+        label="Applications";
+        style=filled;
+        fillcolor="#f8bbd0";
+        n_cmd_soft_main_go [label="main.go\nA:0 E:21", fillcolor="#bfbfbf"];
+    }
+
+    // Edges
+    n_pkg_db_migrate_0003_migrate_lfs_objects_go -> n_migrate_badRelativePath [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_pages_selection_item_go -> n_selection_Items_Swap [penwidth=0.7, color="#cc0000"];
+    n_log_NewLogger -> n_config_IsVerbose [penwidth=0.7, color="#cc0000"];
+    n_web_serviceLfsBasicUpload -> n_config_FromContext [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_common_common_go -> n_common_NewCommon [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_components_selector_selector_go -> n_selector_SelectMsg [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_pages_repo_logitem_go -> n_repo_LogItem_Hash [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_styles_styles_go -> n_styles_DefaultStyles [penwidth=0.7, color="#cc0000"];
+    n_pkg_daemon_daemon_go -> n_import_time [penwidth=0.7, color="#cc0000"];
+    n_pkg_store_database_repo_go -> n_database__repoStore_GetRepoByName [penwidth=0.7, color="#666666"];
+    n_pkg_ui_pages_repo_filesitem_go -> n_repo_FileItemDelegate_Height [penwidth=0.7, color="#cc0000"];
+    n_pkg_ssh_cmd_repo_go -> n_import_fmt [penwidth=0.7, color="#cc0000"];
+    n_pkg_store_database_webhooks_go -> n_import_github_com_google_uuid [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_pages_repo_repo_go -> n_repo__Repo_setStatusBarInfo [penwidth=0.7, color="#cc0000"];
+    n_pkg_backend_auth_go -> n_import_golang_org_x_crypto_bcrypt [penwidth=0.7, color="#cc0000"];
+    n_pkg_lfs_http_client_go -> n_import_bytes [penwidth=0.7, color="#cc0000"];
+    n_pkg_backend_hooks_go -> n_backend__Backend_PreReceive [penwidth=0.7, color="#cc0000"];
+    n_pkg_backend_repo_go -> n_import_os [penwidth=0.7, color="#cc0000"];
+    n_pkg_ssh_cmd_webhooks_go -> n_import_github_com_charmbracelet_soft_serve_pkg_utils [penwidth=0.7, color="#cc0000"];
+    n_pkg_daemon_daemon_go -> n_import_github_com_charmbracelet_soft_serve_pkg_git [penwidth=0.7, color="#cc0000"];
+    n_web_serviceLfsBatch -> n_db_FromContext [penwidth=0.7, color="#cc0000"];
+    n_git_types_go -> n_git_CommandOptions [penwidth=0.7, color="#cc0000"];
+    n_pkg_webhook_push_go -> n_import_fmt [penwidth=0.7, color="#cc0000"];
+    n_cmd_soft_main_go -> n_import_github_com_muesli_roff [penwidth=0.7, color="#cc0000"];
+    n_cmd_soft_serve_server_go -> n_import_golang_org_x_sync_errgroup [penwidth=0.7, color="#cc0000"];
+    n_pkg_db_handler_go -> n_import_github_com_jmoiron_sqlx [penwidth=0.7, color="#cc0000"];
+    n_ssh_CommandMiddleware -> n_cmd_GitUploadArchiveCommand [penwidth=0.7, color="#cc0000"];
+    n_git_tree_go -> n_git__Tree_SubTree [penwidth=0.7, color="#cc0000"];
+    n_pkg_lfs_http_client_go -> n_lfs_httpClient [penwidth=0.7, color="#cc0000"];
+    n_ssh_NewSSHServer -> n_config_IsDebug [penwidth=0.7, color="#cc0000"];
+    n_pkg_web_goget_go -> n_web_GoGetHandler [penwidth=0.7, color="#666666"];
+    n_pkg_web_auth_go -> n_import_github_com_charmbracelet_log_v2 [penwidth=0.7, color="#cc0000"];
+    n_webhook_NewBranchTagEvent -> n_config_FromContext [penwidth=0.7, color="#cc0000"];
+    n_pkg_web_goget_go -> n_import_github_com_charmbracelet_log_v2 [penwidth=0.7, color="#cc0000"];
+    n_git_command_go -> n_import_github_com_aymanbagabas_git_module [penwidth=0.7, color="#cc0000"];
+    n_pkg_backend_repo_go -> n_backend__repo_UpdatedAt [penwidth=0.7, color="#cc0000"];
+    n_pkg_ssh_cmd_settings_go -> n_cmd_SettingsCommand [penwidth=0.7, color="#666666"];
+    n_pkg_ui_pages_repo_stashitem_go -> n_repo_StashItem_Title [penwidth=0.7, color="#cc0000"];
+    n_pkg_webhook_branch_tag_go -> n_webhook_BranchTagEvent [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_common_common_go -> n_import_github_com_charmbracelet_soft_serve_pkg_backend [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_pages_repo_log_go -> n_repo__Log_SpinnerID [penwidth=0.7, color="#cc0000"];
+    n_pkg_web_git_go -> n_import_errors [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_pages_selection_item_go -> n_selection_Items_Less [penwidth=0.7, color="#cc0000"];
+    n_db_Open -> n_config_IsVerbose [penwidth=0.7, color="#cc0000"];
+    n_pkg_store_database_repo_go -> n_database__repoStore_SetRepoProjectNameByName [penwidth=0.7, color="#666666"];
+    n_pkg_ssh_cmd_webhooks_go -> n_import_github_com_charmbracelet_soft_serve_pkg_webhook [penwidth=0.7, color="#cc0000"];
+    n_pkg_ssh_cmd_commit_go -> n_import_github_com_charmbracelet_soft_serve_git [penwidth=0.7, color="#cc0000"];
+    n_cmd_gitRunE -> n_git_EnsureDefaultBranch [penwidth=0.7, color="#666666"];
+    n_pkg_ui_components_tabs_tabs_go -> n_tabs_New [penwidth=0.7, color="#cc0000"];
+    n_pkg_ssh_session_go -> n_import_github_com_charmbracelet_soft_serve_pkg_config [penwidth=0.7, color="#cc0000"];
+    n_database__repoStore_SetRepoIsHiddenByName -> n_db_WrapError [penwidth=0.7, color="#cc0000"];
+    n_git_attr_go -> n_git_Attribute [penwidth=0.7, color="#cc0000"];
+    n_pkg_db_internal_test_test_go -> n_test_OpenSqlite [penwidth=0.7, color="#666666"];
+    n_pkg_ssh_session_go -> n_import_github_com_charmbracelet_ssh [penwidth=0.7, color="#cc0000"];
+    n_code_New -> n_common_StyleConfig [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_pages_selection_selection_go -> n_import_github_com_charmbracelet_soft_serve_pkg_ui_components_selector [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_pages_repo_empty_go -> n_import_fmt [penwidth=0.7, color="#cc0000"];
+    n_webhook_NewCollaboratorEvent -> n_db_FromContext [penwidth=0.7, color="#cc0000"];
+    n_pkg_lfs_basic_transfer_go -> n_lfs__BasicTransferAdapter_performRequest [penwidth=0.7, color="#cc0000"];
+    n_pkg_store_database_webhooks_go -> n_database__webhookStore_GetWebhooksByRepoIDWhereEvent [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_pages_repo_files_go -> n_repo__Files_FullHelp [penwidth=0.7, color="#666666"];
+    n_cmd_commitCommand -> n_backend_FromContext [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_pages_repo_filesitem_go -> n_repo_FileItem_Title [penwidth=0.7, color="#666666"];
+    n_pkg_ssh_cmd_blob_go -> n_import_github_com_charmbracelet_soft_serve_pkg_ui_styles [penwidth=0.7, color="#cc0000"];
+    n_cmd_privateCommand -> n_backend_FromContext [penwidth=0.7, color="#cc0000"];
+    n_pkg_proto_access_token_go -> n_import_time [penwidth=0.7, color="#cc0000"];
+    n_pkg_webhook_validator_go -> n_import_strings [penwidth=0.7, color="#cc0000"];
+    n_web_serviceLfsBasicVerify -> n_db_FromContext [penwidth=0.7, color="#cc0000"];
+    n_pkg_ssh_cmd_jwt_go -> n_import_github_com_charmbracelet_soft_serve_pkg_proto [penwidth=0.7, color="#cc0000"];
+    n_pkg_ssh_ssh_go -> n_import_time [penwidth=0.7, color="#cc0000"];
+    n_pkg_web_git_go -> n_web_renderInternalServerError [penwidth=0.7, color="#cc0000"];
+    n_pkg_webhook_validator_go -> n_webhook_isLocalhost [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_pages_repo_files_go -> n_import_errors [penwidth=0.7, color="#cc0000"];
+    n_selection_Selection -> n_code_Code [penwidth=0.7, color="#666666"];
+    n_database__lfsStore_GetLFSObjects -> n_db_WrapError [penwidth=0.7, color="#cc0000"];
+    n_pkg_backend_repo_go -> n_import_context [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_components_viewport_viewport_go -> n_import_github_com_charmbracelet_bubbletea_v2 [penwidth=0.7, color="#cc0000"];
+    n_pkg_backend_backend_go -> n_backend_New [penwidth=0.7, color="#cc0000"];
+    n_pkg_backend_webhooks_go -> n_import_context [penwidth=0.7, color="#cc0000"];
+    n_pkg_ssh_cmd_webhooks_go -> n_import_fmt [penwidth=0.7, color="#cc0000"];
+    n_pkg_ssh_middleware_go -> n_ssh_AuthenticationMiddleware [penwidth=0.7, color="#cc0000"];
+    n_pkg_ssh_middleware_go -> n_import_github_com_charmbracelet_soft_serve_pkg_db [penwidth=0.7, color="#cc0000"];
+    n_cmd_soft_serve_serve_go -> n_import_github_com_charmbracelet_soft_serve_cmd [penwidth=0.7, color="#cc0000"];
+    n_pkg_webhook_webhook_go -> n_import_crypto_hmac [penwidth=0.7, color="#cc0000"];
+    n_cmd_checkIfAdmin -> n_config_FromContext [penwidth=0.7, color="#cc0000"];
+    n_pkg_ssh_cmd_cmd_go -> n_import_github_com_charmbracelet_soft_serve_pkg_backend [penwidth=0.7, color="#cc0000"];
+    n_pkg_ssh_cmd_git_go -> n_import_github_com_charmbracelet_soft_serve_pkg_access [penwidth=0.7, color="#cc0000"];
+    n_git_patch_go -> n_git_toDiff [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_pages_repo_filesitem_go -> n_repo_FileItem [penwidth=0.7, color="#666666"];
+    n_cmd_checkIfAdmin -> n_proto_UserFromContext [penwidth=0.7, color="#cc0000"];
+    n_cmd_collabAddCommand -> n_access_ParseAccessLevel [penwidth=0.7, color="#cc0000"];
+    n_pkg_lfs_basic_transfer_go -> n_lfs__BasicTransferAdapter_Verify [penwidth=0.7, color="#cc0000"];
+    n_database__repoStore_GetRepoDescriptionByName -> n_db_WrapError [penwidth=0.7, color="#cc0000"];
+    n_git_repo_go -> n_git__Repository_References [penwidth=0.7, color="#cc0000"];
+    n_pkg_db_handler_go -> n_db_Handler [penwidth=0.7, color="#cc0000"];
+    n_pkg_ui_components_header_header_go -> n_header_New [penwidth=0.7, color="#cc0000"];
+    n_pkg_db_errors_go -> n_import_database_sql [penwidth=0.7, color="#cc0000"];
+    n_pkg_web_git_lfs_go -> n_import_io_fs [penwidth=0.7, color="#cc0000"];
+    n_repo__Files_fetchBlame -> n_common_ErrorMsg [penwidth=0.7, color="#cc0000"];
+    n_pkg_storage_local_go -> n_storage_NewLocalStorage [penwidth=0.7, color="#cc0000"];
+}

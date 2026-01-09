@@ -1,0 +1,182 @@
+digraph G {
+    rankdir=BT;
+    node [shape=box, style=filled];
+    edge [arrowsize=0.7];
+
+    // Layer 0: Foundations
+    subgraph cluster_0 {
+        label="Foundations";
+        style=filled;
+        fillcolor="#c8e6c9";
+        n_import_fmt [label="import:fmt\nA:58 E:0", fillcolor="#ffffff"];
+        n_import_github_com_charmbracelet_bubbletea [label="bubbletea\nA:52 E:0", fillcolor="#ffffff"];
+        n_import_os [label="import:os\nA:42 E:0", fillcolor="#fefefe"];
+        n_import_github_com_charmbracelet_lipgloss [label="lipgloss\nA:30 E:0", fillcolor="#dadada"];
+        n_import_time [label="import:time\nA:25 E:0", fillcolor="#cbcbcb"];
+        n_import_strings [label="import:strings\nA:21 E:0", fillcolor="#bfbfbf"];
+        n_import_log [label="import:log\nA:17 E:0", fillcolor="#b3b3b3"];
+        n_import_io [label="import:io\nA:16 E:0", fillcolor="#b0b0b0"];
+        n_tea_Tick [label="tea.Tick\nA:8 E:0", fillcolor="#989898"];
+        n_import_github_com_charmbracelet_bubbles_key [label="key\nA:8 E:0", fillcolor="#989898"];
+        n_import_math_rand [label="rand\nA:8 E:0", fillcolor="#989898"];
+        n_import_github_com_charmbracelet_bubbles_spinner [label="spinner\nA:7 E:0", fillcolor="#959595"];
+        n_import_github_com_charmbracelet_bubbles_help [label="help\nA:6 E:0", fillcolor="#929292"];
+        n_import_github_com_charmbracelet_bubbles_progress [label="progress\nA:5 E:0", fillcolor="#8f8f8f"];
+        n_import_context [label="import:context\nA:5 E:0", fillcolor="#8f8f8f"];
+    }
+
+    // Layer 1: Core
+    subgraph cluster_1 {
+        label="Core";
+        style=filled;
+        fillcolor="#ffe0b2";
+        n_standard_renderer_go [label="standard_renderer.go\nA:0 E:55", fillcolor="#ffffff"];
+        n_tea_go [label="tea.go\nA:0 E:53", fillcolor="#ffffff"];
+    }
+
+    // Layer 2: Support
+    subgraph cluster_2 {
+        label="Support";
+        style=filled;
+        fillcolor="#bbdefb";
+        n_screen_go [label="screen.go\nA:0 E:32", fillcolor="#e0e0e0"];
+        n_nil_renderer_go [label="nil_renderer.go\nA:0 E:26", fillcolor="#cecece"];
+        n_options_go [label="options.go\nA:0 E:21", fillcolor="#bfbfbf"];
+        n_key_go [label="key.go\nA:0 E:18", fillcolor="#b6b6b6"];
+        n_inputreader_windows_go [label="inputreader_windo...\nA:0 E:16", fillcolor="#b0b0b0"];
+        n_key_windows_go [label="key_windows.go\nA:0 E:14", fillcolor="#aaaaaa"];
+        n_tty_go [label="tty.go\nA:0 E:14", fillcolor="#aaaaaa"];
+        n_exec_go [label="exec.go\nA:0 E:14", fillcolor="#aaaaaa"];
+        n_commands_go [label="commands.go\nA:0 E:13", fillcolor="#a7a7a7"];
+        n_mouse_go [label="mouse.go\nA:0 E:12", fillcolor="#a4a4a4"];
+        n_examples_progress_download_tui_go [label="tui.go\nA:0 E:8", fillcolor="#989898"];
+        n_tty_unix_go [label="tty_unix.go\nA:0 E:8", fillcolor="#989898"];
+        n_logging_go [label="logging.go\nA:0 E:8", fillcolor="#989898"];
+        n_examples_list_fancy_delegate_go [label="delegate.go\nA:0 E:8", fillcolor="#989898"];
+        n_key_sequences_go [label="key_sequences.go\nA:0 E:6", fillcolor="#929292"];
+    }
+
+    // Layer 3: Applications
+    subgraph cluster_3 {
+        label="Applications";
+        style=filled;
+        fillcolor="#f8bbd0";
+        n_examples_views_main_go [label="main.go\nA:0 E:19", fillcolor="#b9b9b9"];
+        n_examples_autocomplete_main_go [label="main.go\nA:0 E:18", fillcolor="#b6b6b6"];
+        n_examples_cellbuffer_main_go [label="main.go\nA:0 E:17", fillcolor="#b3b3b3"];
+        n_examples_composable_views_main_go [label="main.go\nA:0 E:16", fillcolor="#b0b0b0"];
+        n_examples_tui_daemon_combo_main_go [label="main.go\nA:0 E:15", fillcolor="#adadad"];
+        n_examples_progress_download_main_go [label="main.go\nA:0 E:13", fillcolor="#a7a7a7"];
+        n_examples_credit_card_form_main_go [label="main.go\nA:0 E:12", fillcolor="#a4a4a4"];
+        n_examples_glamour_main_go [label="main.go\nA:0 E:12", fillcolor="#a4a4a4"];
+        n_examples_list_simple_main_go [label="main.go\nA:0 E:12", fillcolor="#a4a4a4"];
+        n_examples_send_msg_main_go [label="main.go\nA:0 E:11", fillcolor="#a1a1a1"];
+        n_examples_package_manager_main_go [label="main.go\nA:0 E:11", fillcolor="#a1a1a1"];
+        n_examples_eyes_main_go [label="main.go\nA:0 E:10", fillcolor="#9e9e9e"];
+        n_examples_split_editors_main_go [label="main.go\nA:0 E:10", fillcolor="#9e9e9e"];
+        n_examples_help_main_go [label="main.go\nA:0 E:10", fillcolor="#9e9e9e"];
+        n_examples_list_fancy_main_go [label="main.go\nA:0 E:10", fillcolor="#9e9e9e"];
+    }
+
+    // Edges
+    n_examples_credit_card_form_main_go -> n_import_log [penwidth=0.7, color="#cc0000"];
+    n_standard_renderer_go -> n_tea__standardRenderer_listen [penwidth=0.7, color="#cc0000"];
+    n_tea_go -> n_tea__Program_handleSignals [penwidth=0.7, color="#cc0000"];
+    n_tea_go -> n_tea_Interrupt [penwidth=0.7, color="#cc0000"];
+    n_examples_list_fancy_main_go -> n_import_github_com_charmbracelet_bubbletea [penwidth=0.7, color="#cc0000"];
+    n_key_windows_go -> n_import_github_com_mattn_go_localereader [penwidth=0.7, color="#cc0000"];
+    n_examples_progress_download_tui_go -> n_main_finalPause [penwidth=0.7, color="#666666"];
+    n_examples_tabs_main_go -> n_main_tabBorderWithBottom [penwidth=0.7, color="#cc0000"];
+    n_renderer_go -> n_tea_repaintMsg [penwidth=0.7, color="#cc0000"];
+    n_standard_renderer_go -> n_tea__standardRenderer_stop [penwidth=0.7, color="#cc0000"];
+    n_examples_altscreen_toggle_main_go -> n_import_github_com_charmbracelet_bubbletea [penwidth=0.7, color="#cc0000"];
+    n_examples_fullscreen_main_go -> n_import_time [penwidth=0.7, color="#cc0000"];
+    n_examples_split_editors_main_go -> n_import_github_com_charmbracelet_lipgloss [penwidth=0.7, color="#cc0000"];
+    n_focus_go -> n_tea_FocusMsg [penwidth=0.7, color="#cc0000"];
+    n_screen_go -> n_tea__Program_EnableMouseAllMotion [penwidth=0.7, color="#cc0000"];
+    n_screen_go -> n_tea_exitAltScreenMsg [penwidth=0.7, color="#cc0000"];
+    n_examples_cellbuffer_main_go -> n_import_fmt [penwidth=0.7, color="#cc0000"];
+    n_examples_composable_views_main_go -> n_import_log [penwidth=0.7, color="#cc0000"];
+    n_examples_views_main_go -> n_import_github_com_lucasb_eyer_go_colorful [penwidth=0.7, color="#cc0000"];
+    n_examples_autocomplete_main_go -> n_main_gotReposSuccessMsg [penwidth=0.7, color="#cc0000"];
+    n_examples_list_fancy_delegate_go -> n_main_delegateKeyMap_ShortHelp [penwidth=0.7, color="#cc0000"];
+    n_examples_eyes_main_go -> n_import_math_rand [penwidth=0.7, color="#cc0000"];
+    n_examples_composable_views_main_go -> n_main__mainModel_resetSpinner [penwidth=0.7, color="#cc0000"];
+    n_examples_help_main_go -> n_main_keyMap_FullHelp [penwidth=0.7, color="#cc0000"];
+    n_examples_progress_animated_main_go -> n_import_time [penwidth=0.7, color="#cc0000"];
+    n_tty_go -> n_import_io [penwidth=0.7, color="#cc0000"];
+    n_examples_progress_static_main_go -> n_import_os [penwidth=0.7, color="#cc0000"];
+    n_examples_sequence_main_go -> n_import_os [penwidth=0.7, color="#cc0000"];
+    n_examples_textinputs_main_go -> n_import_github_com_charmbracelet_bubbles_cursor [penwidth=0.7, color="#cc0000"];
+    n_tty_windows_go -> n_import_fmt [penwidth=0.7, color="#cc0000"];
+    n_examples_eyes_main_go -> n_main__model_updateEyePositions [penwidth=0.7, color="#cc0000"];
+    n_examples_list_default_main_go -> n_import_github_com_charmbracelet_lipgloss [penwidth=0.7, color="#cc0000"];
+    n_inputreader_windows_go -> n_import_github_com_muesli_cancelreader [penwidth=0.7, color="#cc0000"];
+    n_exec_go -> n_tea__osExecCommand_SetStderr [penwidth=0.7, color="#cc0000"];
+    n_inputreader_windows_go -> n_tea__conInputReader_Cancel [penwidth=0.7, color="#cc0000"];
+    n_standard_renderer_go -> n_tea_clearScrollAreaMsg [penwidth=0.7, color="#cc0000"];
+    n_examples_progress_download_main_go -> n_import_log [penwidth=0.7, color="#cc0000"];
+    n_examples_stopwatch_main_go -> n_import_github_com_charmbracelet_bubbles_stopwatch [penwidth=0.7, color="#cc0000"];
+    n_examples_table_resize_main_go -> n_import_github_com_charmbracelet_bubbletea [penwidth=0.7, color="#cc0000"];
+    n_examples_cellbuffer_main_go -> n_main__cellbuffer_wipe [penwidth=0.7, color="#cc0000"];
+    n_options_go -> n_tea_WithInputTTY [penwidth=0.7, color="#cc0000"];
+    n_examples_list_simple_main_go -> n_import_github_com_charmbracelet_bubbles_list [penwidth=0.7, color="#cc0000"];
+    n_exec_go -> n_tea_osExecCommand [penwidth=0.7, color="#cc0000"];
+    n_nil_renderer_go -> n_tea_nilRenderer_disableReportFocus [penwidth=0.7, color="#cc0000"];
+    n_tea_go -> n_tea_ResumeMsg [penwidth=0.7, color="#cc0000"];
+    n_examples_table_resize_main_go -> n_import_github_com_charmbracelet_lipgloss [penwidth=0.7, color="#cc0000"];
+    n_examples_textarea_main_go -> n_import_github_com_charmbracelet_bubbletea [penwidth=0.7, color="#cc0000"];
+    n_examples_views_main_go -> n_import_math [penwidth=0.7, color="#cc0000"];
+    n_tutorials_commands_main_go -> n_import_time [penwidth=0.7, color="#cc0000"];
+    n_exec_go -> n_tea_Exec [penwidth=0.7, color="#cc0000"];
+    n_exec_go -> n_tea_ExecCommand [penwidth=0.7, color="#cc0000"];
+    n_screen_go -> n_tea__Program_EnableMouseCellMotion [penwidth=0.7, color="#cc0000"];
+    n_tea_go -> n_tea__Program_RestoreTerminal [penwidth=0.7, color="#cc0000"];
+    n_tea_go -> n_tea_inputType_String [penwidth=0.7, color="#cc0000"];
+    n_examples_pipe_main_go -> n_import_github_com_charmbracelet_bubbles_textinput [penwidth=0.7, color="#cc0000"];
+    n_examples_views_main_go -> n_import_strings [penwidth=0.7, color="#cc0000"];
+    n_tea_go -> n_import_runtime [penwidth=0.7, color="#cc0000"];
+    n_examples_cellbuffer_main_go -> n_main_animate [penwidth=0.7, color="#cc0000"];
+    n_nil_renderer_go -> n_tea_nilRenderer_reportFocus [penwidth=0.7, color="#cc0000"];
+    n_examples_composable_views_main_go -> n_main__mainModel_Next [penwidth=0.7, color="#cc0000"];
+    n_options_go -> n_import_io [penwidth=0.7, color="#cc0000"];
+    n_examples_file_picker_main_go -> n_main_clearErrorAfter [penwidth=0.7, color="#cc0000"];
+    n_standard_renderer_go -> n_tea_ClearScrollArea [penwidth=0.7, color="#cc0000"];
+    n_examples_composable_views_main_go -> n_main_newModel [penwidth=0.7, color="#cc0000"];
+    n_examples_composable_views_main_go -> n_main_mainModel_Init [penwidth=0.7, color="#cc0000"];
+    n_key_windows_go -> n_tea_mouseEvent [penwidth=0.7, color="#cc0000"];
+    n_examples_progress_download_main_go -> n_import_net_http [penwidth=0.7, color="#cc0000"];
+    n_commands_go -> n_tea_Batch [penwidth=0.7, color="#cc0000"];
+    n_mouse_go -> n_tea_MouseMsg [penwidth=0.7, color="#cc0000"];
+    n_examples_tui_daemon_combo_main_go -> n_import_github_com_charmbracelet_bubbles_spinner [penwidth=0.7, color="#cc0000"];
+    n_commands_go -> n_tea_compactCmds [penwidth=0.7, color="#cc0000"];
+    n_examples_autocomplete_main_go -> n_main_getRepos [penwidth=0.7, color="#cc0000"];
+    n_standard_renderer_go -> n_tea__standardRenderer_hideCursor [penwidth=0.7, color="#cc0000"];
+    n_examples_paginator_main_go -> n_import_github_com_charmbracelet_bubbles_paginator [penwidth=0.7, color="#cc0000"];
+    n_screen_go -> n_tea_DisableBracketedPaste [penwidth=0.7, color="#cc0000"];
+    n_examples_package_manager_main_go -> n_import_time [penwidth=0.7, color="#cc0000"];
+    n_examples_pager_main_go -> n_import_github_com_charmbracelet_lipgloss [penwidth=0.7, color="#cc0000"];
+    n_examples_simple_main_go -> n_import_os [penwidth=0.7, color="#cc0000"];
+    n_tea_go -> n_import_sync [penwidth=0.7, color="#cc0000"];
+    n_options_go -> n_import_sync_atomic [penwidth=0.7, color="#cc0000"];
+    n_standard_renderer_go -> n_tea__standardRenderer_reportFocus [penwidth=0.7, color="#cc0000"];
+    n_examples_altscreen_toggle_main_go -> n_import_fmt [penwidth=0.7, color="#cc0000"];
+    n_commands_go -> n_tea_BatchMsg [penwidth=0.7, color="#cc0000"];
+    n_examples_progress_download_main_go -> n_main__progressWriter_Write [penwidth=0.7, color="#cc0000"];
+    n_inputreader_windows_go -> n_tea_cancelMixin [penwidth=0.7, color="#cc0000"];
+    n_screen_go -> n_tea_HideCursor [penwidth=0.7, color="#cc0000"];
+    n_tea_go -> n_tea_Msg [penwidth=0.7, color="#cc0000"];
+    n_tty_go -> n_tea__Program_restoreInput [penwidth=0.7, color="#cc0000"];
+    n_examples_altscreen_toggle_main_go -> n_main_main [penwidth=0.7, color="#cc0000"];
+    n_examples_cellbuffer_main_go -> n_main_cellbuffer_height [penwidth=0.7, color="#cc0000"];
+    n_examples_progress_animated_main_go -> n_import_github_com_charmbracelet_lipgloss [penwidth=0.7, color="#cc0000"];
+    n_examples_progress_download_tui_go -> n_import_time [penwidth=0.7, color="#cc0000"];
+    n_examples_spinners_main_go -> n_import_github_com_charmbracelet_bubbles_spinner [penwidth=0.7, color="#cc0000"];
+    n_examples_list_default_main_go -> n_main_item_Description [penwidth=0.7, color="#cc0000"];
+    n_examples_stopwatch_main_go -> n_import_time [penwidth=0.7, color="#cc0000"];
+    n_inputreader_other_go -> n_import_io [penwidth=0.7, color="#cc0000"];
+    n_key_other_go -> n_import_context [penwidth=0.7, color="#cc0000"];
+    n_main_finalPause -> n_tea_Tick [penwidth=0.7, color="#cc0000"];
+    n_screen_go -> n_tea_DisableReportFocus [penwidth=0.7, color="#cc0000"];
+    n_examples_progress_static_main_go -> n_import_github_com_charmbracelet_bubbletea [penwidth=0.7, color="#cc0000"];
+}

@@ -1,0 +1,309 @@
+digraph CompositionStructure {
+  rankdir=TB;
+  node [shape=box, style="rounded,filled"];
+  edge [penwidth=1.5];
+  label="Composition Structure (Top 20 modules by object count)";
+  fontsize=16;
+
+  subgraph cluster_0 {
+    label="more";
+    style=filled;
+    fillcolor=lightgray;
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.more.SequenceView" [label="SequenceView", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.more.powerset_of_sets" [label="powerset_of_sets", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.more.all_unique" [label="all_unique", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.more.duplicates_everseen" [label="duplicates_everseen", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.more.zip_offset" [label="zip_offset", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.more.windowed_complete" [label="windowed_complete", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.more.zip_equal" [label="zip_equal", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.more.longest_common_prefix" [label="longest_common_prefix", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.more.nth_permutation" [label="nth_permutation", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.more.wrapper" [label="wrapper", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_1 {
+    label="typing_extensions";
+    style=filled;
+    fillcolor=lightgray;
+    "halcon.lib.python3.10.site-packages.pip._vendor.typing_extensions._TypeAliasGenericAlias" [label="_TypeAliasGenericAlias", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.typing_extensions.SupportsInt" [label="SupportsInt", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.typing_extensions.TypeAliasType" [label="TypeAliasType", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.typing_extensions.get_args" [label="get_args", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.typing_extensions.reveal_type" [label="reveal_type", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.typing_extensions._caller" [label="_caller", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.typing_extensions.Never" [label="Never", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.typing_extensions.SupportsIndex" [label="SupportsIndex", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.typing_extensions._UnpackAlias" [label="_UnpackAlias", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.typing_extensions.Format" [label="Format", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_2 {
+    label="msvs";
+    style=filled;
+    fillcolor=lightgray;
+    "node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._CollapseSingles" [label="_CollapseSingles", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._GetMSBuildLocalProperties" [label="_GetMSBuildLocalProperties", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.generator.msvs.CalculateVariables" [label="CalculateVariables", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._AddAccumulatedActionsToMSVS" [label="_AddAccumulatedActionsToMSVS", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._VerifySourcesExist" [label="_VerifySourcesExist", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._ExcludeFilesFromBeingBuilt" [label="_ExcludeFilesFromBeingBuilt", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._CreateMSVSUserFile" [label="_CreateMSVSUserFile", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._AddConditionalProperty" [label="_AddConditionalProperty", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._AddConfigurationToMSVSProject" [label="_AddConfigurationToMSVSProject", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._EscapeCppDefineForMSVS" [label="_EscapeCppDefineForMSVS", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_3 {
+    label="msvs";
+    style=filled;
+    fillcolor=lightgray;
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._IdlFilesHandledNonNatively" [label="_IdlFilesHandledNonNatively", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._AdjustSourcesForRules" [label="_AdjustSourcesForRules", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._GetMSBuildLocalProperties" [label="_GetMSBuildLocalProperties", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._AddAccumulatedActionsToMSVS" [label="_AddAccumulatedActionsToMSVS", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._ConvertMSVSCharacterSet" [label="_ConvertMSVSCharacterSet", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._AddConditionalProperty" [label="_AddConditionalProperty", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._GetOutputTargetExt" [label="_GetOutputTargetExt", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._GetMSBuildProjectReferences" [label="_GetMSBuildProjectReferences", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._GetDefines" [label="_GetDefines", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.generator.msvs._GetConfigurationAndPlatform" [label="_GetConfigurationAndPlatform", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_4 {
+    label="typing_extensions";
+    style=filled;
+    fillcolor=lightgray;
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.typing_extensions._ProtocolMeta" [label="_ProtocolMeta", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.typing_extensions._is_unionable" [label="_is_unionable", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.typing_extensions._UnpackAlias" [label="_UnpackAlias", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.typing_extensions.NoDefaultTypeMeta" [label="NoDefaultTypeMeta", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.typing_extensions._is_unpack" [label="_is_unpack", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.typing_extensions.Unpack" [label="Unpack", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.typing_extensions._Immutable" [label="_Immutable", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.typing_extensions._UnpackSpecialForm" [label="_UnpackSpecialForm", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.typing_extensions.Any" [label="Any", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.typing_extensions.final" [label="final", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_5 {
+    label="pkg_resources";
+    style=filled;
+    fillcolor=lightgray;
+    "halcon.lib.python3.10.site-packages.pip._vendor.pkg_resources.parse_requirements" [label="parse_requirements", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.pkg_resources._rebuild_mod_path" [label="_rebuild_mod_path", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.pkg_resources._find_adapter" [label="_find_adapter", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.pkg_resources.EggProvider" [label="EggProvider", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.pkg_resources.to_filename" [label="to_filename", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.pkg_resources.VersionConflict" [label="VersionConflict", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.pkg_resources.invalid_marker" [label="invalid_marker", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.pkg_resources.IMetadataProvider" [label="IMetadataProvider", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.pkg_resources._is_egg_path" [label="_is_egg_path", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.pkg_resources._macos_vers" [label="_macos_vers", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_6 {
+    label="pkg_resources";
+    style=filled;
+    fillcolor=lightgray;
+    "halcon.lib.python3.10.site-packages.pkg_resources.non_empty_lines" [label="non_empty_lines", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pkg_resources.register_loader_type" [label="register_loader_type", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pkg_resources.PathMetadata" [label="PathMetadata", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pkg_resources.ensure_directory" [label="ensure_directory", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pkg_resources._sset_dict" [label="_sset_dict", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pkg_resources.get_entry_map" [label="get_entry_map", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pkg_resources.fixup_namespace_packages" [label="fixup_namespace_packages", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pkg_resources.is_version_line" [label="is_version_line", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pkg_resources._forgiving_version" [label="_forgiving_version", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pkg_resources.issue_warning" [label="issue_warning", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_7 {
+    label="uts46data";
+    style=filled;
+    fillcolor=lightgray;
+    "halcon.lib.python3.10.site-packages.pip._vendor.idna.uts46data._seg_71" [label="_seg_71", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.idna.uts46data._seg_18" [label="_seg_18", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.idna.uts46data._seg_29" [label="_seg_29", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.idna.uts46data._seg_73" [label="_seg_73", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.idna.uts46data._seg_24" [label="_seg_24", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.idna.uts46data._seg_35" [label="_seg_35", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.idna.uts46data._seg_42" [label="_seg_42", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.idna.uts46data._seg_74" [label="_seg_74", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.idna.uts46data._seg_70" [label="_seg_70", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.idna.uts46data._seg_57" [label="_seg_57", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_8 {
+    label="util";
+    style=filled;
+    fillcolor=lightgray;
+    "halcon.lib.python3.10.site-packages.pip._vendor.distlib.util.tempdir" [label="tempdir", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.distlib.util.unarchive" [label="unarchive", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.distlib.util.parse_credentials" [label="parse_credentials", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.distlib.util.in_venv" [label="in_venv", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.distlib.util._iglob" [label="_iglob", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.distlib.util.parse_requirement" [label="parse_requirement", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.distlib.util.marker_var" [label="marker_var", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.distlib.util.cached_property" [label="cached_property", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.distlib.util._csv_open" [label="_csv_open", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.distlib.util.Progress" [label="Progress", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_9 {
+    label="input";
+    style=filled;
+    fillcolor=lightgray;
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.input.MergeLists" [label="MergeLists", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.input.ProcessToolsetsInDict" [label="ProcessToolsetsInDict", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.input.VerifyNoCollidingTargets" [label="VerifyNoCollidingTargets", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.input.PruneUnwantedTargets" [label="PruneUnwantedTargets", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.input.AdjustStaticLibraryDependencies" [label="AdjustStaticLibraryDependencies", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.input.CircularException" [label="CircularException", fillcolor=lightblue, shape=box];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.input.TurnIntIntoStrInList" [label="TurnIntIntoStrInList", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.input.RemoveLinkDependenciesFromNoneTargets" [label="RemoveLinkDependenciesFromNoneTargets", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.input.is_in_set_or_list" [label="is_in_set_or_list", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice.node_modules.node-gyp.gyp.pylib.gyp.input.LoadBuildFileIncludesIntoDict" [label="LoadBuildFileIncludesIntoDict", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_10 {
+    label="input";
+    style=filled;
+    fillcolor=lightgray;
+    "node_modules.node-gyp.gyp.pylib.gyp.input.ValidateTargetType" [label="ValidateTargetType", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.input.LoadTargetBuildFilesParallel" [label="LoadTargetBuildFilesParallel", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.input.is_in_set_or_list" [label="is_in_set_or_list", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.input.LoadBuildFileIncludesIntoDict" [label="LoadBuildFileIncludesIntoDict", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.input.Filter" [label="Filter", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.input.VerifyNoGYPFileCircularDependencies" [label="VerifyNoGYPFileCircularDependencies", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.input.LoadAutomaticVariablesFromDict" [label="LoadAutomaticVariablesFromDict", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.input.ProcessListFiltersInDict" [label="ProcessListFiltersInDict", fillcolor=lightgreen, shape=ellipse];
+    "node_modules.node-gyp.gyp.pylib.gyp.input.CircularException" [label="CircularException", fillcolor=lightblue, shape=box];
+    "node_modules.node-gyp.gyp.pylib.gyp.input.SetGeneratorGlobals" [label="SetGeneratorGlobals", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_11 {
+    label="input";
+    style=filled;
+    fillcolor=lightgray;
+    "claude-sdk-microservice..npm-cache._npx.df100e174afb6ecd.node_modules.npx.node_modules.npm.node_modules.node-gyp.gyp.pylib.gyp.input.DependencyGraphNode" [label="DependencyGraphNode", fillcolor=lightblue, shape=box];
+    "claude-sdk-microservice..npm-cache._npx.df100e174afb6ecd.node_modules.npx.node_modules.npm.node_modules.node-gyp.gyp.pylib.gyp.input.AdjustStaticLibraryDependencies" [label="AdjustStaticLibraryDependencies", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice..npm-cache._npx.df100e174afb6ecd.node_modules.npx.node_modules.npm.node_modules.node-gyp.gyp.pylib.gyp.input.LoadBuildFileIncludesIntoList" [label="LoadBuildFileIncludesIntoList", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice..npm-cache._npx.df100e174afb6ecd.node_modules.npx.node_modules.npm.node_modules.node-gyp.gyp.pylib.gyp.input.ValidateTargetType" [label="ValidateTargetType", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice..npm-cache._npx.df100e174afb6ecd.node_modules.npx.node_modules.npm.node_modules.node-gyp.gyp.pylib.gyp.input.ValidateRunAsInTarget" [label="ValidateRunAsInTarget", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice..npm-cache._npx.df100e174afb6ecd.node_modules.npx.node_modules.npm.node_modules.node-gyp.gyp.pylib.gyp.input.ValidateActionsInTarget" [label="ValidateActionsInTarget", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice..npm-cache._npx.df100e174afb6ecd.node_modules.npx.node_modules.npm.node_modules.node-gyp.gyp.pylib.gyp.input.EvalSingleCondition" [label="EvalSingleCondition", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice..npm-cache._npx.df100e174afb6ecd.node_modules.npx.node_modules.npm.node_modules.node-gyp.gyp.pylib.gyp.input.RemoveSelfDependencies" [label="RemoveSelfDependencies", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice..npm-cache._npx.df100e174afb6ecd.node_modules.npx.node_modules.npm.node_modules.node-gyp.gyp.pylib.gyp.input.EvalCondition" [label="EvalCondition", fillcolor=lightgreen, shape=ellipse];
+    "claude-sdk-microservice..npm-cache._npx.df100e174afb6ecd.node_modules.npx.node_modules.npm.node_modules.node-gyp.gyp.pylib.gyp.input.MergeDicts" [label="MergeDicts", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_12 {
+    label="recipes";
+    style=filled;
+    fillcolor=lightgray;
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.recipes._zip_equal" [label="_zip_equal", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.recipes.partition" [label="partition", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.recipes.repeatfunc" [label="repeatfunc", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.recipes.sliding_window" [label="sliding_window", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.recipes.iter_except" [label="iter_except", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.recipes.UnequalIterablesError" [label="UnequalIterablesError", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.recipes.iter_index" [label="iter_index", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.recipes.unique" [label="unique", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.recipes.before_and_after" [label="before_and_after", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.more_itertools.recipes.factor" [label="factor", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_13 {
+    label="six";
+    style=filled;
+    fillcolor=lightgray;
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.packages.six.raise_from" [label="raise_from", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.packages.six.wraps" [label="wraps", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.packages.six.metaclass" [label="metaclass", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.packages.six.exec_" [label="exec_", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.packages.six.add_metaclass" [label="add_metaclass", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.packages.six._import_module" [label="_import_module", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.packages.six.assertRaisesRegex" [label="assertRaisesRegex", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.packages.six.advance_iterator" [label="advance_iterator", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.packages.six.get_unbound_function" [label="get_unbound_function", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.packages.six._SixMetaPathImporter" [label="_SixMetaPathImporter", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_14 {
+    label="misc";
+    style=filled;
+    fillcolor=lightgray;
+    "halcon.lib.python3.10.site-packages.pip._internal.utils.misc._transform_url" [label="_transform_url", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._internal.utils.misc.get_pip_version" [label="get_pip_version", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._internal.utils.misc.pairwise" [label="pairwise", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._internal.utils.misc.is_console_interactive" [label="is_console_interactive", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._internal.utils.misc.hide_url" [label="hide_url", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._internal.utils.misc.write_output" [label="write_output", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._internal.utils.misc.split_auth_netloc_from_url" [label="split_auth_netloc_from_url", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._internal.utils.misc.ask_password" [label="ask_password", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._internal.utils.misc.read_chunks" [label="read_chunks", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._internal.utils.misc._onerror_ignore" [label="_onerror_ignore", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_15 {
+    label="utils";
+    style=filled;
+    fillcolor=lightgray;
+    "halcon.lib.python3.10.site-packages.pip._vendor.requests.utils.iter_slices" [label="iter_slices", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.requests.utils.proxy_bypass" [label="proxy_bypass", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.requests.utils._validate_header_part" [label="_validate_header_part", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.requests.utils.guess_filename" [label="guess_filename", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.requests.utils.from_key_val_list" [label="from_key_val_list", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.requests.utils.extract_zipped_paths" [label="extract_zipped_paths", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.requests.utils.get_environ_proxies" [label="get_environ_proxies", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.requests.utils._parse_content_type_header" [label="_parse_content_type_header", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.requests.utils.unquote_header_value" [label="unquote_header_value", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.pip._vendor.requests.utils.dict_to_sequence" [label="dict_to_sequence", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_16 {
+    label="exceptions";
+    style=filled;
+    fillcolor=lightgray;
+    "halcon.lib.python3.10.site-packages.pip._internal.exceptions.InvalidSchemeCombination" [label="InvalidSchemeCombination", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._internal.exceptions.InvalidInstalledPackage" [label="InvalidInstalledPackage", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._internal.exceptions.PreviousBuildDirError" [label="PreviousBuildDirError", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._internal.exceptions.UnsupportedWheel" [label="UnsupportedWheel", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._internal.exceptions.IncompleteDownloadError" [label="IncompleteDownloadError", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._internal.exceptions.VcsHashUnsupported" [label="VcsHashUnsupported", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._internal.exceptions.InstallationSubprocessError" [label="InstallationSubprocessError", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._internal.exceptions.DiagnosticPipError" [label="DiagnosticPipError", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._internal.exceptions.NetworkConnectionError" [label="NetworkConnectionError", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._internal.exceptions.BestVersionAlreadyInstalled" [label="BestVersionAlreadyInstalled", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_17 {
+    label="tarfile";
+    style=filled;
+    fillcolor=lightgray;
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.backports.tarfile.OutsideDestinationError" [label="OutsideDestinationError", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.backports.tarfile.fully_trusted_filter" [label="fully_trusted_filter", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.backports.tarfile.SpecialFileError" [label="SpecialFileError", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.backports.tarfile.nti" [label="nti", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.backports.tarfile.TarFile" [label="TarFile", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.backports.tarfile.main" [label="main", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.backports.tarfile._LowLevelFile" [label="_LowLevelFile", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.backports.tarfile.LinkOutsideDestinationError" [label="LinkOutsideDestinationError", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.backports.tarfile.ReadError" [label="ReadError", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.setuptools._vendor.backports.tarfile.TruncatedHeaderError" [label="TruncatedHeaderError", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_18 {
+    label="exceptions";
+    style=filled;
+    fillcolor=lightgray;
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.exceptions.InvalidHeader" [label="InvalidHeader", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.exceptions.HTTPError" [label="HTTPError", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.exceptions.ResponseError" [label="ResponseError", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.exceptions.InsecurePlatformWarning" [label="InsecurePlatformWarning", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.exceptions.LocationParseError" [label="LocationParseError", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.exceptions.InsecureRequestWarning" [label="InsecureRequestWarning", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.exceptions.ProxySchemeUnknown" [label="ProxySchemeUnknown", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.exceptions.LocationValueError" [label="LocationValueError", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.exceptions.SystemTimeWarning" [label="SystemTimeWarning", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.pip._vendor.urllib3.exceptions.UnrewindableBodyError" [label="UnrewindableBodyError", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_19 {
+    label="test_bdist_wheel";
+    style=filled;
+    fillcolor=lightgray;
+    "halcon.lib.python3.10.site-packages.setuptools.tests.test_bdist_wheel.simpler_bdist_wheel" [label="simpler_bdist_wheel", fillcolor=lightblue, shape=box];
+    "halcon.lib.python3.10.site-packages.setuptools.tests.test_bdist_wheel.test_licenses_override" [label="test_licenses_override", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools.tests.test_bdist_wheel.test_preserve_unicode_metadata" [label="test_preserve_unicode_metadata", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools.tests.test_bdist_wheel.test_get_abi_tag_pypy_old" [label="test_get_abi_tag_pypy_old", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools.tests.test_bdist_wheel.test_get_abi_tag_graalpy" [label="test_get_abi_tag_graalpy", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools.tests.test_bdist_wheel.test_compression" [label="test_compression", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools.tests.test_bdist_wheel.test_unicode_record" [label="test_unicode_record", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools.tests.test_bdist_wheel.test_build_from_readonly_tree" [label="test_build_from_readonly_tree", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools.tests.test_bdist_wheel.test_build_number" [label="test_build_number", fillcolor=lightgreen, shape=ellipse];
+    "halcon.lib.python3.10.site-packages.setuptools.tests.test_bdist_wheel.test_platform_linux32" [label="test_platform_linux32", fillcolor=lightgreen, shape=ellipse];
+  }
+
+}

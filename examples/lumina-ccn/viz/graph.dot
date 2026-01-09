@@ -1,0 +1,159 @@
+digraph G {
+    rankdir=BT;
+    node [shape=box, style=filled];
+    edge [arrowsize=0.7];
+
+    // Layer 0: Foundations
+    subgraph cluster_0 {
+        label="Foundations";
+        style=filled;
+        fillcolor="#c8e6c9";
+        n_import_os [label="import:os\nA:10 E:0", fillcolor="#9e9e9e"];
+        n_import_strings [label="import:strings\nA:10 E:0", fillcolor="#9e9e9e"];
+        n_import_fmt [label="import:fmt\nA:7 E:0", fillcolor="#959595"];
+        n_import_path_filepath [label="filepath\nA:7 E:0", fillcolor="#959595"];
+        n_import_github_com_charmbracelet_lipgloss [label="lipgloss\nA:5 E:0", fillcolor="#8f8f8f"];
+        n_import_time [label="import:time\nA:4 E:0", fillcolor="#8c8c8c"];
+        n_import_sync [label="import:sync\nA:4 E:0", fillcolor="#8c8c8c"];
+        n_import_encoding_json [label="json\nA:4 E:0", fillcolor="#8c8c8c"];
+        n_import_regexp [label="import:regexp\nA:2 E:0", fillcolor="#868686"];
+        n_import_context [label="import:context\nA:2 E:0", fillcolor="#868686"];
+        n_import_github_com_charmbracelet_bubbles_list [label="list\nA:2 E:0", fillcolor="#868686"];
+        n_import_github_com_charmbracelet_glamour [label="glamour\nA:2 E:0", fillcolor="#868686"];
+        n_main__ClipboardManager_ExtendSelection [label="main.*ClipboardMa...\nA:1 E:0", fillcolor="#838383"];
+        n_main__ViewportImpl_NeedsReflow [label="main.*ViewportImp...\nA:1 E:0", fillcolor="#838383"];
+        n_main_AppModel_handleNormalMode [label="main.AppModel.han...\nA:1 E:0", fillcolor="#838383"];
+    }
+
+    // Layer 2: Support
+    subgraph cluster_2 {
+        label="Support";
+        style=filled;
+        fillcolor="#bbdefb";
+        n_glamour_impl_go [label="glamour_impl.go\nA:0 E:30", fillcolor="#dadada"];
+        n_model_go [label="model.go\nA:0 E:27", fillcolor="#d1d1d1"];
+        n_context_panel_go [label="context_panel.go\nA:0 E:26", fillcolor="#cecece"];
+        n_search_go [label="search.go\nA:0 E:23", fillcolor="#c5c5c5"];
+        n_toc_go [label="toc.go\nA:0 E:22", fillcolor="#c2c2c2"];
+        n_ripgrep_executor_go [label="ripgrep_executor.go\nA:0 E:22", fillcolor="#c2c2c2"];
+        n_file_watcher_go [label="file_watcher.go\nA:0 E:21", fillcolor="#bfbfbf"];
+        n_colors_go [label="colors.go\nA:0 E:21", fillcolor="#bfbfbf"];
+        n_clipboard_go [label="clipboard.go\nA:0 E:19", fillcolor="#b9b9b9"];
+        n_test_mocks_go [label="test_mocks.go\nA:0 E:16", fillcolor="#b0b0b0"];
+        n_fuzzy_finder_impl_go [label="fuzzy_finder_impl.go\nA:0 E:15", fillcolor="#adadad"];
+        n_keybindings_go [label="keybindings.go\nA:0 E:11", fillcolor="#a1a1a1"];
+        n_utils_markdown_go [label="markdown.go\nA:0 E:10", fillcolor="#9e9e9e"];
+        n_help_go [label="help.go\nA:0 E:7", fillcolor="#959595"];
+        n_keybinding_impl_go [label="keybinding_impl.go\nA:0 E:5", fillcolor="#8f8f8f"];
+    }
+
+    // Layer 3: Applications
+    subgraph cluster_3 {
+        label="Applications";
+        style=filled;
+        fillcolor="#f8bbd0";
+        n_main_go [label="main.go\nA:0 E:40", fillcolor="#f8f8f8"];
+    }
+
+    // Edges
+    n_main_go -> n_main_SearchStartedMsg [penwidth=0.7, color="#cc0000"];
+    n_clipboard_go -> n_import_fmt [penwidth=0.7, color="#cc0000"];
+    n_test_mocks_go -> n_import_encoding_json [penwidth=0.7, color="#cc0000"];
+    n_colors_go -> n_main__ColorManager_GetStyle [penwidth=0.7, color="#cc0000"];
+    n_colors_go -> n_main_ThemeConfig [penwidth=0.7, color="#cc0000"];
+    n_context_panel_go -> n_main__ContextPanel_Clear [penwidth=0.7, color="#cc0000"];
+    n_utils_markdown_go -> n_utils_MarkdownStyle [penwidth=0.7, color="#cc0000"];
+    n_fuzzy_finder_impl_go -> n_import_strings [penwidth=0.7, color="#cc0000"];
+    n_file_watcher_go -> n_main_NewFileWatcher [penwidth=0.7, color="#cc0000"];
+    n_test_mocks_go -> n_main_MockRipgrepExecutor [penwidth=0.7, color="#cc0000"];
+    n_help_go -> n_import_strings [penwidth=0.7, color="#cc0000"];
+    n_toc_go -> n_import_regexp [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_main_AppModel_handleFinderMode [penwidth=0.7, color="#cc0000"];
+    n_file_watcher_go -> n_import_path_filepath [penwidth=0.7, color="#cc0000"];
+    n_glamour_impl_go -> n_import_sync [penwidth=0.7, color="#cc0000"];
+    n_model_go -> n_import_github_com_charmbracelet_bubbles_viewport [penwidth=0.7, color="#cc0000"];
+    n_glamour_impl_go -> n_main_ViewportImpl [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_main_SearchErrorMsg [penwidth=0.7, color="#cc0000"];
+    n_context_panel_go -> n_main__ContextPanel_Render [penwidth=0.7, color="#cc0000"];
+    n_glamour_impl_go -> n_import_strings [penwidth=0.7, color="#cc0000"];
+    n_keybindings_go -> n_import_encoding_json [penwidth=0.7, color="#cc0000"];
+    n_file_watcher_go -> n_import_time [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_main_AppModel_handleMouseEvent [penwidth=0.7, color="#cc0000"];
+    n_context_panel_go -> n_import_strings [penwidth=0.7, color="#cc0000"];
+    n_ripgrep_executor_go -> n_main_RipgrepExecutorImpl [penwidth=0.7, color="#cc0000"];
+    n_colors_go -> n_main__ColorManager_PrintThemeInfo [penwidth=0.7, color="#cc0000"];
+    n_file_watcher_go -> n_main__FileWatcherImpl_SetRecursive [penwidth=0.7, color="#cc0000"];
+    n_glamour_impl_go -> n_main__ViewportImpl_Height [penwidth=0.7, color="#cc0000"];
+    n_search_go -> n_main__FileSearcher_GetResults [penwidth=0.7, color="#cc0000"];
+    n_toc_go -> n_main__TableOfContents_SelectPrevious [penwidth=0.7, color="#cc0000"];
+    n_toc_go -> n_main__TableOfContents_SelectNext [penwidth=0.7, color="#cc0000"];
+    n_colors_go -> n_import_fmt [penwidth=0.7, color="#cc0000"];
+    n_glamour_impl_go -> n_main_detectTheme [penwidth=0.7, color="#cc0000"];
+    n_model_go -> n_import_strings [penwidth=0.7, color="#cc0000"];
+    n_colors_go -> n_main__ColorManager_detectBackgroundColor [penwidth=0.7, color="#cc0000"];
+    n_toc_go -> n_main__TableOfContents_SelectByLineNum [penwidth=0.7, color="#cc0000"];
+    n_fuzzy_finder_impl_go -> n_main__FuzzyFinderImpl_SetMode [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_import_path_filepath [penwidth=0.7, color="#cc0000"];
+    n_search_go -> n_import_sync [penwidth=0.7, color="#cc0000"];
+    n_context_panel_go -> n_main__ContextPanel_renderDocumentStats [penwidth=0.7, color="#cc0000"];
+    n_model_go -> n_main_FileItem_Description [penwidth=0.7, color="#cc0000"];
+    n_context_panel_go -> n_main_formatBytes [penwidth=0.7, color="#cc0000"];
+    n_test_mocks_go -> n_import_os [penwidth=0.7, color="#cc0000"];
+    n_ripgrep_executor_go -> n_main_NewRipgrepManager [penwidth=0.7, color="#cc0000"];
+    n_toc_go -> n_main__TableOfContents_GetHierarchy [penwidth=0.7, color="#cc0000"];
+    n_keybinding_impl_go -> n_main__KeybindingHandler_SetMode [penwidth=0.7, color="#cc0000"];
+    n_toc_go -> n_main__TableOfContents_FilterByLevel [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_import_github_com_charmbracelet_lipgloss [penwidth=0.7, color="#cc0000"];
+    n_fuzzy_finder_impl_go -> n_main__FuzzyFinderImpl_Filter [penwidth=0.7, color="#cc0000"];
+    n_glamour_impl_go -> n_main_GlamourRendererImpl [penwidth=0.7, color="#cc0000"];
+    n_ripgrep_executor_go -> n_main_NewRipgrepExecutor [penwidth=0.7, color="#cc0000"];
+    n_fuzzy_finder_impl_go -> n_main_FuzzyFinderImpl [penwidth=0.7, color="#cc0000"];
+    n_keybinding_impl_go -> n_main_NewKeybindingHandler [penwidth=0.7, color="#cc0000"];
+    n_test_mocks_go -> n_main_GlamourRenderer [penwidth=0.7, color="#cc0000"];
+    n_search_go -> n_main_NewQuickSearch [penwidth=0.7, color="#cc0000"];
+    n_search_go -> n_main_fuzzyMatch [penwidth=0.7, color="#cc0000"];
+    n_model_go -> n_import_io_fs [penwidth=0.7, color="#cc0000"];
+    n_utils_markdown_go -> n_utils_NewMarkdownRenderer [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_import_github_com_charmbracelet_bubbletea [penwidth=0.7, color="#cc0000"];
+    n_context_panel_go -> n_main_ContextPanelMode [penwidth=0.7, color="#cc0000"];
+    n_ripgrep_executor_go -> n_import_os_exec [penwidth=0.7, color="#cc0000"];
+    n_glamour_impl_go -> n_main__ElementStyle_GetForeground [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_main_AppModel_highlightSelection [penwidth=0.7, color="#cc0000"];
+    n_ripgrep_executor_go -> n_main_ParseRipgrepMatch [penwidth=0.7, color="#cc0000"];
+    n_help_go -> n_main_printKeyboardShortcuts [penwidth=0.7, color="#cc0000"];
+    n_search_go -> n_main__FileSearcher_SelectPrevious [penwidth=0.7, color="#cc0000"];
+    n_glamour_impl_go -> n_main_ElementStyle [penwidth=0.7, color="#cc0000"];
+    n_ripgrep_executor_go -> n_main__RipgrepExecutorImpl_checkRipgrepAvailable [penwidth=0.7, color="#cc0000"];
+    n_utils_markdown_go -> n_utils__MarkdownRenderer_Render [penwidth=0.7, color="#cc0000"];
+    n_context_panel_go -> n_main__ContextPanel_updateDocumentStats [penwidth=0.7, color="#cc0000"];
+    n_glamour_impl_go -> n_main__ElementStyle_GetBackground [penwidth=0.7, color="#cc0000"];
+    n_keybindings_go -> n_main_LoadKeyBindings [penwidth=0.7, color="#cc0000"];
+    n_toc_go -> n_main__TableOfContents_View [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_main_AppModel_handleLoadingMode [penwidth=0.7, color="#cc0000"];
+    n_toc_go -> n_main__TableOfContents_GetSelectedEntry [penwidth=0.7, color="#cc0000"];
+    n_ripgrep_executor_go -> n_import_encoding_json [penwidth=0.7, color="#cc0000"];
+    n_model_go -> n_main__AppModel_navigateUp [penwidth=0.7, color="#cc0000"];
+    n_test_mocks_go -> n_main_RipgrepMatch [penwidth=0.7, color="#cc0000"];
+    n_search_go -> n_main__FileSearcher_View [penwidth=0.7, color="#cc0000"];
+    n_file_watcher_go -> n_main__FileWatcherImpl_SetEventFilter [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_main_MarkdownFilesLoadedMsg [penwidth=0.7, color="#cc0000"];
+    n_model_go -> n_main__AppModel_navigateToSelectedFile [penwidth=0.7, color="#cc0000"];
+    n_toc_go -> n_main__TableOfContents_SelectFirst [penwidth=0.7, color="#cc0000"];
+    n_context_panel_go -> n_import_github_com_charmbracelet_lipgloss [penwidth=0.7, color="#cc0000"];
+    n_glamour_impl_go -> n_main_NewGlamourRendererImpl [penwidth=0.7, color="#cc0000"];
+    n_clipboard_go -> n_main__ClipboardManager_ExtendSelection [penwidth=0.7, color="#cc0000"];
+    n_glamour_impl_go -> n_main__GlamourRendererImpl_Render [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_main_loadMarkdownFilesCmd [penwidth=0.7, color="#cc0000"];
+    n_colors_go -> n_import_path_filepath [penwidth=0.7, color="#cc0000"];
+    n_toc_go -> n_main__TableOfContents_GetEntryCount [penwidth=0.7, color="#cc0000"];
+    n_toc_go -> n_main__TableOfContents_GetSelectedIndex [penwidth=0.7, color="#cc0000"];
+    n_colors_go -> n_import_github_com_charmbracelet_lipgloss [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_main__AppModel_startMouseSelection [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_main_MarkdownFilesLoadingMsg [penwidth=0.7, color="#cc0000"];
+    n_clipboard_go -> n_main_SelectionState [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_main_FinderCanceledMsg [penwidth=0.7, color="#cc0000"];
+    n_search_go -> n_main_highlightMatch [penwidth=0.7, color="#cc0000"];
+    n_glamour_impl_go -> n_main__ViewportImpl_SetContent [penwidth=0.7, color="#cc0000"];
+    n_help_go -> n_main_getHelpOverlay [penwidth=0.7, color="#cc0000"];
+    n_utils_markdown_go -> n_utils_NewMarkdownRendererWithStyle [penwidth=0.7, color="#cc0000"];
+}

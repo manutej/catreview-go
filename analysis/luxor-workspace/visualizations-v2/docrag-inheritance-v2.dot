@@ -1,0 +1,140 @@
+digraph InheritanceHierarchy {
+  // Graph layout settings
+  rankdir=BT;  // Bottom-to-Top (child → parent)
+  ranksep=0.8;  // Vertical spacing between ranks
+  nodesep=0.5;  // Horizontal spacing between nodes
+  splines=ortho;  // Orthogonal edges for clarity
+  
+  label="Inheritance Hierarchy (Top 80 classes)\nVertical Layout: Base Classes (Top) → Derived Classes (Bottom)";
+  fontsize=18;
+  fontname="Helvetica-Bold";
+  labelloc=t;
+
+  // Legend
+  subgraph cluster_legend {
+    label="Legend";
+    style=filled;
+    fillcolor=lightyellow;
+    fontsize=12;
+    rank=source;  // Place legend at top
+
+    legend_class [label="Class", shape=box, style=filled, fillcolor=lightblue];
+    legend_base [label="Base Class", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+    legend_edge [label="inherits from →", shape=plaintext];
+  }
+
+  // Classes grouped by abstraction level
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.RequestError" [label="urllib3.exceptions.RequestError", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.resolvelib.resolvers.exceptions.ResolverException" [label="resolvers.exceptions.ResolverException", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.EggProvider" [label="_vendor.pkg_resources.EggProvider", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.cachecontrol.caches.file_cache.SeparateBodyFileCache" [label="caches.file_cache.SeparateBodyFileCache", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.DiagnosticPipError" [label="_internal.exceptions.DiagnosticPipError", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.locators.Locator" [label="distlib.locators.Locator", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.connectionpool.HTTPConnectionPool" [label="urllib3.connectionpool.HTTPConnectionPool", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pygments.lexer.RegexLexer" [label="pygments.lexer.RegexLexer", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.network.session.CacheControlAdapter" [label="network.session.CacheControlAdapter", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.msgpack.exceptions.FormatError" [label="msgpack.exceptions.FormatError", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging.version.Version" [label="packaging.version.Version", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.cli.parser.CustomOptionParser" [label="cli.parser.CustomOptionParser", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.InvalidURL" [label="requests.exceptions.InvalidURL", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six._LazyModule" [label="packages.six._LazyModule", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.msgpack.exceptions.UnpackException" [label="msgpack.exceptions.UnpackException", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.PoolError" [label="urllib3.exceptions.PoolError", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.MissingSchema" [label="requests.exceptions.MissingSchema", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.network.session._SSLContextAdapterMixin" [label="network.session._SSLContextAdapterMixin", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pygments.lexer.Lexer" [label="pygments.lexer.Lexer", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.ProtocolError" [label="urllib3.exceptions.ProtocolError", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._ExtensionsSpecialForm" [label="_vendor.typing_extensions._ExtensionsSpecialForm", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.index.sources.LinkSource" [label="index.sources.LinkSource", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging._parser.Node" [label="packaging._parser.Node", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.cache.Cache" [label="_internal.cache.Cache", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.EmptyProvider" [label="_vendor.pkg_resources.EmptyProvider", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.Distribution" [label="_vendor.pkg_resources.Distribution", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.InvalidSchema" [label="requests.exceptions.InvalidSchema", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.ZipProvider" [label="_vendor.pkg_resources.ZipProvider", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.HTTPError" [label="urllib3.exceptions.HTTPError", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.errors.ConsoleError" [label="rich.errors.ConsoleError", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.LocationValueError" [label="urllib3.exceptions.LocationValueError", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.models.RequestHooksMixin" [label="requests.models.RequestHooksMixin", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.RequestException" [label="requests.exceptions.RequestException", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.PipError" [label="_internal.exceptions.PipError", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.network.auth.KeyRingBaseProvider" [label="network.auth.KeyRingBaseProvider", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging.specifiers.BaseSpecifier" [label="packaging.specifiers.BaseSpecifier", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.Timeout" [label="requests.exceptions.Timeout", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.database.BaseInstalledDistribution" [label="distlib.database.BaseInstalledDistribution", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.network.session.HTTPAdapter" [label="network.session.HTTPAdapter", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.InvalidHeader" [label="requests.exceptions.InvalidHeader", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.cli.parser.PrettyHelpFormatter" [label="cli.parser.PrettyHelpFormatter", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.ConnectionError" [label="requests.exceptions.ConnectionError", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.version.Version" [label="distlib.version.Version", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.cachecontrol.heuristics.BaseHeuristic" [label="cachecontrol.heuristics.BaseHeuristic", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.RequestsWarning" [label="requests.exceptions.RequestsWarning", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.progress.TextColumn" [label="rich.progress.TextColumn", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.connection.HTTPConnection" [label="urllib3.connection.HTTPConnection", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.msgpack.exceptions.StackError" [label="msgpack.exceptions.StackError", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.URLSchemeUnknown" [label="urllib3.exceptions.URLSchemeUnknown", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.HTTPWarning" [label="urllib3.exceptions.HTTPWarning", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.CSVBase" [label="distlib.util.CSVBase", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pygments.lexer.LexerMeta" [label="pygments.lexer.LexerMeta", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions.Protocol" [label="_vendor.typing_extensions.Protocol", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.HTTPSOnlyHandler" [label="distlib.util.HTTPSOnlyHandler", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.prompt.PromptError" [label="rich.prompt.PromptError", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.SecurityWarning" [label="urllib3.exceptions.SecurityWarning", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.resolvelib.resolvers.exceptions.ResolutionError" [label="resolvers.exceptions.ResolutionError", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.layout.Splitter" [label="rich.layout.Splitter", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.TimeoutError" [label="urllib3.exceptions.TimeoutError", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.NewConnectionError" [label="urllib3.exceptions.NewConnectionError", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.commands.search.SearchCommand" [label="commands.search.SearchCommand", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.InstallationError" [label="_internal.exceptions.InstallationError", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.HashError" [label="_internal.exceptions.HashError", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.ResolutionError" [label="_vendor.pkg_resources.ResolutionError", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.metadata.base.Wheel" [label="metadata.base.Wheel", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.highlighter.Highlighter" [label="rich.highlighter.Highlighter", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.resources.ResourceBase" [label="distlib.resources.ResourceBase", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.idna.codec.StreamWriter" [label="idna.codec.StreamWriter", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.HTTPSHandler" [label="distlib.util.HTTPSHandler", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.progress.ProgressColumn" [label="rich.progress.ProgressColumn", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.idna.core.IDNAError" [label="idna.core.IDNAError", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.idna.codec.Codec" [label="idna.codec.Codec", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.resolution.resolvelib.candidates._InstallRequirementBackedCandidate" [label="resolvelib.candidates._InstallRequirementBackedCandidate", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.syntax.SyntaxTheme" [label="rich.syntax.SyntaxTheme", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pygments.lexer.RegexLexerMeta" [label="pygments.lexer.RegexLexerMeta", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.resources.ResourceFinder" [label="distlib.resources.ResourceFinder", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.highlighter.RegexHighlighter" [label="rich.highlighter.RegexHighlighter", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.version.Matcher" [label="distlib.version.Matcher", shape=box, style="filled,bold", fillcolor=lightblue, penwidth=2];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six._LazyDescr" [label="packages.six._LazyDescr", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.InstallationSubprocessError" [label="_internal.exceptions.InstallationSubprocessError", shape=box, style=filled, fillcolor=lightblue, penwidth=1];
+
+  // Inheritance edges
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.PoolError" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.HTTPError" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.InstallationSubprocessError" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.InstallationError" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.network.session.HTTPAdapter" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.network.session._SSLContextAdapterMixin" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.NewConnectionError" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.PoolError" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.SecurityWarning" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.HTTPWarning" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.InvalidURL" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.RequestException" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.HTTPSOnlyHandler" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.HTTPSHandler" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.network.session.CacheControlAdapter" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.network.session._SSLContextAdapterMixin" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.msgpack.exceptions.FormatError" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.msgpack.exceptions.UnpackException" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.HashError" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.InstallationError" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.resolvelib.resolvers.exceptions.ResolutionError" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.resolvelib.resolvers.exceptions.ResolverException" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.idna.codec.StreamWriter" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.idna.codec.Codec" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.LocationValueError" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.HTTPError" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.ZipProvider" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.EggProvider" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.Timeout" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.RequestException" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.DiagnosticPipError" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.PipError" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.InvalidSchema" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.RequestException" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.msgpack.exceptions.StackError" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.msgpack.exceptions.UnpackException" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.highlighter.RegexHighlighter" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.highlighter.Highlighter" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.RequestError" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.PoolError" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.ProtocolError" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.HTTPError" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.MissingSchema" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.RequestException" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.ConnectionError" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.RequestException" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.InstallationSubprocessError" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.DiagnosticPipError" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.URLSchemeUnknown" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.LocationValueError" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.InvalidHeader" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.RequestException" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.InstallationError" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.PipError" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.progress.TextColumn" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.progress.ProgressColumn" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.TimeoutError" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.HTTPError" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pygments.lexer.RegexLexer" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pygments.lexer.Lexer" [color=darkblue, penwidth=2, arrowsize=0.8];
+  "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pygments.lexer.RegexLexerMeta" -> "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pygments.lexer.LexerMeta" [color=darkblue, penwidth=2, arrowsize=0.8];
+}

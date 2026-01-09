@@ -1,6 +1,6 @@
 # catreview - Categorical Codebase Review
 
-**Production-ready categorical analysis for multi-language codebases** • [Quick Start](QUICK-START.md) • [Production Guide](PRODUCTION-GUIDE.md)
+**Production-ready categorical analysis for multi-language codebases** • [Quick Start](docs/QUICK-START.md) • [Production Guide](docs/guides/PRODUCTION-GUIDE.md)
 
 ![Status: Production Ready](https://img.shields.io/badge/status-production%20ready-green)
 ![Quality: 96%](https://img.shields.io/badge/quality-96%25-brightgreen)
@@ -11,12 +11,12 @@ A Go tool for analyzing software architecture using category theory.
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 | Document | Purpose | Audience |
 |----------|---------|----------|
-| **[QUICK-START.md](QUICK-START.md)** | Get started in 5 minutes | New users |
-| **[PRODUCTION-GUIDE.md](PRODUCTION-GUIDE.md)** | Validation results & real-world examples | Production users |
+| **[QUICK-START.md](docs/QUICK-START.md)** | Get started in 5 minutes | New users |
+| **[PRODUCTION-GUIDE.md](docs/guides/PRODUCTION-GUIDE.md)** | Validation results & real-world examples | Production users |
 | **README.md** (this file) | Complete reference | All users |
 
 ---
@@ -65,14 +65,14 @@ A **category** C consists of:
 ## Installation
 
 ```bash
-go install github.com/manu/catreview/cmd/catreview@latest
+go install github.com/manutej/catreview-go/cmd/catreview@latest
 ```
 
 Or build from source:
 
 ```bash
-git clone https://github.com/manu/catreview
-cd catreview
+git clone https://github.com/manutej/catreview-go
+cd catreview-go
 go build -o catreview ./cmd/catreview
 ```
 
@@ -126,6 +126,37 @@ Top 5 Most Unstable Components:
   ...
 
 Full report saved to: report.json
+```
+
+**JSON Output Example** (`report.json`):
+
+```json
+{
+  "category": {
+    "objects": 84,
+    "morphisms": 102,
+    "identities": 84
+  },
+  "complexity": {
+    "diagram_complexity": 509.49,
+    "kolmogorov_complexity": 7421
+  },
+  "coupling": {
+    "cycles_found": 0,
+    "most_unstable": [
+      {
+        "name": "pkg/analysis/complexity.go",
+        "instability": 1.0,
+        "efferent": 24,
+        "afferent": 0
+      }
+    ]
+  },
+  "axioms": {
+    "associativity": true,
+    "identity": true
+  }
+}
 ```
 
 ### 3. Verify Category Axioms
@@ -323,7 +354,7 @@ jobs:
           go-version: '1.21'
 
       - name: Install catreview
-        run: go install github.com/manu/catreview/cmd/catreview@latest
+        run: go install github.com/manutej/catreview-go/cmd/catreview@latest
 
       - name: Extract & Analyze
         run: |
@@ -434,7 +465,7 @@ Create `pkg/extractor/{lang}_extractor.go`:
 ```go
 package extractor
 
-import "github.com/manu/catreview/pkg/category"
+import "github.com/manutej/catreview-go/pkg/category"
 
 // RustExtractor implements the Extractor interface for Rust source code.
 type RustExtractor struct {

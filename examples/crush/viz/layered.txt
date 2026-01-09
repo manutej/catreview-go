@@ -1,0 +1,57 @@
+════════════════════════════════════════════════════════════════════════════════
+                 go_codebase - LAYERED DEPENDENCY VISUALIZATION                 
+════════════════════════════════════════════════════════════════════════════════
+
+Stats: 2372 nodes, 3815 edges, ✓ DAG Verified
+
+────────────────────────────────────────────────────────────────────────────────
+LAYER 3: APPLICATIONS (Application code (I=1.0))
+────────────────────────────────────────────────────────────────────────────────
+  ┌ main.go                   A:0   E:7   I:1.00
+
+                                      │                                       
+                                 ▼ depends on                                 
+────────────────────────────────────────────────────────────────────────────────
+LAYER 2: SUPPORT (Supporting modules and utilities)
+────────────────────────────────────────────────────────────────────────────────
+  ┌ filterable.go             A:0   E:40  I:1.00
+  ┌ models.go                 A:0   E:39  I:1.00
+  ┌ uicmd.go                  A:0   E:39  I:1.00
+  ┌ root.go                   A:0   E:36  I:1.00
+  ┌ theme.go                  A:0   E:35  I:1.00
+  ┌ reasoning.go              A:0   E:33  I:1.00
+  ┌ grep.go                   A:0   E:33  I:1.00
+  ┌ filepicker.go             A:0   E:32  I:1.00
+  ... and 307 more components
+
+                                      │                                       
+                                 ▼ depends on                                 
+────────────────────────────────────────────────────────────────────────────────
+LAYER 1: CORE (Framework core with high efferent coupling)
+────────────────────────────────────────────────────────────────────────────────
+  ┌ renderer.go               A:0   E:93  I:1.00
+  ┌ list.go                   A:0   E:82  I:1.00
+  ┌ config.go                 A:0   E:79  I:1.00
+  ┌ coordinator.go            A:0   E:70  I:1.00
+  ┌ chat.go                   A:0   E:70  I:1.00
+  ┌ tool.go                   A:0   E:69  I:1.00
+  ┌ splash.go                 A:0   E:67  I:1.00
+  ┌ editor.go                 A:0   E:63  I:1.00
+  ... and 16 more components
+
+                                      │                                       
+                                 ▼ depends on                                 
+────────────────────────────────────────────────────────────────────────────────
+LAYER 0: FOUNDATIONS (Stable imports and external dependencies (I=0))
+────────────────────────────────────────────────────────────────────────────────
+  ┌ import:fmt                A:94  E:0   I:0.00
+  ┌ import:strings            A:85  E:0   I:0.00
+  ┌ import:context            A:80  E:0   I:0.00
+  ┌ import:time               A:53  E:0   I:0.00
+  ┌ import:os                 A:53  E:0   I:0.00
+  ┌ v2                        A:49  E:0   I:0.00
+  ┌ config.Get                A:44  E:0   I:0.00
+  ┌ v2                        A:43  E:0   I:0.00
+  ... and 2024 more components
+
+════════════════════════════════════════════════════════════════════════════════

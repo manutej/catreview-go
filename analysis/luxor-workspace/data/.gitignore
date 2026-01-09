@@ -1,0 +1,15 @@
+# Exclude large JSON files (>50 MB) from Git
+# These can be regenerated using the scripts in ../scripts/
+
+# Large files (regenerate with python_categorical_extractor.py)
+ai-dialogue-analysis.json      # 97 MB
+barque-analysis.json           # 67 MB
+hekat-analysis.json            # 64 MB
+hyperglyph-analysis.json       # 64 MB
+
+# Medium files are kept (under 50 MB threshold)
+# categorical-codebase-review-analysis.json  # 35 MB ✓
+# nanobanana-repo-analysis.json             # 23 MB ✓
+# HALCON-analysis.json                      # 22 MB ✓
+# LUMOS-analysis.json                       # 17 MB ✓
+# docrag-analysis.json                      # 11 MB ✓

@@ -1,0 +1,27 @@
+═══════════════════════════════════════════════════════════════
+  Categorical Code Analysis Summary
+═══════════════════════════════════════════════════════════════
+
+Project: /Users/manu/Documents/LUXOR/categorical-codebase-review/implementation
+Analyzed: 2025-12-30 19:49:01
+Duration: 24.245974208s
+Python Files: 1019
+
+Objects: 10746
+Morphisms: 28368
+Ratio: 2.64 morphisms per object
+
+═══════════════════════════════════════════════════════════════
+Top Modules (by object count)
+═══════════════════════════════════════════════════════════════
+
+ 1. Users                                               8203 objects
+ 2. import:                                              913 objects
+ 3. import:pip                                           603 objects
+ 4. import:networkx                                      398 objects
+ 5. import:typing                                         42 objects
+ 6. import:ctypes                                         42 objects
+ 7. import:urllib                                         40 objects
+ 8. import:collections                                    23 objects
+ 9. import:importlib                                      20 objects
+10. import:itertools                                      18 objects

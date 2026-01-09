@@ -1,0 +1,309 @@
+digraph CompositionStructure {
+  rankdir=TB;
+  node [shape=box, style="rounded,filled"];
+  edge [penwidth=1.5];
+  label="Composition Structure (Top 20 modules by object count)";
+  fontsize=16;
+
+  subgraph cluster_0 {
+    label="config";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.gunicorn.config.validate_string_to_addr_list" [label="validate_string_to_addr_list", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.gunicorn.config.ConfigFile" [label="ConfigFile", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.gunicorn.config.Bind" [label="Bind", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.gunicorn.config.PostWorkerInit" [label="PostWorkerInit", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.gunicorn.config.OnStarting" [label="OnStarting", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.gunicorn.config.validate_reload_engine" [label="validate_reload_engine", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.gunicorn.config.WorkerClass" [label="WorkerClass", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.gunicorn.config.KeyFile" [label="KeyFile", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.gunicorn.config.ProxyProtocol" [label="ProxyProtocol", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.gunicorn.config.Keepalive" [label="Keepalive", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_1 {
+    label="pkg_resources";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.pip._vendor.pkg_resources._forgiving_version" [label="_forgiving_version", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.pkg_resources._handle_ns" [label="_handle_ns", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.pkg_resources._always_object" [label="_always_object", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.pkg_resources.to_filename" [label="to_filename", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.pkg_resources._sget_object" [label="_sget_object", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.pkg_resources._find_adapter" [label="_find_adapter", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.pkg_resources.Environment" [label="Environment", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.pkg_resources.invalid_marker" [label="invalid_marker", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.pkg_resources.ExtractionError" [label="ExtractionError", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.pkg_resources.find_eggs_in_zip" [label="find_eggs_in_zip", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_2 {
+    label="uts46data";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.idna.uts46data._seg_70" [label="_seg_70", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.idna.uts46data._seg_51" [label="_seg_51", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.idna.uts46data._seg_69" [label="_seg_69", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.idna.uts46data._seg_1" [label="_seg_1", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.idna.uts46data._seg_54" [label="_seg_54", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.idna.uts46data._seg_20" [label="_seg_20", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.idna.uts46data._seg_42" [label="_seg_42", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.idna.uts46data._seg_59" [label="_seg_59", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.idna.uts46data._seg_32" [label="_seg_32", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.idna.uts46data._seg_83" [label="_seg_83", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_3 {
+    label="uts46data";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_20" [label="_seg_20", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_41" [label="_seg_41", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_76" [label="_seg_76", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_17" [label="_seg_17", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_14" [label="_seg_14", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_71" [label="_seg_71", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_13" [label="_seg_13", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_28" [label="_seg_28", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_8" [label="_seg_8", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.idna.uts46data._seg_38" [label="_seg_38", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_4 {
+    label="nodes";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.jinja2.nodes.Const" [label="Const", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.jinja2.nodes.MarkSafe" [label="MarkSafe", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.jinja2.nodes.Keyword" [label="Keyword", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.jinja2.nodes.Or" [label="Or", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.jinja2.nodes.Output" [label="Output", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.jinja2.nodes.With" [label="With", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.jinja2.nodes.Extends" [label="Extends", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.jinja2.nodes.Compare" [label="Compare", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.jinja2.nodes.Assign" [label="Assign", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.jinja2.nodes.MarkSafeIfAutoescape" [label="MarkSafeIfAutoescape", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_5 {
+    label="templates";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.pygments.lexers.templates.RhtmlLexer" [label="RhtmlLexer", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pygments.lexers.templates.VelocityXmlLexer" [label="VelocityXmlLexer", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pygments.lexers.templates.GenshiMarkupLexer" [label="GenshiMarkupLexer", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pygments.lexers.templates.SspLexer" [label="SspLexer", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pygments.lexers.templates.TwigHtmlLexer" [label="TwigHtmlLexer", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pygments.lexers.templates.TwigLexer" [label="TwigLexer", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pygments.lexers.templates.MasonLexer" [label="MasonLexer", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pygments.lexers.templates.LassoXmlLexer" [label="LassoXmlLexer", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pygments.lexers.templates.Angular2HtmlLexer" [label="Angular2HtmlLexer", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pygments.lexers.templates.ColdfusionLexer" [label="ColdfusionLexer", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_6 {
+    label="util";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.pip._vendor.distlib.util.HTTPSHandler" [label="HTTPSHandler", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.distlib.util._get_external_data" [label="_get_external_data", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.distlib.util.socket_timeout" [label="socket_timeout", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.distlib.util.extract_by_key" [label="extract_by_key", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.distlib.util.get_project_data" [label="get_project_data", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.distlib.util.write_exports" [label="write_exports", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.distlib.util.get_executable" [label="get_executable", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.distlib.util.zip_dir" [label="zip_dir", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.distlib.util.CSVReader" [label="CSVReader", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.distlib.util.marker_expr" [label="marker_expr", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_7 {
+    label="filters";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.jinja2.filters.do_striptags" [label="do_striptags", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.jinja2.filters.do_center" [label="do_center", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.jinja2.filters.sync_do_sum" [label="sync_do_sum", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.jinja2.filters.do_mark_unsafe" [label="do_mark_unsafe", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.jinja2.filters.do_map" [label="do_map", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.jinja2.filters.sync_do_join" [label="sync_do_join", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.jinja2.filters.sort_func" [label="sort_func", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.jinja2.filters.transfunc" [label="transfunc", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.jinja2.filters.do_batch" [label="do_batch", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.jinja2.filters.do_truncate" [label="do_truncate", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_8 {
+    label="hookspec";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages._pytest.hookspec.pytest_collection_modifyitems" [label="pytest_collection_modifyitems", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.hookspec.pytest_runtest_logreport" [label="pytest_runtest_logreport", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.hookspec.pytest_enter_pdb" [label="pytest_enter_pdb", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.hookspec.pytest_collection" [label="pytest_collection", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.hookspec.pytest_runtest_setup" [label="pytest_runtest_setup", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.hookspec.pytest_ignore_collect" [label="pytest_ignore_collect", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.hookspec.pytest_plugin_registered" [label="pytest_plugin_registered", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.hookspec.pytest_fixture_setup" [label="pytest_fixture_setup", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.hookspec.pytest_report_header" [label="pytest_report_header", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.hookspec.pytest_pycollect_makeitem" [label="pytest_pycollect_makeitem", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_9 {
+    label="misc";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.pip._internal.utils.misc.pairwise" [label="pairwise", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._internal.utils.misc.rmtree_errorhandler" [label="rmtree_errorhandler", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._internal.utils.misc.HiddenText" [label="HiddenText", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._internal.utils.misc.format_size" [label="format_size", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._internal.utils.misc._redact_netloc" [label="_redact_netloc", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._internal.utils.misc.normalize_version_info" [label="normalize_version_info", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._internal.utils.misc.strtobool" [label="strtobool", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._internal.utils.misc.ask_path_exists" [label="ask_path_exists", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._internal.utils.misc.splitext" [label="splitext", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._internal.utils.misc._check_no_input" [label="_check_no_input", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_10 {
+    label="six";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.packages.six.python_2_unicode_compatible" [label="python_2_unicode_compatible", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.packages.six.Module_six_moves_urllib_response" [label="Module_six_moves_urllib_response", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.packages.six._LazyModule" [label="_LazyModule", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.packages.six.indexbytes" [label="indexbytes", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.packages.six.MovedAttribute" [label="MovedAttribute", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.packages.six._import_module" [label="_import_module", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.packages.six.write" [label="write", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.packages.six.Module_six_moves_urllib_parse" [label="Module_six_moves_urllib_parse", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.packages.six._MovedItems" [label="_MovedItems", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.packages.six.print_" [label="print_", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_11 {
+    label="pathlib";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages._pytest.pathlib._ignore_error" [label="_ignore_error", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.pathlib.get_extended_length_path_str" [label="get_extended_length_path_str", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.pathlib.compute_module_name" [label="compute_module_name", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.pathlib.absolutepath" [label="absolutepath", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.pathlib.on_rm_rf_error" [label="on_rm_rf_error", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.pathlib.cleanup_numbered_dir" [label="cleanup_numbered_dir", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.pathlib.extract_suffixes" [label="extract_suffixes", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.pathlib.cleanup_dead_symlinks" [label="cleanup_dead_symlinks", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.pathlib._import_module_using_spec" [label="_import_module_using_spec", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.pathlib._is_same" [label="_is_same", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_12 {
+    label="utils";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.pip._vendor.requests.utils._validate_header_part" [label="_validate_header_part", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.requests.utils._parse_content_type_header" [label="_parse_content_type_header", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.requests.utils.get_netrc_auth" [label="get_netrc_auth", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.requests.utils.get_encoding_from_headers" [label="get_encoding_from_headers", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.requests.utils.select_proxy" [label="select_proxy", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.requests.utils.get_environ_proxies" [label="get_environ_proxies", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.requests.utils.unquote_unreserved" [label="unquote_unreserved", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.requests.utils.is_ipv4_address" [label="is_ipv4_address", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.requests.utils.default_headers" [label="default_headers", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._vendor.requests.utils.guess_filename" [label="guess_filename", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_13 {
+    label="exceptions";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.pip._internal.exceptions._prefix_with_indent" [label="_prefix_with_indent", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._internal.exceptions.FailedToPrepareCandidate" [label="FailedToPrepareCandidate", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._internal.exceptions._is_kebab_case" [label="_is_kebab_case", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.pip._internal.exceptions.IncompleteDownloadError" [label="IncompleteDownloadError", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._internal.exceptions.PipError" [label="PipError", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._internal.exceptions.ResolutionTooDeepError" [label="ResolutionTooDeepError", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._internal.exceptions.BestVersionAlreadyInstalled" [label="BestVersionAlreadyInstalled", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._internal.exceptions.ExternallyManagedEnvironment" [label="ExternallyManagedEnvironment", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._internal.exceptions.HashUnpinned" [label="HashUnpinned", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._internal.exceptions.UninstallMissingRecord" [label="UninstallMissingRecord", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_14 {
+    label="fixtures";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages._pytest.fixtures.RequestFixtureDef" [label="RequestFixtureDef", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages._pytest.fixtures.FixtureRequest" [label="FixtureRequest", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages._pytest.fixtures._pretty_fixture_path" [label="_pretty_fixture_path", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.fixtures.TopRequest" [label="TopRequest", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages._pytest.fixtures.FixtureDef" [label="FixtureDef", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages._pytest.fixtures.getfixturemarker" [label="getfixturemarker", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.fixtures.get_param_argkeys" [label="get_param_argkeys", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.fixtures.get_best_relpath" [label="get_best_relpath", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.fixtures.pytest_sessionstart" [label="pytest_sessionstart", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages._pytest.fixtures.pytestconfig" [label="pytestconfig", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_15 {
+    label="exceptions";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.werkzeug.exceptions.RequestEntityTooLarge" [label="RequestEntityTooLarge", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.werkzeug.exceptions.BadGateway" [label="BadGateway", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.werkzeug.exceptions.InternalServerError" [label="InternalServerError", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.werkzeug.exceptions.BadRequestKeyError" [label="BadRequestKeyError", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.werkzeug.exceptions.ImATeapot" [label="ImATeapot", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.werkzeug.exceptions.ClientDisconnected" [label="ClientDisconnected", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.werkzeug.exceptions.RequestURITooLarge" [label="RequestURITooLarge", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.werkzeug.exceptions.UnprocessableEntity" [label="UnprocessableEntity", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.werkzeug.exceptions.Locked" [label="Locked", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.werkzeug.exceptions.Forbidden" [label="Forbidden", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_16 {
+    label="util";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.gunicorn.util.daemonize" [label="daemonize", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.gunicorn.util.bytes_to_str" [label="bytes_to_str", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.gunicorn.util.closerange" [label="closerange", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.gunicorn.util.write_nonblock" [label="write_nonblock", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.gunicorn.util.get_username" [label="get_username", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.gunicorn.util.make_fail_app" [label="make_fail_app", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.gunicorn.util.close_on_exec" [label="close_on_exec", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.gunicorn.util.http_date" [label="http_date", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.gunicorn.util.redirect" [label="redirect", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.gunicorn.util.has_fileno" [label="has_fileno", fillcolor=lightgreen, shape=ellipse];
+  }
+  subgraph cluster_17 {
+    label="exceptions";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.LocationParseError" [label="LocationParseError", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.SNIMissingWarning" [label="SNIMissingWarning", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.SubjectAltNameWarning" [label="SubjectAltNameWarning", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.EmptyPoolError" [label="EmptyPoolError", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.UnrewindableBodyError" [label="UnrewindableBodyError", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.RequestError" [label="RequestError", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.ConnectTimeoutError" [label="ConnectTimeoutError", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.InsecurePlatformWarning" [label="InsecurePlatformWarning", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.ClosedPoolError" [label="ClosedPoolError", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.pip._vendor.urllib3.exceptions.IncompleteRead" [label="IncompleteRead", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_18 {
+    label="_asyncio";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.anyio._backends._asyncio.AsyncIOTaskInfo" [label="AsyncIOTaskInfo", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.anyio._backends._asyncio.Process" [label="Process", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.anyio._backends._asyncio.UDPSocket" [label="UDPSocket", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.anyio._backends._asyncio.find_root_task" [label="find_root_task", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.anyio._backends._asyncio._State" [label="_State", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.anyio._backends._asyncio.SocketStream" [label="SocketStream", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.anyio._backends._asyncio.UNIXSocketStream" [label="UNIXSocketStream", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.anyio._backends._asyncio.CapacityLimiter" [label="CapacityLimiter", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.anyio._backends._asyncio.WorkerThread" [label="WorkerThread", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.anyio._backends._asyncio.Runner" [label="Runner", fillcolor=lightblue, shape=box];
+  }
+  subgraph cluster_19 {
+    label="_compat";
+    style=filled;
+    fillcolor=lightgray;
+    "venv.lib.python3.14.site-packages.click._compat.auto_wrap_for_ansi" [label="auto_wrap_for_ansi", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.click._compat.get_text_stdout" [label="get_text_stdout", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.click._compat._is_binary_reader" [label="_is_binary_reader", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.click._compat._FixupStream" [label="_FixupStream", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.click._compat._wrap_io_open" [label="_wrap_io_open", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.click._compat.should_strip_ansi" [label="should_strip_ansi", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.click._compat.get_binary_stdin" [label="get_binary_stdin", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.click._compat._NonClosingTextIOWrapper" [label="_NonClosingTextIOWrapper", fillcolor=lightblue, shape=box];
+    "venv.lib.python3.14.site-packages.click._compat._get_windows_console_stream" [label="_get_windows_console_stream", fillcolor=lightgreen, shape=ellipse];
+    "venv.lib.python3.14.site-packages.click._compat.get_text_stderr" [label="get_text_stderr", fillcolor=lightgreen, shape=ellipse];
+  }
+
+}

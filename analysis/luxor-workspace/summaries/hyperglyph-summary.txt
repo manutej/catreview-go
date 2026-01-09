@@ -1,0 +1,10 @@
+═══════════════════════════════════════════════════════════════
+  Categorical Code Analysis Summary
+═══════════════════════════════════════════════════════════════
+
+Project: /Users/manu/Documents/LUXOR/PROJECTS/hyperglyph
+Python Files: 2183
+
+Objects: 48770
+Morphisms: 109596
+Ratio: 2.25 morphisms per object

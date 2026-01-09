@@ -1,0 +1,42 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                        go_codebase DEPENDENCY GRAPH                        ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║ Nodes: 2372  Edges: 3815  DAG: YES                                         ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║                                                                            ║
+║ LAYER 3: APPLICATIONS                                                      ║
+║   [main.go] A:0 E:7 I:1.00                                                 ║
+║                                     |                                      ║
+║                                     v                                      ║
+║                                                                            ║
+║ LAYER 2: SUPPORT                                                           ║
+║   [filterable.go] A:0 E:40 I:1.00                                          ║
+║   [models.go] A:0 E:39 I:1.00                                              ║
+║   [uicmd.go] A:0 E:39 I:1.00                                               ║
+║   [root.go] A:0 E:36 I:1.00                                                ║
+║   [theme.go] A:0 E:35 I:1.00                                               ║
+║   ... and 310 more                                                         ║
+║                                     |                                      ║
+║                                     v                                      ║
+║                                                                            ║
+║ LAYER 1: CORE                                                              ║
+║   [renderer.go] A:0 E:93 I:1.00                                            ║
+║   [list.go] A:0 E:82 I:1.00                                                ║
+║   [config.go] A:0 E:79 I:1.00                                              ║
+║   [coordinator.go] A:0 E:70 I:1.00                                         ║
+║   [chat.go] A:0 E:70 I:1.00                                                ║
+║   ... and 19 more                                                          ║
+║                                     |                                      ║
+║                                     v                                      ║
+║                                                                            ║
+║ LAYER 0: FOUNDATIONS                                                       ║
+║   [import:fmt] A:94 E:0 I:0.00                                             ║
+║   [import:strings] A:85 E:0 I:0.00                                         ║
+║   [import:context] A:80 E:0 I:0.00                                         ║
+║   [import:time] A:53 E:0 I:0.00                                            ║
+║   [import:os] A:53 E:0 I:0.00                                              ║
+║   ... and 2027 more                                                        ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+Legend: A=Afferent, E=Efferent, I=Instability
+Layers: 0=Foundations, 1=Core, 2=Support, 3=Applications

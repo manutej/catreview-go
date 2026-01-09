@@ -1,0 +1,37 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                        go_codebase DEPENDENCY GRAPH                        ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║ Nodes: 215  Edges: 276  DAG: YES                                           ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║                                                                            ║
+║ LAYER 3: APPLICATIONS                                                      ║
+║   [main.go] A:0 E:32 I:1.00                                                ║
+║                                     |                                      ║
+║                                     v                                      ║
+║                                                                            ║
+║ LAYER 2: SUPPORT                                                           ║
+║   [pager.go] A:0 E:38 I:1.00                                               ║
+║   [ui.go] A:0 E:35 I:1.00                                                  ║
+║   [utils.go] A:0 E:15 I:1.00                                               ║
+║   [markdown.go] A:0 E:14 I:1.00                                            ║
+║   [stashhelp.go] A:0 E:14 I:1.00                                           ║
+║   ... and 16 more                                                          ║
+║                                     |                                      ║
+║                                     v                                      ║
+║                                                                            ║
+║ LAYER 1: CORE                                                              ║
+║   [stash.go] A:0 E:57 I:1.00                                               ║
+║                                     |                                      ║
+║                                     v                                      ║
+║                                                                            ║
+║ LAYER 0: FOUNDATIONS                                                       ║
+║   [import:fmt] A:13 E:0 I:0.00                                             ║
+║   [import:strings] A:10 E:0 I:0.00                                         ║
+║   [import:os] A:8 E:0 I:0.00                                               ║
+║   [lipgloss] A:7 E:0 I:0.00                                                ║
+║   [log] A:7 E:0 I:0.00                                                     ║
+║   ... and 187 more                                                         ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+Legend: A=Afferent, E=Efferent, I=Instability
+Layers: 0=Foundations, 1=Core, 2=Support, 3=Applications

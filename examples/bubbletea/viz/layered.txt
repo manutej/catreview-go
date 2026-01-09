@@ -1,0 +1,58 @@
+════════════════════════════════════════════════════════════════════════════════
+                 go_codebase - LAYERED DEPENDENCY VISUALIZATION                 
+════════════════════════════════════════════════════════════════════════════════
+
+Stats: 505 nodes, 769 edges, ✓ DAG Verified
+
+────────────────────────────────────────────────────────────────────────────────
+LAYER 3: APPLICATIONS (Application code (I=1.0))
+────────────────────────────────────────────────────────────────────────────────
+  ┌ main.go                   A:0   E:19  I:1.00
+  ┌ main.go                   A:0   E:18  I:1.00
+  ┌ main.go                   A:0   E:17  I:1.00
+  ┌ main.go                   A:0   E:16  I:1.00
+  ┌ main.go                   A:0   E:15  I:1.00
+  ┌ main.go                   A:0   E:13  I:1.00
+  ┌ main.go                   A:0   E:12  I:1.00
+  ┌ main.go                   A:0   E:12  I:1.00
+  ... and 42 more components
+
+                                      │                                       
+                                 ▼ depends on                                 
+────────────────────────────────────────────────────────────────────────────────
+LAYER 2: SUPPORT (Supporting modules and utilities)
+────────────────────────────────────────────────────────────────────────────────
+  ┌ screen.go                 A:0   E:32  I:1.00
+  ┌ nil_renderer.go           A:0   E:26  I:1.00
+  ┌ options.go                A:0   E:21  I:1.00
+  ┌ key.go                    A:0   E:18  I:1.00
+  ┌ inputreader_windows.go    A:0   E:16  I:1.00
+  ┌ exec.go                   A:0   E:14  I:1.00
+  ┌ key_windows.go            A:0   E:14  I:1.00
+  ┌ tty.go                    A:0   E:14  I:1.00
+  ... and 28 more components
+
+                                      │                                       
+                                 ▼ depends on                                 
+────────────────────────────────────────────────────────────────────────────────
+LAYER 1: CORE (Framework core with high efferent coupling)
+────────────────────────────────────────────────────────────────────────────────
+  ┌ standard_renderer.go      A:0   E:55  I:1.00
+  ┌ tea.go                    A:0   E:53  I:1.00
+
+                                      │                                       
+                                 ▼ depends on                                 
+────────────────────────────────────────────────────────────────────────────────
+LAYER 0: FOUNDATIONS (Stable imports and external dependencies (I=0))
+────────────────────────────────────────────────────────────────────────────────
+  ┌ import:fmt                A:58  E:0   I:0.00
+  ┌ bubbletea                 A:52  E:0   I:0.00
+  ┌ import:os                 A:42  E:0   I:0.00
+  ┌ lipgloss                  A:30  E:0   I:0.00
+  ┌ import:time               A:25  E:0   I:0.00
+  ┌ import:strings            A:21  E:0   I:0.00
+  ┌ import:log                A:17  E:0   I:0.00
+  ┌ import:io                 A:16  E:0   I:0.00
+  ... and 409 more components
+
+════════════════════════════════════════════════════════════════════════════════

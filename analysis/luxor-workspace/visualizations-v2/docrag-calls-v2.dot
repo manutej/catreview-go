@@ -1,0 +1,29 @@
+digraph CallGraph {
+  // Graph layout settings
+  rankdir=TB;  // Top-to-Bottom (caller → callee)
+  ranksep=1.0;
+  nodesep=0.6;
+  splines=true;
+
+  label="Function Call Graph (Top 0 functions)\nVertical Layout: Callers (Top) → Callees (Bottom)";
+  fontsize=18;
+  fontname="Helvetica-Bold";
+  labelloc=t;
+
+  // Legend
+  subgraph cluster_legend {
+    label="Legend";
+    style=filled;
+    fillcolor=lightyellow;
+    fontsize=12;
+    rank=source;
+
+    legend_func [label="Function", shape=ellipse, style=filled, fillcolor=lightgreen];
+    legend_class [label="Class", shape=ellipse, style=filled, fillcolor=lightblue];
+    legend_edge [label="calls →", shape=plaintext];
+  }
+
+  // Functions and classes
+
+  // Call edges
+}
