@@ -1,0 +1,167 @@
+digraph G {
+    rankdir=BT;
+    node [shape=box, style=filled];
+    edge [arrowsize=0.7];
+
+    // Layer 0: Foundations
+    subgraph cluster_0 {
+        label="Foundations";
+        style=filled;
+        fillcolor="#c8e6c9";
+        n_import_fmt [label="import:fmt\nA:13 E:0", fillcolor="#a7a7a7"];
+        n_import_strings [label="import:strings\nA:10 E:0", fillcolor="#9e9e9e"];
+        n_import_os [label="import:os\nA:8 E:0", fillcolor="#989898"];
+        n_import_github_com_charmbracelet_lipgloss [label="lipgloss\nA:7 E:0", fillcolor="#959595"];
+        n_import_path_filepath [label="filepath\nA:7 E:0", fillcolor="#959595"];
+        n_import_github_com_charmbracelet_log [label="log\nA:7 E:0", fillcolor="#959595"];
+        n_import_errors [label="import:errors\nA:5 E:0", fillcolor="#8f8f8f"];
+        n_import_net_url [label="url\nA:4 E:0", fillcolor="#8c8c8c"];
+        n_import_github_com_charmbracelet_bubbletea [label="bubbletea\nA:4 E:0", fillcolor="#8c8c8c"];
+        n_import_io [label="import:io\nA:4 E:0", fillcolor="#8c8c8c"];
+        n_import_time [label="import:time\nA:4 E:0", fillcolor="#8c8c8c"];
+        n_import_github_com_muesli_reflow_ansi [label="ansi\nA:3 E:0", fillcolor="#898989"];
+        n_import_github_com_charmbracelet_glow_v2_utils [label="utils\nA:3 E:0", fillcolor="#898989"];
+        n_import_github_com_muesli_reflow_truncate [label="truncate\nA:3 E:0", fillcolor="#898989"];
+        n_import_net_http [label="http\nA:3 E:0", fillcolor="#898989"];
+    }
+
+    // Layer 1: Core
+    subgraph cluster_1 {
+        label="Core";
+        style=filled;
+        fillcolor="#ffe0b2";
+        n_ui_stash_go [label="stash.go\nA:0 E:57", fillcolor="#ffffff"];
+    }
+
+    // Layer 2: Support
+    subgraph cluster_2 {
+        label="Support";
+        style=filled;
+        fillcolor="#bbdefb";
+        n_ui_pager_go [label="pager.go\nA:0 E:38", fillcolor="#f2f2f2"];
+        n_ui_ui_go [label="ui.go\nA:0 E:35", fillcolor="#e9e9e9"];
+        n_utils_utils_go [label="utils.go\nA:0 E:15", fillcolor="#adadad"];
+        n_ui_stashhelp_go [label="stashhelp.go\nA:0 E:14", fillcolor="#aaaaaa"];
+        n_ui_markdown_go [label="markdown.go\nA:0 E:14", fillcolor="#aaaaaa"];
+        n_config_cmd_go [label="config_cmd.go\nA:0 E:10", fillcolor="#9e9e9e"];
+        n_url_go [label="url.go\nA:0 E:8", fillcolor="#989898"];
+        n_github_go [label="github.go\nA:0 E:8", fillcolor="#989898"];
+        n_log_go [label="log.go\nA:0 E:8", fillcolor="#989898"];
+        n_gitlab_go [label="gitlab.go\nA:0 E:8", fillcolor="#989898"];
+        n_ui_stashitem_go [label="stashitem.go\nA:0 E:8", fillcolor="#989898"];
+        n_man_cmd_go [label="man_cmd.go\nA:0 E:5", fillcolor="#8f8f8f"];
+        n_ui_editor_go [label="editor.go\nA:0 E:4", fillcolor="#8c8c8c"];
+        n_console_windows_go [label="console_windows.go\nA:0 E:4", fillcolor="#8c8c8c"];
+        n_ui_sort_go [label="sort.go\nA:0 E:3", fillcolor="#898989"];
+    }
+
+    // Layer 3: Applications
+    subgraph cluster_3 {
+        label="Applications";
+        style=filled;
+        fillcolor="#f8bbd0";
+        n_main_go [label="main.go\nA:0 E:32", fillcolor="#e0e0e0"];
+    }
+
+    // Edges
+    n_ui_pager_go -> n_ui__pagerModel_showStatusMessage [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_import_github_com_spf13_viper [penwidth=0.7, color="#cc0000"];
+    n_ui_ignore_darwin_go -> n_import_path_filepath [penwidth=0.7, color="#cc0000"];
+    n_config_cmd_go -> n_main_ensureConfigFile [penwidth=0.7, color="#cc0000"];
+    n_ui_pager_go -> n_ui_reloadMsg [penwidth=0.7, color="#cc0000"];
+    n_ui_ui_go -> n_import_os [penwidth=0.7, color="#cc0000"];
+    n_utils_utils_go -> n_import_github_com_charmbracelet_glamour [penwidth=0.7, color="#cc0000"];
+    n_config_cmd_go -> n_import_github_com_spf13_cobra [penwidth=0.7, color="#cc0000"];
+    n_style_go -> n_import_github_com_charmbracelet_lipgloss [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_sectionKey [penwidth=0.7, color="#cc0000"];
+    n_utils_utils_go -> n_utils_ExpandPath [penwidth=0.7, color="#cc0000"];
+    n_utils_utils_go -> n_utils_detectFrontmatter [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_import_github_com_charmbracelet_bubbles_spinner [penwidth=0.7, color="#cc0000"];
+    n_ui_pager_go -> n_ui__pagerModel_initWatcher [penwidth=0.7, color="#cc0000"];
+    n_ui_ui_go -> n_import_github_com_charmbracelet_bubbletea [penwidth=0.7, color="#cc0000"];
+    n_github_go -> n_main_findGitHubREADME [penwidth=0.7, color="#cc0000"];
+    n_ui_stashhelp_go -> n_import_strings [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_stashModel_selectedMarkdown [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_stashModel_view [penwidth=0.7, color="#cc0000"];
+    n_url_go -> n_main_gitlabReadmeURL [penwidth=0.7, color="#cc0000"];
+    n_ui_sort_go -> n_import_slices [penwidth=0.7, color="#cc0000"];
+    n_gitlab_go -> n_main_findGitLabREADME [penwidth=0.7, color="#cc0000"];
+    n_ui_editor_go -> n_ui_openEditor [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui__stashModel_moveCursorUp [penwidth=0.7, color="#cc0000"];
+    n_url_go -> n_main_githubReadmeURL [penwidth=0.7, color="#cc0000"];
+    n_ui_pager_go -> n_import_github_com_charmbracelet_bubbletea [penwidth=0.7, color="#cc0000"];
+    n_ui_ui_go -> n_import_time [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_main_source [penwidth=0.7, color="#cc0000"];
+    n_config_cmd_go -> n_import_os [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_import_net_http [penwidth=0.7, color="#cc0000"];
+    n_ui_markdown_go -> n_ui_markdown_relativeTime [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_filterMarkdowns [penwidth=0.7, color="#cc0000"];
+    n_ui_stashhelp_go -> n_import_github_com_muesli_reflow_ansi [penwidth=0.7, color="#cc0000"];
+    n_ui_pager_go -> n_ui_pagerModel_update [penwidth=0.7, color="#cc0000"];
+    n_ui_ui_go -> n_ui_errMsg [penwidth=0.7, color="#cc0000"];
+    n_log_go -> n_main_setupLog [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_main_sourceFromArg [penwidth=0.7, color="#cc0000"];
+    n_ui_editor_go -> n_ui_editorFinishedMsg [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_statusMessage_String [penwidth=0.7, color="#cc0000"];
+    n_ui_pager_go -> n_ui__pagerModel_unload [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_fetchedMarkdownMsg [penwidth=0.7, color="#cc0000"];
+    n_gitlab_go -> n_import_io [penwidth=0.7, color="#cc0000"];
+    n_utils_utils_go -> n_import_strings [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_loadLocalMarkdown [penwidth=0.7, color="#cc0000"];
+    n_gitlab_go -> n_import_errors [penwidth=0.7, color="#cc0000"];
+    n_url_go -> n_import_fmt [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_stashModel_populatedView [penwidth=0.7, color="#cc0000"];
+    n_man_cmd_go -> n_import_os [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_import_os [penwidth=0.7, color="#cc0000"];
+    n_ui_pager_go -> n_ui_renderWithGlamour [penwidth=0.7, color="#cc0000"];
+    n_ui_pager_go -> n_ui_pagerModel [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui__stashModel_handleDocumentBrowsing [penwidth=0.7, color="#cc0000"];
+    n_man_cmd_go -> n_import_github_com_muesli_mango_cobra [penwidth=0.7, color="#cc0000"];
+    n_ui_pager_go -> n_import_math [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_filterState [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_stashModel_shouldSpin [penwidth=0.7, color="#cc0000"];
+    n_ui_ui_go -> n_ui_localFileSearchFinished [penwidth=0.7, color="#cc0000"];
+    n_gitlab_go -> n_import_fmt [penwidth=0.7, color="#cc0000"];
+    n_ui_pager_go -> n_ui_pagerModel_statusBarView [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_stashModel_currentSection [penwidth=0.7, color="#cc0000"];
+    n_ui_markdown_go -> n_import_math [penwidth=0.7, color="#cc0000"];
+    n_ui_pager_go -> n_import_github_com_atotto_clipboard [penwidth=0.7, color="#cc0000"];
+    n_config_cmd_go -> n_import_path [penwidth=0.7, color="#cc0000"];
+    n_ui_ui_go -> n_ui_errorView [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_main_executeCLI [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_initSections [penwidth=0.7, color="#cc0000"];
+    n_ui_pager_go -> n_import_github_com_charmbracelet_glow_v2_utils [penwidth=0.7, color="#cc0000"];
+    n_ui_ui_go -> n_import_github_com_charmbracelet_glow_v2_utils [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_stashModel_loadingDone [penwidth=0.7, color="#cc0000"];
+    n_ui_ui_go -> n_ui_commonModel [penwidth=0.7, color="#cc0000"];
+    n_github_go -> n_import_strings [penwidth=0.7, color="#cc0000"];
+    n_ui_ui_go -> n_ui_waitForStatusMessageTimeout [penwidth=0.7, color="#cc0000"];
+    n_ui_ui_go -> n_import_github_com_charmbracelet_log [penwidth=0.7, color="#cc0000"];
+    n_ui_stashhelp_go -> n_ui_stashModel_miniHelpView [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_import_io_fs [penwidth=0.7, color="#cc0000"];
+    n_utils_utils_go -> n_import_github_com_mitchellh_go_homedir [penwidth=0.7, color="#cc0000"];
+    n_ui_pager_go -> n_ui__pagerModel_setSize [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_import_github_com_muesli_go_app_paths [penwidth=0.7, color="#cc0000"];
+    n_ui_markdown_go -> n_import_github_com_charmbracelet_log [penwidth=0.7, color="#cc0000"];
+    n_gitlab_go -> n_import_strings [penwidth=0.7, color="#cc0000"];
+    n_ui_stashitem_go -> n_ui_stashItemView [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_import_fmt [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_import_github_com_charmbracelet_log [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_import_net_url [penwidth=0.7, color="#cc0000"];
+    n_ui_ui_go -> n_import_path_filepath [penwidth=0.7, color="#cc0000"];
+    n_console_windows_go -> n_main_enableAnsiColors [penwidth=0.7, color="#cc0000"];
+    n_github_go -> n_import_errors [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_import_github_com_charmbracelet_log [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_import_time [penwidth=0.7, color="#cc0000"];
+    n_utils_utils_go -> n_import_github_com_charmbracelet_glamour_styles [penwidth=0.7, color="#cc0000"];
+    n_ui_pager_go -> n_import_github_com_muesli_reflow_truncate [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_statusMessageType [penwidth=0.7, color="#cc0000"];
+    n_ui_pager_go -> n_import_github_com_mattn_go_runewidth [penwidth=0.7, color="#cc0000"];
+    n_ui_stashitem_go -> n_import_github_com_charmbracelet_log [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_main_executeArg [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_newStashModel [penwidth=0.7, color="#cc0000"];
+    n_ui_ui_go -> n_ui_state_String [penwidth=0.7, color="#cc0000"];
+    n_main_go -> n_import_github_com_charmbracelet_glamour_styles [penwidth=0.7, color="#cc0000"];
+    n_ui_stash_go -> n_ui_stashModel_filterApplied [penwidth=0.7, color="#cc0000"];
+    n_ui_stashhelp_go -> n_ui_helpEntry [penwidth=0.7, color="#cc0000"];
+}

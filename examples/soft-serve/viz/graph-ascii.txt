@@ -1,0 +1,39 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                        go_codebase DEPENDENCY GRAPH                        ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║ Nodes: 1463  Edges: 2675  DAG: YES                                         ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║                                                                            ║
+║ LAYER 3: APPLICATIONS                                                      ║
+║   [main.go] A:0 E:21 I:1.00                                                ║
+║                                     |                                      ║
+║                                     v                                      ║
+║                                                                            ║
+║ LAYER 2: SUPPORT                                                           ║
+║   [repo.go] A:0 E:40 I:1.00                                                ║
+║   [lfs.go] A:0 E:39 I:1.00                                                 ║
+║   [selector.go] A:0 E:39 I:1.00                                            ║
+║   [config.go] A:0 E:39 I:1.00                                              ║
+║   [git_lfs.go] A:0 E:37 I:1.00                                             ║
+║   ... and 400 more                                                         ║
+║                                     |                                      ║
+║                                     v                                      ║
+║                                                                            ║
+║ LAYER 1: CORE                                                              ║
+║   [repo.go] A:0 E:52 I:1.00                                                ║
+║   [git.go] A:0 E:51 I:1.00                                                 ║
+║   [log.go] A:0 E:44 I:1.00                                                 ║
+║                                     |                                      ║
+║                                     v                                      ║
+║                                                                            ║
+║ LAYER 0: FOUNDATIONS                                                       ║
+║   [import:context] A:78 E:0 I:0.00                                         ║
+║   [import:fmt] A:63 E:0 I:0.00                                             ║
+║   [import:strings] A:54 E:0 I:0.00                                         ║
+║   [backend.FromContext] A:51 E:0 I:0.00                                    ║
+║   [db.WrapError] A:49 E:0 I:0.00                                           ║
+║   ... and 1049 more                                                        ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+Legend: A=Afferent, E=Efferent, I=Instability
+Layers: 0=Foundations, 1=Core, 2=Support, 3=Applications

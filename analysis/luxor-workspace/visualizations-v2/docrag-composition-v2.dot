@@ -1,0 +1,407 @@
+digraph CompositionStructure {
+  // Graph layout settings
+  rankdir=TB;  // Top-to-Bottom
+  ranksep=1.5;
+  nodesep=0.7;
+  compound=true;
+
+  label="Composition Structure (Top 20 modules)\nVertical Layout: Modules contain Functions and Classes";
+  fontsize=18;
+  fontname="Helvetica-Bold";
+  labelloc=t;
+
+  // Legend
+  subgraph cluster_legend {
+    label="Legend";
+    style=filled;
+    fillcolor=lightyellow;
+    fontsize=12;
+    rank=source;
+
+    legend_module [label="Module", shape=box, style="rounded,filled", fillcolor=lightgray];
+    legend_func [label="Function", shape=ellipse, style=filled, fillcolor=lightgreen];
+    legend_class [label="Class", shape=box, style=filled, fillcolor=lightblue];
+  }
+
+  // Module 1
+  subgraph cluster_0 {
+    label="📦 pip._vendor.typing_extensions";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._RequiredForm" [label="_vendor.typing_extensions._RequiredForm", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._collect_type_vars" [label="_vendor.typing_extensions._collect_type_vars", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions.NotRequired" [label="_vendor.typing_extensions.NotRequired", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._eval_with_owner" [label="_vendor.typing_extensions._eval_with_owner", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._ConcatenateGenericAlias" [label="_vendor.typing_extensions._ConcatenateGenericAlias", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._flatten_literal_params" [label="_vendor.typing_extensions._flatten_literal_params", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._SpecialForm" [label="_vendor.typing_extensions._SpecialForm", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._create_concatenate_alias" [label="_vendor.typing_extensions._create_concatenate_alias", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._Immutable" [label="_vendor.typing_extensions._Immutable", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.typing_extensions._type_convert" [label="_vendor.typing_extensions._type_convert", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  // Module 2
+  subgraph cluster_1 {
+    label="📦 pip._vendor.pkg_resources";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources._sget_dict" [label="_vendor.pkg_resources._sget_dict", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.non_empty_lines" [label="_vendor.pkg_resources.non_empty_lines", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.EmptyProvider" [label="_vendor.pkg_resources.EmptyProvider", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.invalid_marker" [label="_vendor.pkg_resources.invalid_marker", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.IMetadataProvider" [label="_vendor.pkg_resources.IMetadataProvider", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources._bypass_ensure_directory" [label="_vendor.pkg_resources._bypass_ensure_directory", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.EggMetadata" [label="_vendor.pkg_resources.EggMetadata", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources.VersionConflict" [label="_vendor.pkg_resources.VersionConflict", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources._set_parent_ns" [label="_vendor.pkg_resources._set_parent_ns", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.pkg_resources._mkstemp" [label="_vendor.pkg_resources._mkstemp", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  // Module 3
+  subgraph cluster_2 {
+    label="📦 _vendor.idna.uts46data";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_3" [label="idna.uts46data._seg_3", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_53" [label="idna.uts46data._seg_53", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_32" [label="idna.uts46data._seg_32", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_60" [label="idna.uts46data._seg_60", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_64" [label="idna.uts46data._seg_64", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_44" [label="idna.uts46data._seg_44", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_79" [label="idna.uts46data._seg_79", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_78" [label="idna.uts46data._seg_78", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_80" [label="idna.uts46data._seg_80", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.idna.uts46data._seg_63" [label="idna.uts46data._seg_63", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  // Module 4
+  subgraph cluster_3 {
+    label="📦 _vendor.distlib.util";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.Sequencer" [label="distlib.util.Sequencer", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.zip_dir" [label="distlib.util.zip_dir", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.get_project_data" [label="distlib.util.get_project_data", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.util._store_pypirc" [label="distlib.util._store_pypirc", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.util._csv_open" [label="distlib.util._csv_open", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.convert_path" [label="distlib.util.convert_path", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.get_platform" [label="distlib.util.get_platform", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.Configurator" [label="distlib.util.Configurator", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.CSVReader" [label="distlib.util.CSVReader", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.util.marker_expr" [label="distlib.util.marker_expr", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  // Module 5
+  subgraph cluster_4 {
+    label="📦 urllib3.packages.six";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six._import_module" [label="packages.six._import_module", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.Module_six_moves_urllib_robotparser" [label="packages.six.Module_six_moves_urllib_robotparser", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.add_metaclass" [label="packages.six.add_metaclass", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.wrapper" [label="packages.six.wrapper", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.Module_six_moves_urllib_request" [label="packages.six.Module_six_moves_urllib_request", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.assertRegex" [label="packages.six.assertRegex", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.Module_six_moves_urllib_parse" [label="packages.six.Module_six_moves_urllib_parse", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.b" [label="packages.six.b", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.wraps" [label="packages.six.wraps", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.packages.six.Module_six_moves_urllib_response" [label="packages.six.Module_six_moves_urllib_response", fillcolor=lightblue, shape=box];
+  }
+
+  // Module 6
+  subgraph cluster_5 {
+    label="📦 _internal.utils.misc";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.utils.misc.partition" [label="utils.misc.partition", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.utils.misc.get_pip_version" [label="utils.misc.get_pip_version", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.utils.misc.hash_file" [label="utils.misc.hash_file", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.utils.misc.redact_netloc" [label="utils.misc.redact_netloc", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.utils.misc.ensure_dir" [label="utils.misc.ensure_dir", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.utils.misc.hide_url" [label="utils.misc.hide_url", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.utils.misc.rmtree_errorhandler" [label="utils.misc.rmtree_errorhandler", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.utils.misc.renames" [label="utils.misc.renames", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.utils.misc.get_prog" [label="utils.misc.get_prog", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.utils.misc.rmtree" [label="utils.misc.rmtree", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  // Module 7
+  subgraph cluster_6 {
+    label="📦 _vendor.requests.utils";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.unquote_unreserved" [label="requests.utils.unquote_unreserved", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.get_proxy" [label="requests.utils.get_proxy", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.unquote_header_value" [label="requests.utils.unquote_header_value", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.add_dict_to_cookiejar" [label="requests.utils.add_dict_to_cookiejar", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.is_ipv4_address" [label="requests.utils.is_ipv4_address", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.parse_header_links" [label="requests.utils.parse_header_links", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.utils._parse_content_type_header" [label="requests.utils._parse_content_type_header", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.check_header_validity" [label="requests.utils.check_header_validity", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.get_environ_proxies" [label="requests.utils.get_environ_proxies", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.utils.dotted_netmask" [label="requests.utils.dotted_netmask", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  // Module 8
+  subgraph cluster_7 {
+    label="📦 pip._internal.exceptions";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.BestVersionAlreadyInstalled" [label="_internal.exceptions.BestVersionAlreadyInstalled", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.ResolutionTooDeepError" [label="_internal.exceptions.ResolutionTooDeepError", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.UserInstallationInvalid" [label="_internal.exceptions.UserInstallationInvalid", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.IncompleteDownloadError" [label="_internal.exceptions.IncompleteDownloadError", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.HashMissing" [label="_internal.exceptions.HashMissing", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.UninstallMissingRecord" [label="_internal.exceptions.UninstallMissingRecord", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.LegacyDistutilsInstall" [label="_internal.exceptions.LegacyDistutilsInstall", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.CommandError" [label="_internal.exceptions.CommandError", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions._is_kebab_case" [label="_internal.exceptions._is_kebab_case", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.exceptions.MissingPyProjectBuildRequires" [label="_internal.exceptions.MissingPyProjectBuildRequires", fillcolor=lightblue, shape=box];
+  }
+
+  // Module 9
+  subgraph cluster_8 {
+    label="📦 _vendor.urllib3.exceptions";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.SubjectAltNameWarning" [label="urllib3.exceptions.SubjectAltNameWarning", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.EmptyPoolError" [label="urllib3.exceptions.EmptyPoolError", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.ClosedPoolError" [label="urllib3.exceptions.ClosedPoolError", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.ProxyError" [label="urllib3.exceptions.ProxyError", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.ResponseNotChunked" [label="urllib3.exceptions.ResponseNotChunked", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.HTTPWarning" [label="urllib3.exceptions.HTTPWarning", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.LocationParseError" [label="urllib3.exceptions.LocationParseError", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.DependencyWarning" [label="urllib3.exceptions.DependencyWarning", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.TimeoutError" [label="urllib3.exceptions.TimeoutError", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.urllib3.exceptions.NewConnectionError" [label="urllib3.exceptions.NewConnectionError", fillcolor=lightblue, shape=box];
+  }
+
+  // Module 10
+  subgraph cluster_9 {
+    label="📦 pip._vendor.platformdirs";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.site_config_path" [label="_vendor.platformdirs.site_config_path", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.user_music_dir" [label="_vendor.platformdirs.user_music_dir", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.user_cache_path" [label="_vendor.platformdirs.user_cache_path", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.user_data_path" [label="_vendor.platformdirs.user_data_path", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.user_config_dir" [label="_vendor.platformdirs.user_config_dir", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.user_documents_dir" [label="_vendor.platformdirs.user_documents_dir", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.user_log_path" [label="_vendor.platformdirs.user_log_path", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.user_documents_path" [label="_vendor.platformdirs.user_documents_path", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.site_data_dir" [label="_vendor.platformdirs.site_data_dir", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.platformdirs.user_desktop_path" [label="_vendor.platformdirs.user_desktop_path", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  // Module 11
+  subgraph cluster_10 {
+    label="📦 operations.install.wheel";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.operations.install.wheel.is_entrypoint_wrapper" [label="install.wheel.is_entrypoint_wrapper", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.operations.install.wheel._generate_file" [label="install.wheel._generate_file", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.operations.install.wheel.record_installed" [label="install.wheel.record_installed", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.operations.install.wheel.get_csv_rows_for_installed" [label="install.wheel.get_csv_rows_for_installed", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.operations.install.wheel.is_data_scheme_path" [label="install.wheel.is_data_scheme_path", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.operations.install.wheel._record_to_fs_path" [label="install.wheel._record_to_fs_path", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.operations.install.wheel.get_console_script_specs" [label="install.wheel.get_console_script_specs", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.operations.install.wheel.make_root_scheme_file" [label="install.wheel.make_root_scheme_file", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.operations.install.wheel.pyc_output_path" [label="install.wheel.pyc_output_path", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.operations.install.wheel.wheel_root_is_purelib" [label="install.wheel.wheel_root_is_purelib", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  // Module 12
+  subgraph cluster_11 {
+    label="📦 _internal.cli.cmdoptions";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.cli.cmdoptions.raise_option_error" [label="cli.cmdoptions.raise_option_error", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.cli.cmdoptions._handle_dependency_group" [label="cli.cmdoptions._handle_dependency_group", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.cli.cmdoptions.requirements" [label="cli.cmdoptions.requirements", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.cli.cmdoptions._handle_no_use_pep517" [label="cli.cmdoptions._handle_no_use_pep517", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.cli.cmdoptions._handle_config_settings" [label="cli.cmdoptions._handle_config_settings", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.cli.cmdoptions._handle_no_cache_dir" [label="cli.cmdoptions._handle_no_cache_dir", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.cli.cmdoptions._convert_python_version" [label="cli.cmdoptions._convert_python_version", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.cli.cmdoptions.add_target_python_options" [label="cli.cmdoptions.add_target_python_options", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.cli.cmdoptions.editable" [label="cli.cmdoptions.editable", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._internal.cli.cmdoptions._handle_merge_hash" [label="cli.cmdoptions._handle_merge_hash", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  // Module 13
+  subgraph cluster_12 {
+    label="📦 _vendor.tomli._parser";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.tomli._parser.parse_basic_str_escape_multiline" [label="tomli._parser.parse_basic_str_escape_multiline", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.tomli._parser.is_unicode_scalar_value" [label="tomli._parser.is_unicode_scalar_value", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.tomli._parser.create_list_rule" [label="tomli._parser.create_list_rule", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.tomli._parser.parse_value" [label="tomli._parser.parse_value", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.tomli._parser.parse_array" [label="tomli._parser.parse_array", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.tomli._parser.parse_basic_str_escape" [label="tomli._parser.parse_basic_str_escape", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.tomli._parser.parse_one_line_basic_str" [label="tomli._parser.parse_one_line_basic_str", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.tomli._parser.skip_until" [label="tomli._parser.skip_until", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.tomli._parser.parse_key" [label="tomli._parser.parse_key", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.tomli._parser.TOMLDecodeError" [label="tomli._parser.TOMLDecodeError", fillcolor=lightblue, shape=box];
+  }
+
+  // Module 14
+  subgraph cluster_13 {
+    label="📦 _vendor.distlib.compat";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.compat.ZipFile" [label="distlib.compat.ZipFile", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.compat.cache_from_source" [label="distlib.compat.cache_from_source", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.compat.ConvertingDict" [label="distlib.compat.ConvertingDict", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.compat.decorating_function" [label="distlib.compat.decorating_function", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.compat._recursive_repr" [label="distlib.compat._recursive_repr", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.compat.match_hostname" [label="distlib.compat.match_hostname", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.compat.BaseConfigurator" [label="distlib.compat.BaseConfigurator", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.compat.ZipExtFile" [label="distlib.compat.ZipExtFile", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.compat.ConvertingList" [label="distlib.compat.ConvertingList", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distlib.compat._access_check" [label="distlib.compat._access_check", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  // Module 15
+  subgraph cluster_14 {
+    label="📦 _vendor.rich.pretty";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.pretty.BrokenRepr" [label="rich.pretty.BrokenRepr", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.pretty.display_hook" [label="rich.pretty.display_hook", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.pretty.RichFormatter" [label="rich.pretty.RichFormatter", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.pretty.pprint" [label="rich.pretty.pprint", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.pretty.iter_rich_args" [label="rich.pretty.iter_rich_args", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.pretty._is_dataclass_repr" [label="rich.pretty._is_dataclass_repr", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.pretty.StockKeepingUnit" [label="rich.pretty.StockKeepingUnit", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.pretty.Pretty" [label="rich.pretty.Pretty", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.pretty._get_braces_for_deque" [label="rich.pretty._get_braces_for_deque", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.pretty.traverse" [label="rich.pretty.traverse", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  // Module 16
+  subgraph cluster_15 {
+    label="📦 _vendor.requests.exceptions";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.ConnectionError" [label="requests.exceptions.ConnectionError", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.MissingSchema" [label="requests.exceptions.MissingSchema", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.ProxyError" [label="requests.exceptions.ProxyError", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.UnrewindableBodyError" [label="requests.exceptions.UnrewindableBodyError", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.ReadTimeout" [label="requests.exceptions.ReadTimeout", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.InvalidHeader" [label="requests.exceptions.InvalidHeader", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.ChunkedEncodingError" [label="requests.exceptions.ChunkedEncodingError", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.InvalidSchema" [label="requests.exceptions.InvalidSchema", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.RequestsDependencyWarning" [label="requests.exceptions.RequestsDependencyWarning", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.requests.exceptions.Timeout" [label="requests.exceptions.Timeout", fillcolor=lightblue, shape=box];
+  }
+
+  // Module 17
+  subgraph cluster_16 {
+    label="📦 _vendor.packaging.tags";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging.tags._generic_platforms" [label="packaging.tags._generic_platforms", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging.tags.android_platforms" [label="packaging.tags.android_platforms", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging.tags.parse_tag" [label="packaging.tags.parse_tag", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging.tags.interpreter_name" [label="packaging.tags.interpreter_name", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging.tags.sys_tags" [label="packaging.tags.sys_tags", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging.tags._mac_arch" [label="packaging.tags._mac_arch", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging.tags._cpython_abis" [label="packaging.tags._cpython_abis", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging.tags.interpreter_version" [label="packaging.tags.interpreter_version", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging.tags._normalize_string" [label="packaging.tags._normalize_string", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging.tags._version_nodot" [label="packaging.tags._version_nodot", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  // Module 18
+  subgraph cluster_17 {
+    label="📦 _vendor.distro.distro";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distro.distro.InfoDict" [label="distro.distro.InfoDict", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distro.distro.uname_info" [label="distro.distro.uname_info", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distro.distro.like" [label="distro.distro.like", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distro.distro.LinuxDistribution" [label="distro.distro.LinuxDistribution", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distro.distro.lsb_release_attr" [label="distro.distro.lsb_release_attr", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distro.distro.distro_release_attr" [label="distro.distro.distro_release_attr", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distro.distro.minor_version" [label="distro.distro.minor_version", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distro.distro.lsb_release_info" [label="distro.distro.lsb_release_info", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distro.distro.version_parts" [label="distro.distro.version_parts", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.distro.distro.uname_attr" [label="distro.distro.uname_attr", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  // Module 19
+  subgraph cluster_18 {
+    label="📦 _vendor.rich.console";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.console._replace" [label="rich.console._replace", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.console.ConsoleDimensions" [label="rich.console.ConsoleDimensions", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.console.ConsoleThreadLocals" [label="rich.console.ConsoleThreadLocals", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.console.Group" [label="rich.console.Group", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.console.ConsoleOptions" [label="rich.console.ConsoleOptions", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.console.ThemeContext" [label="rich.console.ThemeContext", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.console.ConsoleRenderable" [label="rich.console.ConsoleRenderable", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.console.Console" [label="rich.console.Console", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.console._is_jupyter" [label="rich.console._is_jupyter", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.rich.console.group" [label="rich.console.group", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  // Module 20
+  subgraph cluster_19 {
+    label="📦 _vendor.packaging._parser";
+    style="rounded,filled";
+    fillcolor=lightgray;
+    fontsize=13;
+
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging._parser.process_python_str" [label="packaging._parser.process_python_str", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging._parser.Value" [label="packaging._parser.Value", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging._parser._parse_full_marker" [label="packaging._parser._parse_full_marker", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging._parser.Variable" [label="packaging._parser.Variable", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging._parser.Node" [label="packaging._parser.Node", fillcolor=lightblue, shape=box];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging._parser._parse_extras" [label="packaging._parser._parse_extras", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging._parser.parse_requirement" [label="packaging._parser.parse_requirement", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging._parser._parse_marker" [label="packaging._parser._parse_marker", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging._parser._parse_marker_var" [label="packaging._parser._parse_marker_var", fillcolor=lightgreen, shape=ellipse];
+    "rag-systems.cat-research.venv.lib.python3.13.site-packages.pip._vendor.packaging._parser._parse_requirement_marker" [label="packaging._parser._parse_requirement_marker", fillcolor=lightgreen, shape=ellipse];
+  }
+
+  // Inter-module function calls
+}
