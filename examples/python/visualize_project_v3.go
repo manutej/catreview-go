@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/manu/catreview/pkg/category"
+	"github.com/manutej/catreview-go/pkg/category"
 )
 
 func main() {

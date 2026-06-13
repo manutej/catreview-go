@@ -1,4 +1,4 @@
-module github.com/manu/catreview
+module github.com/manutej/catreview-go
 
 go 1.25.3
 
