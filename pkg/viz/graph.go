@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"sort"
 
-	"github.com/manu/catreview/pkg/analysis"
-	"github.com/manu/catreview/pkg/category"
+	"github.com/manutej/catreview-go/pkg/analysis"
+	"github.com/manutej/catreview-go/pkg/category"
 )
 
 // Node represents a node in the visualization graph.

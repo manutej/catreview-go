@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/manu/catreview/pkg/analysis"
-	"github.com/manu/catreview/pkg/category"
-	"github.com/manu/catreview/pkg/extractor"
-	"github.com/manu/catreview/pkg/functor"
-	"github.com/manu/catreview/pkg/viz"
+	"github.com/manutej/catreview-go/pkg/analysis"
+	"github.com/manutej/catreview-go/pkg/category"
+	"github.com/manutej/catreview-go/pkg/extractor"
+	"github.com/manutej/catreview-go/pkg/functor"
+	"github.com/manutej/catreview-go/pkg/viz"
 	"github.com/spf13/cobra"
 )
 

@@ -10,7 +10,7 @@ package functor
 import (
 	"fmt"
 
-	"github.com/manu/catreview/pkg/category"
+	"github.com/manutej/catreview-go/pkg/category"
 )
 
 // Functor represents a structure-preserving mapping between categories.

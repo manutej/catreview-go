@@ -8,8 +8,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/manu/catreview/pkg/category"
-	"github.com/manu/catreview/pkg/extractor"
+	"github.com/manutej/catreview-go/pkg/category"
+	"github.com/manutej/catreview-go/pkg/extractor"
 )
 
 func main() {

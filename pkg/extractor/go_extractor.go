@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/manu/catreview/pkg/category"
+	"github.com/manutej/catreview-go/pkg/category"
 )
 
 // GoExtractor extracts categorical models from Go source code.
