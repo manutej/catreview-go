@@ -35,6 +35,11 @@ func NewGoExtractor() *GoExtractor {
 
 // ExtractFromPath extracts categorical model from a Go project path.
 func (e *GoExtractor) ExtractFromPath(root string) (*category.Category, error) {
+	// Reset per-run state so a factory-held instance can be reused safely.
+	e.fset = token.NewFileSet()
+	e.category = category.NewCategory("go_codebase")
+	e.packageMap = make(map[string]string)
+
 	// Walk the directory tree
 	err := filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
 		if err != nil {

@@ -1,6 +1,10 @@
 package extractor
 
 import (
+	"os"
+	"path/filepath"
+	"strings"
+
 	"github.com/manu/catreview/pkg/category"
 )
 
@@ -48,15 +52,28 @@ func NewExtractorFactory() *ExtractorFactory {
 		extractors: make(map[string]Extractor),
 	}
 
-	// Register Go extractor (always available)
-	factory.Register(&GoExtractor{})
+	// Register built-in extractors. Each is constructed via its New*
+	// constructor so internal state (categories, index maps) is initialised.
+	factory.Register(NewGoExtractor())
+	factory.Register(NewJavaExtractor())
 
 	// Future extractors will be registered here:
-	// factory.Register(&JavaExtractor{})    // v1.1
-	// factory.Register(&PythonExtractor{})  // v1.1
-	// factory.Register(&TypeScriptExtractor{}) // v1.2
+	// factory.Register(NewPythonExtractor())     // v1.2
+	// factory.Register(NewTypeScriptExtractor()) // v1.2
 
 	return factory
+}
+
+// extensionToLanguage maps a file extension to the language handled by a
+// registered extractor. Built lazily from the registered extractors.
+func (f *ExtractorFactory) extensionToLanguage() map[string]string {
+	m := make(map[string]string)
+	for lang, e := range f.extractors {
+		for _, ext := range e.FileExtensions() {
+			m[ext] = lang
+		}
+	}
+	return m
 }
 
 // Register adds an extractor to the factory.
@@ -70,15 +87,51 @@ func (f *ExtractorFactory) GetExtractor(language string) Extractor {
 	return f.extractors[language]
 }
 
-// DetectLanguage attempts to detect the language of a source directory
-// by examining file extensions.
+// DetectLanguage detects the primary language of a source directory by counting
+// files per registered extension and returning the language with the most files.
+// Common build/output and VCS directories are skipped so vendored or generated
+// files do not skew detection.
 //
-// Returns the detected language name or empty string if unknown.
+// Returns the detected language name, or an empty string if no registered
+// language's files are found.
 func (f *ExtractorFactory) DetectLanguage(root string) string {
-	// Implementation would scan directory for file extensions
-	// and match against registered extractors.
-	// For now, this is a placeholder.
-	return ""
+	ext2lang := f.extensionToLanguage()
+	counts := make(map[string]int)
+
+	_ = filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return nil // Ignore unreadable entries; detection is best-effort.
+		}
+		if info.IsDir() {
+			switch info.Name() {
+			case ".git", "node_modules", "vendor", "target", "build", "out", "dist":
+				return filepath.SkipDir
+			}
+			return nil
+		}
+		if lang, ok := ext2lang[strings.ToLower(filepath.Ext(path))]; ok {
+			counts[lang]++
+		}
+		return nil
+	})
+
+	best, bestCount := "", 0
+	for lang, c := range counts {
+		if c > bestCount {
+			best, bestCount = lang, c
+		}
+	}
+	return best
+}
+
+// ExtractorForPath detects the language of root and returns the matching
+// extractor, or nil and the detected (possibly empty) language if unsupported.
+func (f *ExtractorFactory) ExtractorForPath(root string) (Extractor, string) {
+	lang := f.DetectLanguage(root)
+	if lang == "" {
+		return nil, ""
+	}
+	return f.GetExtractor(lang), lang
 }
 
 // SupportedLanguages returns a list of all supported languages.

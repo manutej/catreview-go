@@ -78,6 +78,7 @@ Supports filtering by layer and coupling thresholds for cleaner views.`,
 	formatJSON      bool
 	maxCycles       int
 	failOnViolation bool
+	extractLang     string
 
 	// Viz flags
 	vizFormat      string
@@ -92,6 +93,7 @@ func init() {
 	// Extract command flags
 	extractCmd.Flags().StringVarP(&outputFile, "output", "o", "model.json", "Output file for categorical model")
 	extractCmd.Flags().BoolVar(&formatJSON, "pretty", false, "Pretty-print JSON output")
+	extractCmd.Flags().StringVar(&extractLang, "lang", "", "Source language: go, java (default: auto-detect)")
 
 	// Analyze command flags
 	analyzeCmd.Flags().StringVarP(&outputFile, "output", "o", "report.json", "Output file for analysis report")
@@ -129,8 +131,24 @@ func runExtract(cmd *cobra.Command, args []string) error {
 
 	fmt.Printf("Extracting categorical model from: %s\n", path)
 
-	// Create extractor
-	ext := extractor.NewGoExtractor()
+	// Select an extractor: explicit --lang, or auto-detect by file extensions.
+	factory := extractor.NewExtractorFactory()
+	var ext extractor.Extractor
+	lang := extractLang
+	if lang != "" {
+		ext = factory.GetExtractor(lang)
+		if ext == nil {
+			return fmt.Errorf("unsupported language %q (supported: %v)",
+				lang, factory.SupportedLanguages())
+		}
+	} else {
+		ext, lang = factory.ExtractorForPath(path)
+		if ext == nil {
+			return fmt.Errorf("could not detect a supported language in %s (supported: %v); use --lang to force one",
+				path, factory.SupportedLanguages())
+		}
+	}
+	fmt.Printf("Language: %s\n", lang)
 
 	// Extract from path
 	cat, err := ext.ExtractFromPath(path)

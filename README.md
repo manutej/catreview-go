@@ -296,10 +296,10 @@ catreview/
 │   ├── analysis/           # Complexity analysis (language-independent)
 │   │   └── complexity.go   # Basu-Isik, Kolmogorov, coupling metrics
 │   └── extractor/          # Code extraction (language-specific)
-│       ├── extractor.go    # Extractor interface, ExtractorFactory
-│       ├── go_extractor.go # Go AST parser (production, v1.0)
-│       ├── java_extractor.go    # Java AST parser (skeleton, v1.1)
-│       └── python_extractor.go  # Python AST parser (skeleton, v1.1)
+│       ├── extractor.go         # Extractor interface, ExtractorFactory, language detection
+│       ├── go_extractor.go      # Go AST parser (production, v1.0)
+│       ├── java_extractor.go    # Java structural parser (production, v1.1)
+│       └── *_extractor_test.go  # Per-extractor test suites
 └── README.md
 ```
 
@@ -443,10 +443,18 @@ Contributions welcome! Please submit issues and pull requests.
           │                   │                   │
 ┌─────────┴────┐    ┌────────┴────────┐   ┌──────┴──────────┐
 │ GoExtractor  │    │ JavaExtractor   │   │ PythonExtractor │
-│ (ast/parser) │    │ (javaparser)    │   │ (ast module)    │
-│ v1.0 ✅      │    │ v1.1 🔄         │   │ v1.1 🔄         │
+│ (go/ast)     │    │ (structural)    │   │ (planned)       │
+│ v1.0 ✅      │    │ v1.1 ✅         │   │ v1.2 🔄         │
 └──────────────┘    └─────────────────┘   └─────────────────┘
 ```
+
+Language is auto-detected from file extensions (`catreview extract <path>`) or
+forced with `--lang go|java`. The Java extractor is a dependency-free structural
+parser (no external JVM or `javaparser` toolchain required) that recognises
+packages, imports, classes/interfaces/enums/records/annotations (including
+nested types), `extends`/`implements` inheritance, methods/constructors, and
+same-type method calls — producing the identical `category.Category` shape as
+the Go extractor.
 
 **Key Benefits**:
 - ✅ **Uniform Analysis**: Same complexity algorithms work for all languages
@@ -508,14 +516,16 @@ func NewExtractorFactory() *ExtractorFactory {
         extractors: make(map[string]Extractor),
     }
 
-    factory.Register(&GoExtractor{})
-    factory.Register(&JavaExtractor{})
-    factory.Register(&PythonExtractor{})
+    factory.Register(NewGoExtractor())
+    factory.Register(NewJavaExtractor())
     factory.Register(&RustExtractor{})  // Add here
 
     return factory
 }
 ```
+
+Registered extractors are automatically included in language auto-detection
+(`DetectLanguage`) via their `FileExtensions()`.
 
 **Step 3: Map Language Constructs to Category Theory**
 

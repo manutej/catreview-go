@@ -1,6 +1,6 @@
 # Categorical Repository Analysis - RMP Meta-Prompt with Ralph Loop
 
-**Version**: 1.0
+**Version**: 1.1
 **Tier**: L4 (Parallel Consensus)
 **Quality Threshold**: ≥0.90
 **Execution Mode**: Parallel with Ralph Loop Orchestration
@@ -38,7 +38,7 @@ parameters:
   repositories:
     - url: string           # GitHub URL
       name: string          # Short name for output
-      language: string      # Primary language (go, typescript, python)
+      language: string      # Primary language (go, java supported; typescript, python planned)
       expected_size: string # small | medium | large
 
   output_config:
@@ -200,23 +200,31 @@ For each cloned repository:
       SRC_DIR="."
     fi
 
-    # Run extraction
+    # Run extraction. Language is auto-detected from file extensions; pass
+    # --lang go|java to force a specific extractor when a repo is polyglot.
     catreview extract "$SRC_DIR" \
       --output [OUTPUT_DIR]/[REPO_NAME]-model.json \
       --pretty
 
   Output:
     - Model file: [REPO_NAME]-model.json
+    - Detected language: go | java
     - Object count: N
     - Morphism count: M
     - Extraction time: T seconds
 
   Quality Gate:
     - Model file exists: true
+    - Language detected (or --lang supplied): true
     - Object count > 0: true
     - Valid JSON: true
     - Extraction errors: 0
 ```
+
+> **Supported languages**: `go` (v1.0, `go/ast`) and `java` (v1.1, dependency-free
+> structural parser). Both produce the identical `category.Category` shape, so
+> Phases 3–7 are language-agnostic. `typescript` and `python` are not yet
+> supported — see [Language Not Supported](#language-not-supported).
 
 ### Phase 3: Complexity Analysis (Parallel)
 
@@ -777,7 +785,8 @@ Generate comparative analysis
 
 ### Language Not Supported
 
-For repositories in unsupported languages (TypeScript, Python):
+Supported extractors: **Go** (v1.0) and **Java** (v1.1). For repositories in
+still-unsupported languages (TypeScript, Python, Rust, …):
 
 ```yaml
 fallback_strategy:
@@ -788,9 +797,10 @@ fallback_strategy:
 
 example:
   - claude-code (TypeScript):
-      status: "Language not supported by catreview-go v1.0"
+      status: "Language not supported (TypeScript extractor planned for v1.2)"
       alternative: "Manual architectural review recommended"
-      future: "TypeScript extractor planned for v1.1"
+  - spring-app (Java):
+      status: "Supported since v1.1 — run `catreview extract --lang java`"
 ```
 
 ### Extraction Failures
@@ -832,14 +842,14 @@ All criteria must be met for Ralph loop to exit:
 
 ### To Extend
 
-- Add new extractors for languages (Java, Python, Rust)
+- Add new extractors for languages (Python, TypeScript, Rust — Go and Java ship today)
 - Add new metrics (cohesion, modularity)
 - Add new visualizations (D3.js, Graphviz)
 - Integrate with CI/CD pipelines
 
 ---
 
-*Meta-Prompt Version: 1.0*
-*Compatible with: catreview-go v1.0+*
+*Meta-Prompt Version: 1.1*
+*Compatible with: catreview-go v1.1+ (Go + Java extractors)*
 *Ralph Loop: Enabled*
 *Quality Threshold: ≥0.90*

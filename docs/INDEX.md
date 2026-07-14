@@ -403,7 +403,7 @@ catreview-go/
 | How do I interpret M/O ratio? | QUICK-START.md |
 | What does I=1.00 mean? | QUICK-START.md |
 | How do I set up CI/CD? | PRODUCTION-GUIDE.md |
-| What languages are supported? | README.md (Go only in v1.0) |
+| What languages are supported? | README.md (Go in v1.0, Java in v1.1) |
 | What's the quality score? | RMP-COMPLETION-REPORT.md (0.96) |
 | How does complexity scale? | COMPARATIVE-ANALYSIS.md (linear) |
 | What's the golden ratio finding? | PRODUCTION-GUIDE.md (M/O ≈ φ) |
