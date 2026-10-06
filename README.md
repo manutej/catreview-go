@@ -201,6 +201,16 @@ Abstracted Category:
 Abstracted model saved to: abstract.json
 ```
 
+### 5. Export wiringmap.v0
+
+Emit a schema-valid [`wiringmap.v0`](examples/wiringmap/pkg.wiringmap.v0.json) map from a Go tree (units, ports, junctions, and dependency edges):
+
+```bash
+catreview wiringmap ./pkg -o examples/wiringmap/pkg.wiringmap.v0.json
+```
+
+The committed example is rebuilt byte-for-byte by that command.
+
 ## CLI Reference
 
 ### `extract`
