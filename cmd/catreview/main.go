@@ -13,6 +13,7 @@ import (
 	"github.com/manu/catreview/pkg/extractor"
 	"github.com/manu/catreview/pkg/functor"
 	"github.com/manu/catreview/pkg/viz"
+	"github.com/manu/catreview/pkg/wiringmap"
 	"github.com/spf13/cobra"
 )
 
@@ -57,6 +58,13 @@ It extracts categorical models from codebases and provides insights into:
 		RunE:  runAbstract,
 	}
 
+	wiringmapCmd = &cobra.Command{
+		Use:   "wiringmap [path]",
+		Short: "Emit wiringmap.v0 from Go source",
+		Args:  cobra.ExactArgs(1),
+		RunE:  runWiringmap,
+	}
+
 	vizCmd = &cobra.Command{
 		Use:   "viz [model.json]",
 		Short: "Visualize categorical model as dependency graph",
@@ -78,6 +86,8 @@ Supports filtering by layer and coupling thresholds for cleaner views.`,
 	formatJSON      bool
 	maxCycles       int
 	failOnViolation bool
+
+	wiringmapPretty bool
 
 	// Viz flags
 	vizFormat      string
@@ -105,6 +115,9 @@ func init() {
 	abstractCmd.Flags().StringVarP(&outputFile, "output", "o", "abstract.json", "Output file for abstracted model")
 	abstractCmd.Flags().BoolVar(&formatJSON, "pretty", true, "Pretty-print JSON output")
 
+	wiringmapCmd.Flags().StringVarP(&outputFile, "output", "o", "", "Output file for wiringmap.v0 JSON")
+	wiringmapCmd.Flags().BoolVar(&wiringmapPretty, "pretty", true, "Pretty-print JSON output")
+
 	// Viz command flags
 	vizCmd.Flags().StringVarP(&vizFormat, "format", "f", "ascii", "Output format: ascii, mermaid, dot, json")
 	vizCmd.Flags().IntVarP(&vizLayer, "layer", "l", -1, "Extract specific layer (0-3), -1 for all")
@@ -114,7 +127,7 @@ func init() {
 	vizCmd.Flags().BoolVar(&vizHeatmap, "heatmap", false, "Generate coupling heatmap instead of graph")
 	vizCmd.Flags().BoolVar(&vizLayered, "layered", false, "Generate detailed layered ASCII view")
 
-	rootCmd.AddCommand(extractCmd, analyzeCmd, verifyCmd, abstractCmd, vizCmd)
+	rootCmd.AddCommand(extractCmd, analyzeCmd, verifyCmd, abstractCmd, wiringmapCmd, vizCmd)
 }
 
 func main() {
@@ -122,6 +135,42 @@ func main() {
 		fmt.Fprintf(os.Stderr, "Error: %v\n", err)
 		os.Exit(1)
 	}
+}
+
+func runWiringmap(cmd *cobra.Command, args []string) error {
+	path := args[0]
+	if outputFile == "" {
+		return fmt.Errorf("output file required (-o)")
+	}
+
+	ext := extractor.NewGoExtractor()
+	cat, err := ext.ExtractFromPath(path)
+	if err != nil {
+		return fmt.Errorf("extraction failed: %v", err)
+	}
+
+	moduleRoot, err := wiringmap.ModuleRoot(path)
+	if err != nil {
+		return err
+	}
+
+	doc, err := wiringmap.FromCategory(cat, wiringmap.BuildOptions{
+		Repo:       "catreview-go",
+		ModuleRoot: moduleRoot,
+		WalkRoot:   path,
+	})
+	if err != nil {
+		return err
+	}
+
+	data, err := wiringmap.MarshalJSON(doc, wiringmapPretty)
+	if err != nil {
+		return err
+	}
+	if err := os.WriteFile(outputFile, data, 0644); err != nil {
+		return err
+	}
+	return nil
 }
 
 func runExtract(cmd *cobra.Command, args []string) error {
