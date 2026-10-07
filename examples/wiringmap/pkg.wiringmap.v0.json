@@ -1,0 +1,1349 @@
+{
+  "schema_version": "wiringmap.v0",
+  "meta": {
+    "repo": "catreview-go",
+    "ref": "pkg",
+    "slice": "catreview wiringmap pkg (12 files)",
+    "notes": "0 external morphisms dropped"
+  },
+  "junctions": [
+    {
+      "id": "junction:bytes",
+      "label": "bytes",
+      "junction_kind": "other"
+    },
+    {
+      "id": "junction:compress.gzip",
+      "label": "compress/gzip",
+      "junction_kind": "other"
+    },
+    {
+      "id": "junction:crypto.sha256",
+      "label": "crypto/sha256",
+      "junction_kind": "other"
+    },
+    {
+      "id": "junction:encoding.json",
+      "label": "encoding/json",
+      "junction_kind": "other"
+    },
+    {
+      "id": "junction:fmt",
+      "label": "fmt",
+      "junction_kind": "other"
+    },
+    {
+      "id": "junction:github.com.manu.catreview.pkg.analysis",
+      "label": "github.com/manu/catreview/pkg/analysis",
+      "junction_kind": "other"
+    },
+    {
+      "id": "junction:github.com.manu.catreview.pkg.category",
+      "label": "github.com/manu/catreview/pkg/category",
+      "junction_kind": "other"
+    },
+    {
+      "id": "junction:go.ast",
+      "label": "go/ast",
+      "junction_kind": "other"
+    },
+    {
+      "id": "junction:go.parser",
+      "label": "go/parser",
+      "junction_kind": "other"
+    },
+    {
+      "id": "junction:go.token",
+      "label": "go/token",
+      "junction_kind": "other"
+    },
+    {
+      "id": "junction:math",
+      "label": "math",
+      "junction_kind": "other"
+    },
+    {
+      "id": "junction:os",
+      "label": "os",
+      "junction_kind": "other"
+    },
+    {
+      "id": "junction:path.filepath",
+      "label": "path/filepath",
+      "junction_kind": "other"
+    },
+    {
+      "id": "junction:sort",
+      "label": "sort",
+      "junction_kind": "other"
+    },
+    {
+      "id": "junction:strings",
+      "label": "strings",
+      "junction_kind": "other"
+    },
+    {
+      "id": "junction:unicode",
+      "label": "unicode",
+      "junction_kind": "other"
+    }
+  ],
+  "units": [
+    {
+      "id": "unit:pkg.analysis.complexity.go",
+      "path": "pkg/analysis/complexity.go",
+      "role": "package analysis",
+      "ports": [
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.*ComplexityAnalyzer.ComputeCoupling",
+          "symbol": "ComputeCoupling",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.*ComplexityAnalyzer.DiagramComplexity",
+          "symbol": "DiagramComplexity",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.*ComplexityAnalyzer.KolmogorovComplexity",
+          "symbol": "KolmogorovComplexity",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.*ComplexityAnalyzer.compositionComplexity",
+          "symbol": "compositionComplexity",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.*ComplexityAnalyzer.computeAbstractness",
+          "symbol": "computeAbstractness",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.*ComplexityAnalyzer.morphismComplexity",
+          "symbol": "morphismComplexity",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.*ComplexityAnalyzer.objectComplexity",
+          "symbol": "objectComplexity",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.*CycleAnalyzer.FindCycles",
+          "symbol": "FindCycles",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.*CycleAnalyzer.dfs",
+          "symbol": "dfs",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.ComplexityAnalyzer",
+          "symbol": "ComplexityAnalyzer",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.CouplingMetrics",
+          "symbol": "CouplingMetrics",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.Cycle",
+          "symbol": "Cycle",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.CycleAnalyzer",
+          "symbol": "CycleAnalyzer",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.GenerateReport",
+          "symbol": "GenerateReport",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.NewComplexityAnalyzer",
+          "symbol": "NewComplexityAnalyzer",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.NewCycleAnalyzer",
+          "symbol": "NewCycleAnalyzer",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.Report",
+          "symbol": "Report",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.analysis.complexity.go#analysis.findTopN",
+          "symbol": "findTopN",
+          "kind": "method",
+          "exported": false
+        }
+      ]
+    },
+    {
+      "id": "unit:pkg.category.types.go",
+      "path": "pkg/category/types.go",
+      "role": "package category",
+      "ports": [
+        {
+          "id": "port:pkg.category.types.go#category.*Category.AddMorphism",
+          "symbol": "AddMorphism",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.*Category.AddObject",
+          "symbol": "AddObject",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.*Category.Compose",
+          "symbol": "Compose",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.*Category.GetMorphism",
+          "symbol": "GetMorphism",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.*Category.GetObject",
+          "symbol": "GetObject",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.*Category.Morphisms",
+          "symbol": "Morphisms",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.*Category.Objects",
+          "symbol": "Objects",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.*Category.Stats",
+          "symbol": "Stats",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.*Category.VerifyAxioms",
+          "symbol": "VerifyAxioms",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.*Morphism.IsComposable",
+          "symbol": "IsComposable",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.*Object.Hash",
+          "symbol": "Hash",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.Category",
+          "symbol": "Category",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.Morphism",
+          "symbol": "Morphism",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.NewCategory",
+          "symbol": "NewCategory",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.NewMorphism",
+          "symbol": "NewMorphism",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.NewObject",
+          "symbol": "NewObject",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.category.types.go#category.Object",
+          "symbol": "Object",
+          "kind": "type",
+          "exported": true
+        }
+      ]
+    },
+    {
+      "id": "unit:pkg.extractor.extractor.go",
+      "path": "pkg/extractor/extractor.go",
+      "role": "package extractor",
+      "ports": [
+        {
+          "id": "port:pkg.extractor.extractor.go#extractor.*ExtractorFactory.DetectLanguage",
+          "symbol": "DetectLanguage",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.extractor.extractor.go#extractor.*ExtractorFactory.GetExtractor",
+          "symbol": "GetExtractor",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.extractor.extractor.go#extractor.*ExtractorFactory.Register",
+          "symbol": "Register",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.extractor.extractor.go#extractor.*ExtractorFactory.SupportedLanguages",
+          "symbol": "SupportedLanguages",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.extractor.extractor.go#extractor.Extractor",
+          "symbol": "Extractor",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.extractor.extractor.go#extractor.ExtractorFactory",
+          "symbol": "ExtractorFactory",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.extractor.extractor.go#extractor.NewExtractorFactory",
+          "symbol": "NewExtractorFactory",
+          "kind": "method",
+          "exported": true
+        }
+      ]
+    },
+    {
+      "id": "unit:pkg.extractor.go_extractor.go",
+      "path": "pkg/extractor/go_extractor.go",
+      "role": "package extractor",
+      "ports": [
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.ExtractFromPath",
+          "symbol": "ExtractFromPath",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.FileExtensions",
+          "symbol": "FileExtensions",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.Language",
+          "symbol": "Language",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.Stats",
+          "symbol": "Stats",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractFromFile",
+          "symbol": "extractFromFile",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractFuncDecl",
+          "symbol": "extractFuncDecl",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractFunctionCall",
+          "symbol": "extractFunctionCall",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractGenDecl",
+          "symbol": "extractGenDecl",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractImport",
+          "symbol": "extractImport",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractStructFields",
+          "symbol": "extractStructFields",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractTypeRef",
+          "symbol": "extractTypeRef",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractTypeSpec",
+          "symbol": "extractTypeSpec",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.GoExtractor",
+          "symbol": "GoExtractor",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.NewGoExtractor",
+          "symbol": "NewGoExtractor",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.countUnique",
+          "symbol": "countUnique",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.exprToString",
+          "symbol": "exprToString",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.extractor.go_extractor.go#extractor.getDocComment",
+          "symbol": "getDocComment",
+          "kind": "method",
+          "exported": false
+        }
+      ]
+    },
+    {
+      "id": "unit:pkg.functor.functor.go",
+      "path": "pkg/functor/functor.go",
+      "role": "package functor",
+      "ports": [
+        {
+          "id": "port:pkg.functor.functor.go#functor.*BaseFunctor.AddMorphismMapping",
+          "symbol": "AddMorphismMapping",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.*BaseFunctor.AddObjectMapping",
+          "symbol": "AddObjectMapping",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.*BaseFunctor.GetMorphismMapping",
+          "symbol": "GetMorphismMapping",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.*BaseFunctor.GetObjectMapping",
+          "symbol": "GetObjectMapping",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.*BaseFunctor.Name",
+          "symbol": "Name",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.*BaseFunctor.SourceCategory",
+          "symbol": "SourceCategory",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.*BaseFunctor.TargetCategory",
+          "symbol": "TargetCategory",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.*BaseFunctor.VerifyCompositionLaw",
+          "symbol": "VerifyCompositionLaw",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.*BaseFunctor.VerifyIdentityLaw",
+          "symbol": "VerifyIdentityLaw",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.*PackageAbstractionFunctor.MapMorphism",
+          "symbol": "MapMorphism",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.*PackageAbstractionFunctor.MapObject",
+          "symbol": "MapObject",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.*PackageAbstractionFunctor.VerifyLaws",
+          "symbol": "VerifyLaws",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.BaseFunctor",
+          "symbol": "BaseFunctor",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.Functor",
+          "symbol": "Functor",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.NewBaseFunctor",
+          "symbol": "NewBaseFunctor",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.NewPackageAbstractionFunctor",
+          "symbol": "NewPackageAbstractionFunctor",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.functor.functor.go#functor.PackageAbstractionFunctor",
+          "symbol": "PackageAbstractionFunctor",
+          "kind": "type",
+          "exported": true
+        }
+      ]
+    },
+    {
+      "id": "unit:pkg.viz.graph.go",
+      "path": "pkg/viz/graph.go",
+      "role": "package viz",
+      "ports": [
+        {
+          "id": "port:pkg.viz.graph.go#viz.*Graph.ExtractLayer",
+          "symbol": "ExtractLayer",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.*Graph.Filter",
+          "symbol": "Filter",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.*Graph.ToAdjacency",
+          "symbol": "ToAdjacency",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.*Graph.ToJSON",
+          "symbol": "ToJSON",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.*GraphBuilder.Build",
+          "symbol": "Build",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.*GraphBuilder.assignLayer",
+          "symbol": "assignLayer",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.*GraphBuilder.calculateCoupling",
+          "symbol": "calculateCoupling",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.*GraphBuilder.checkDAG",
+          "symbol": "checkDAG",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.*GraphBuilder.classifyEdge",
+          "symbol": "classifyEdge",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.*GraphBuilder.extractLabel",
+          "symbol": "extractLabel",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.*GraphBuilder.objectToNode",
+          "symbol": "objectToNode",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.Edge",
+          "symbol": "Edge",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.FilterOptions",
+          "symbol": "FilterOptions",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.Graph",
+          "symbol": "Graph",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.GraphBuilder",
+          "symbol": "GraphBuilder",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.GraphStats",
+          "symbol": "GraphStats",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.Layer",
+          "symbol": "Layer",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.NewGraphBuilder",
+          "symbol": "NewGraphBuilder",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.graph.go#viz.Node",
+          "symbol": "Node",
+          "kind": "type",
+          "exported": true
+        }
+      ]
+    },
+    {
+      "id": "unit:pkg.viz.output.go",
+      "path": "pkg/viz/output.go",
+      "role": "package viz",
+      "ports": [
+        {
+          "id": "port:pkg.viz.output.go#viz.*ASCIIGenerator.Generate",
+          "symbol": "Generate",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.*ASCIIGenerator.generateLayer",
+          "symbol": "generateLayer",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.*DOTGenerator.Generate",
+          "symbol": "Generate",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.*JSONGenerator.Generate",
+          "symbol": "Generate",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.*MermaidGenerator.Generate",
+          "symbol": "Generate",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.ASCIIGenerator",
+          "symbol": "ASCIIGenerator",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.DOTGenerator",
+          "symbol": "DOTGenerator",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.Format",
+          "symbol": "Format",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.GenerateHeatmap",
+          "symbol": "GenerateHeatmap",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.GenerateLayeredASCII",
+          "symbol": "GenerateLayeredASCII",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.Generator",
+          "symbol": "Generator",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.JSONGenerator",
+          "symbol": "JSONGenerator",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.MermaidGenerator",
+          "symbol": "MermaidGenerator",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.NewGenerator",
+          "symbol": "NewGenerator",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.boxBottom",
+          "symbol": "boxBottom",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.boxLine",
+          "symbol": "boxLine",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.boxMid",
+          "symbol": "boxMid",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.boxTop",
+          "symbol": "boxTop",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.centerString",
+          "symbol": "centerString",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.escapeDOT",
+          "symbol": "escapeDOT",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.escapeHTML",
+          "symbol": "escapeHTML",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.max",
+          "symbol": "max",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.min",
+          "symbol": "min",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.sanitizeDOTID",
+          "symbol": "sanitizeDOTID",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.sanitizeMermaidID",
+          "symbol": "sanitizeMermaidID",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.viz.output.go#viz.truncate",
+          "symbol": "truncate",
+          "kind": "method",
+          "exported": false
+        }
+      ]
+    },
+    {
+      "id": "unit:pkg.wiringmap.encode.go",
+      "path": "pkg/wiringmap/encode.go",
+      "role": "package wiringmap",
+      "ports": [
+        {
+          "id": "port:pkg.wiringmap.encode.go#wiringmap.MarshalJSON",
+          "symbol": "MarshalJSON",
+          "kind": "method",
+          "exported": true
+        }
+      ]
+    },
+    {
+      "id": "unit:pkg.wiringmap.map.go",
+      "path": "pkg/wiringmap/map.go",
+      "role": "package wiringmap",
+      "ports": [
+        {
+          "id": "port:pkg.wiringmap.map.go#wiringmap.BuildOptions",
+          "symbol": "BuildOptions",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.wiringmap.map.go#wiringmap.FromCategory",
+          "symbol": "FromCategory",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.wiringmap.map.go#wiringmap.exportedFlag",
+          "symbol": "exportedFlag",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.wiringmap.map.go#wiringmap.metaString",
+          "symbol": "metaString",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.wiringmap.map.go#wiringmap.normalizeFilePath",
+          "symbol": "normalizeFilePath",
+          "kind": "method",
+          "exported": false
+        },
+        {
+          "id": "port:pkg.wiringmap.map.go#wiringmap.portKind",
+          "symbol": "portKind",
+          "kind": "method",
+          "exported": false
+        }
+      ]
+    },
+    {
+      "id": "unit:pkg.wiringmap.module.go",
+      "path": "pkg/wiringmap/module.go",
+      "role": "package wiringmap",
+      "ports": [
+        {
+          "id": "port:pkg.wiringmap.module.go#wiringmap.ModuleRoot",
+          "symbol": "ModuleRoot",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.wiringmap.module.go#wiringmap.RelToModule",
+          "symbol": "RelToModule",
+          "kind": "method",
+          "exported": true
+        }
+      ]
+    },
+    {
+      "id": "unit:pkg.wiringmap.sanitize.go",
+      "path": "pkg/wiringmap/sanitize.go",
+      "role": "package wiringmap",
+      "ports": [
+        {
+          "id": "port:pkg.wiringmap.sanitize.go#wiringmap.CheckSanitizeCollisions",
+          "symbol": "CheckSanitizeCollisions",
+          "kind": "method",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.wiringmap.sanitize.go#wiringmap.SanitizeID",
+          "symbol": "SanitizeID",
+          "kind": "method",
+          "exported": true
+        }
+      ]
+    },
+    {
+      "id": "unit:pkg.wiringmap.types.go",
+      "path": "pkg/wiringmap/types.go",
+      "role": "package wiringmap",
+      "ports": [
+        {
+          "id": "port:pkg.wiringmap.types.go#wiringmap.Document",
+          "symbol": "Document",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.wiringmap.types.go#wiringmap.Edge",
+          "symbol": "Edge",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.wiringmap.types.go#wiringmap.Junction",
+          "symbol": "Junction",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.wiringmap.types.go#wiringmap.Meta",
+          "symbol": "Meta",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.wiringmap.types.go#wiringmap.Port",
+          "symbol": "Port",
+          "kind": "type",
+          "exported": true
+        },
+        {
+          "id": "port:pkg.wiringmap.types.go#wiringmap.Unit",
+          "symbol": "Unit",
+          "kind": "type",
+          "exported": true
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge:call-1",
+      "from": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractFromFile",
+      "to": "port:pkg.category.types.go#category.NewObject",
+      "edge_kind": "call"
+    },
+    {
+      "id": "edge:call-2",
+      "from": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractFuncDecl",
+      "to": "port:pkg.category.types.go#category.NewMorphism",
+      "edge_kind": "call"
+    },
+    {
+      "id": "edge:call-3",
+      "from": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractFuncDecl",
+      "to": "port:pkg.category.types.go#category.NewObject",
+      "edge_kind": "call"
+    },
+    {
+      "id": "edge:call-4",
+      "from": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractFunctionCall",
+      "to": "port:pkg.category.types.go#category.NewMorphism",
+      "edge_kind": "call"
+    },
+    {
+      "id": "edge:call-5",
+      "from": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractImport",
+      "to": "port:pkg.category.types.go#category.NewMorphism",
+      "edge_kind": "call"
+    },
+    {
+      "id": "edge:call-6",
+      "from": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractImport",
+      "to": "port:pkg.category.types.go#category.NewObject",
+      "edge_kind": "call"
+    },
+    {
+      "id": "edge:call-7",
+      "from": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractTypeRef",
+      "to": "port:pkg.category.types.go#category.NewMorphism",
+      "edge_kind": "call"
+    },
+    {
+      "id": "edge:call-8",
+      "from": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractTypeSpec",
+      "to": "port:pkg.category.types.go#category.NewMorphism",
+      "edge_kind": "call"
+    },
+    {
+      "id": "edge:call-9",
+      "from": "port:pkg.extractor.go_extractor.go#extractor.*GoExtractor.extractTypeSpec",
+      "to": "port:pkg.category.types.go#category.NewObject",
+      "edge_kind": "call"
+    },
+    {
+      "id": "edge:call-10",
+      "from": "port:pkg.extractor.go_extractor.go#extractor.NewGoExtractor",
+      "to": "port:pkg.category.types.go#category.NewCategory",
+      "edge_kind": "call"
+    },
+    {
+      "id": "edge:call-11",
+      "from": "port:pkg.functor.functor.go#functor.*PackageAbstractionFunctor.MapMorphism",
+      "to": "port:pkg.category.types.go#category.NewMorphism",
+      "edge_kind": "call"
+    },
+    {
+      "id": "edge:call-12",
+      "from": "port:pkg.functor.functor.go#functor.*PackageAbstractionFunctor.MapObject",
+      "to": "port:pkg.category.types.go#category.NewObject",
+      "edge_kind": "call"
+    },
+    {
+      "id": "edge:import-13",
+      "from": "unit:pkg.analysis.complexity.go",
+      "to": "junction:bytes",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-14",
+      "from": "unit:pkg.analysis.complexity.go",
+      "to": "junction:compress.gzip",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-15",
+      "from": "unit:pkg.analysis.complexity.go",
+      "to": "junction:encoding.json",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-16",
+      "from": "unit:pkg.analysis.complexity.go",
+      "to": "junction:fmt",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-17",
+      "from": "unit:pkg.analysis.complexity.go",
+      "to": "junction:github.com.manu.catreview.pkg.category",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-18",
+      "from": "unit:pkg.analysis.complexity.go",
+      "to": "junction:math",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-19",
+      "from": "unit:pkg.category.types.go",
+      "to": "junction:crypto.sha256",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-20",
+      "from": "unit:pkg.category.types.go",
+      "to": "junction:encoding.json",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-21",
+      "from": "unit:pkg.category.types.go",
+      "to": "junction:fmt",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-22",
+      "from": "unit:pkg.extractor.extractor.go",
+      "to": "junction:github.com.manu.catreview.pkg.category",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-23",
+      "from": "unit:pkg.extractor.go_extractor.go",
+      "to": "junction:fmt",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-24",
+      "from": "unit:pkg.extractor.go_extractor.go",
+      "to": "junction:github.com.manu.catreview.pkg.category",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-25",
+      "from": "unit:pkg.extractor.go_extractor.go",
+      "to": "junction:go.ast",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-26",
+      "from": "unit:pkg.extractor.go_extractor.go",
+      "to": "junction:go.parser",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-27",
+      "from": "unit:pkg.extractor.go_extractor.go",
+      "to": "junction:go.token",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-28",
+      "from": "unit:pkg.extractor.go_extractor.go",
+      "to": "junction:os",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-29",
+      "from": "unit:pkg.extractor.go_extractor.go",
+      "to": "junction:path.filepath",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-30",
+      "from": "unit:pkg.extractor.go_extractor.go",
+      "to": "junction:strings",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-31",
+      "from": "unit:pkg.functor.functor.go",
+      "to": "junction:fmt",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-32",
+      "from": "unit:pkg.functor.functor.go",
+      "to": "junction:github.com.manu.catreview.pkg.category",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-33",
+      "from": "unit:pkg.viz.graph.go",
+      "to": "junction:encoding.json",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-34",
+      "from": "unit:pkg.viz.graph.go",
+      "to": "junction:github.com.manu.catreview.pkg.analysis",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-35",
+      "from": "unit:pkg.viz.graph.go",
+      "to": "junction:github.com.manu.catreview.pkg.category",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-36",
+      "from": "unit:pkg.viz.graph.go",
+      "to": "junction:sort",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-37",
+      "from": "unit:pkg.viz.output.go",
+      "to": "junction:fmt",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-38",
+      "from": "unit:pkg.viz.output.go",
+      "to": "junction:sort",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-39",
+      "from": "unit:pkg.viz.output.go",
+      "to": "junction:strings",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-40",
+      "from": "unit:pkg.wiringmap.encode.go",
+      "to": "junction:encoding.json",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-41",
+      "from": "unit:pkg.wiringmap.map.go",
+      "to": "junction:fmt",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-42",
+      "from": "unit:pkg.wiringmap.map.go",
+      "to": "junction:github.com.manu.catreview.pkg.category",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-43",
+      "from": "unit:pkg.wiringmap.map.go",
+      "to": "junction:path.filepath",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-44",
+      "from": "unit:pkg.wiringmap.map.go",
+      "to": "junction:sort",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-45",
+      "from": "unit:pkg.wiringmap.map.go",
+      "to": "junction:strings",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-46",
+      "from": "unit:pkg.wiringmap.map.go",
+      "to": "junction:unicode",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-47",
+      "from": "unit:pkg.wiringmap.module.go",
+      "to": "junction:os",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-48",
+      "from": "unit:pkg.wiringmap.module.go",
+      "to": "junction:path.filepath",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-49",
+      "from": "unit:pkg.wiringmap.sanitize.go",
+      "to": "junction:fmt",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-50",
+      "from": "unit:pkg.wiringmap.sanitize.go",
+      "to": "junction:strings",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:import-51",
+      "from": "unit:pkg.wiringmap.sanitize.go",
+      "to": "junction:unicode",
+      "edge_kind": "import"
+    },
+    {
+      "id": "edge:ref-52",
+      "from": "port:pkg.extractor.go_extractor.go#extractor.GoExtractor",
+      "to": "port:pkg.category.types.go#category.Category",
+      "edge_kind": "ref"
+    },
+    {
+      "id": "edge:ref-53",
+      "from": "port:pkg.functor.functor.go#functor.BaseFunctor",
+      "to": "port:pkg.category.types.go#category.Category",
+      "edge_kind": "ref"
+    },
+    {
+      "id": "edge:ref-54",
+      "from": "port:pkg.functor.functor.go#functor.BaseFunctor",
+      "to": "port:pkg.category.types.go#category.Morphism",
+      "edge_kind": "ref"
+    },
+    {
+      "id": "edge:ref-55",
+      "from": "port:pkg.functor.functor.go#functor.BaseFunctor",
+      "to": "port:pkg.category.types.go#category.Object",
+      "edge_kind": "ref"
+    },
+    {
+      "id": "edge:ref-56",
+      "from": "port:pkg.viz.graph.go#viz.GraphBuilder",
+      "to": "port:pkg.analysis.complexity.go#analysis.CouplingMetrics",
+      "edge_kind": "ref"
+    },
+    {
+      "id": "edge:ref-57",
+      "from": "port:pkg.viz.graph.go#viz.GraphBuilder",
+      "to": "port:pkg.category.types.go#category.Category",
+      "edge_kind": "ref"
+    }
+  ]
+}
