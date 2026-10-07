@@ -15,7 +15,7 @@ import (
 func main() {
 	if len(os.Args) < 2 {
 		fmt.Println("Usage: analyze_project <path-to-python-project> [output-name]")
-		fmt.Println("Example: analyze_project /Users/manu/Documents/LUXOR/PROJECTS/BARQUE barque")
+		fmt.Println("Example: analyze_project ./path/to/python-project myproject")
 		os.Exit(1)
 	}
 
